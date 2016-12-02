@@ -73,7 +73,7 @@
                 <div class="social_box ">  
                     <div class="hidden-phone special_box">
                         <label for="facebook_image_id">                     
-                            <img id="facebook_image_id" ALT="facebook_image" src="/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />
+                            <img id="facebook_image_id" ALT="facebook_image" src="//aberdeenmall.com/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />
                             FACEBOOK
                         </label>
                         
