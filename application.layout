@@ -166,51 +166,32 @@
                         </div>
                     </div>   
                     <div class="social_links">
-                        
-                            
-                        
-                            
-                        
-                            
-                                
-                                <a href="http://instagram.com/AberdeenMall#" target="_blank">
-                                
-                                    <img ALT="social_link" src="/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
-                                </a>
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
+                        <a href="http://instagram.com/AberdeenMall#" target="_blank">
+                            <img ALT="social_link" src="/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
+                        </a>
                     </div>
         		</div>
                 <div sylte="clear:both;">&nbsp;</div>
         	</div>
         </div>
-
-        <div class="social_links_mobile visible-phone">
-            <a href="http://instagram.com/AberdeenMall#" target="_blank">
-                <img ALT="social_link" src="/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
+        <div class="footer trim_screen">
+            <div class="social_links_mobile visible-phone">
+                <a href="http://instagram.com/AberdeenMall#" target="_blank">
+                    <img ALT="social_link" src="/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
+                </a>
+            </div>
+            <a href="http://www.20vic.com/" target="_blank">
+                <img ALT="20vic_logo" class="pull-right" src="/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465" />
             </a>
+            <span>
+            &copy; 2015 Aberdeen Mall | <a href="/pages/aberdeen-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+            </span> 
+            <form action="//aberdeen.us12.list-manage.com/subscribe/post-json?u=74012e50e53ebc5fb4534d4e7&amp;id=1819fc25ef&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
+                <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
+                <input type="text" name="b_74012e50e53ebc5fb4534d4e7_1819fc25ef" tabindex="-1" value="">
+            </form>
+            <div id="fb-root"></div>
         </div>
-        <a href="http://www.20vic.com/" target="_blank">
-            <img ALT="20vic_logo" class="pull-right" src="/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465" />
-        </a>
-        <span>
-        &copy; 2015 Aberdeen Mall | <a href="/pages/aberdeen-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
-        </span> 
-        <form action="//aberdeen.us12.list-manage.com/subscribe/post-json?u=74012e50e53ebc5fb4534d4e7&amp;id=1819fc25ef&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
-            <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
-            <input type="text" name="b_74012e50e53ebc5fb4534d4e7_1819fc25ef" tabindex="-1" value="">
-        </form>
-        <div id="fb-root"></div>
     </footer>
 </body>
 
