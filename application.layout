@@ -66,7 +66,135 @@
     <section id="content">
         {{yield}}
     </section>
+    
     <footer>
+        <div class="bottom_nav trim_screen">
+        	<div class="container-fluid trim_screen">
+                <div class="social_box ">  
+                    <div class="hidden-phone special_box">
+                        <label for="facebook_image_id">                     
+                            <img id="facebook_image_id" ALT="facebook_image" src="/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />
+                            FACEBOOK
+                        </label>
+                        
+                        <div class="fb-like-box" data-href="http://www.facebook.com/aberdeenmall" data-width="270" data-height="70" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+                    </div>
+                    <div class="newsletter_box">
+                        <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
+                            <label for="newsletter_box_id">
+                                <img id="newsletter_box_id" ALT="newsletter_box" src="https://www.mallmaverick.com/system/site_images/photos/000/000/867/original/icon_subscription.png?1382641709" />
+                                SUBSCRIBE AND GET UPDATES
+                            </label>                
+                            <span>
+                                Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!
+                            </span>
+                            <label for="fieldEmail" style="display:none"> subscribe email </label>
+                            <input id="fieldEmail" name=cm-ykoui-ykoui type="email" required placeholder="Your Email" />  
+                            <span>
+                                <label style="display:none" for="agree_terms">Subscribe</label>
+                                    <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Aberdeen Mall
+                                
+                            </span>
+            				<br />						
+                            <button class="btn"/>Subscribe</button>                      
+                            <br />
+            				<span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="social_box hidden-phone special_box">
+                    <label for="twitter_id">               
+                        <img id="twitter_id" ALT="twitter" src="/system/site_images/photos/000/000/768/original/twitter.png?1381248723" />
+                        TWITTER                
+                    </label>
+                    <a class="twitter-timeline" href="https://twitter.com/" width="270" data-widget-id="390498216833064960">Tweets by @tecumsehmall</a>
+                    
+                </div>
+                
+        		<div class="nav_site_map hidden-phone">
+                    <label for="nav_site_map_link_id" >NAVIGATION</label>
+                    
+                    <div id="nav_site_map_link_id" class="nav_site_map_link">
+                        <div class="nav_sitemap_item">
+                            <span class="site_map_title">STORES</span>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/stores' target='_self'>Store Directory</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/mapv2' target='_self'>Shopping Map</a>
+                        </div>
+                        <div class="nav_sitemap_item">
+                            <span class="site_map_title">
+                                <a href="/promotions">PROMOTIONS</a>  
+        					</span>									
+                        </div>
+                        <div class="nav_sitemap_item">
+                            <span class="site_map_title">
+                                <a href="/events">EVENTS</a>                                
+        					</span>
+                        </div>
+                        <div class="nav_sitemap_item">
+                            <span class="site_map_title">
+                                <a href="/pages/aberdeen-guest-services">GUEST SERVICES</a>                                
+        					</span>
+                        </div>
+                        <div class="nav_sitemap_item">
+                            <span class="site_map_title">
+                                <a href="/jobs">CAREERS</a>
+        					</span>
+                        </div>
+                        <div class="nav_sitemap_item">
+                            <span class="site_map_title">ABOUT US</span>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/pages/aberdeen-leasing' target='_self'>Leasing</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/pages/aberdeen-accessibility' target='_self'>Accessibility</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/pages/aberdeen-sponsorships-donations' target='_self'>Sponsorships & Donations</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/pages/aberdeen-community-bookings' target='_self'>Community Bookings</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/pages/aberdeen-marketing-advertising' target='_self'>Marketing & Advertising</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/pages/aberdeen-security' target='_self'>Security</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/pages/aberdeen-contact-us' target='_self'>Contact Us</a>
+                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+    						<a class="site_map_submenu" href='/pages/aberdeen-faq' target='_self'>FAQ</a>
+                        </div>
+                    </div>   
+                    <div class="social_links">
+                        
+                            
+                        
+                            
+                        
+                            
+                                
+                                <a href="http://instagram.com/AberdeenMall#" target="_blank">
+                                
+                                    <img ALT="social_link" src="/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
+                                </a>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </div>
+        		</div>
+                <div sylte="clear:both;">&nbsp;</div>
+        	</div>
+        </div>
+
         <div class="social_links_mobile visible-phone">
             <a href="http://instagram.com/AberdeenMall#" target="_blank">
                 <img ALT="social_link" src="/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
