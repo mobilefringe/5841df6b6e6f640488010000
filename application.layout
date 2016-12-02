@@ -77,12 +77,12 @@
                             FACEBOOK
                         </label>
                         
-                        <div class="fb-like-box" data-href="http://www.facebook.com/aberdeenmall" data-width="270" data-height="70" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+                        <div class="fb-like-box" data-href="//www.facebook.com/aberdeenmall" data-width="270" data-height="70" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
                     </div>
                     <div class="newsletter_box">
                         <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
                             <label for="newsletter_box_id">
-                                <img id="newsletter_box_id" ALT="newsletter_box" src="https://www.mallmaverick.com/system/site_images/photos/000/000/867/original/icon_subscription.png?1382641709" />
+                                <img id="newsletter_box_id" ALT="newsletter_box" src="//www.mallmaverick.com/system/site_images/photos/000/000/867/original/icon_subscription.png?1382641709" />
                                 SUBSCRIBE AND GET UPDATES
                             </label>                
                             <span>
@@ -105,7 +105,7 @@
                 
                 <div class="social_box hidden-phone special_box">
                     <label for="twitter_id">               
-                        <img id="twitter_id" ALT="twitter" src="/system/site_images/photos/000/000/768/original/twitter.png?1381248723" />
+                        <img id="twitter_id" ALT="twitter" src="//aberdeenmall.ca/system/site_images/photos/000/000/768/original/twitter.png?1381248723" />
                         TWITTER                
                     </label>
                     <a class="twitter-timeline" href="https://twitter.com/" width="270" data-widget-id="390498216833064960">Tweets by @tecumsehmall</a>
