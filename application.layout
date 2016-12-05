@@ -424,7 +424,7 @@
                 </div>
             </div>                
         </div> <!-- End of pull right div -->
-        <div class="row-fluid">
+        <!--<div class="row-fluid">-->
             <div class="trim_screen">
                 <div id="home_feature">
                     <script id="home_feature_template" type="x-tmpl-mustache/text">
@@ -438,7 +438,7 @@
                     </script>   
                 </div>
             </div>
-        </div>
+        <!--</div>-->
         <div class="line_break">&nbsp;</div>
     </div>
     
