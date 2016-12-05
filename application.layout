@@ -129,7 +129,7 @@
                 </div>
                 <!-- iphone header END --> 
                 <!--Top Nav Dynamic-->
-                <div class="top_nav hidden-xs custom_dropdown full_header">
+                <div class="hidden-xs top_nav custom_dropdown full_header">
                     <div class="brand_nav">
                         <div class ="row-fluid">
                             <div class="trim_screen">
