@@ -438,7 +438,7 @@ legend{
 }
 
 #site_nav li button:focus{
-    border: solid 1px gray; 
+    // border: solid 1px gray; 
 }
 
 #site_nav ul.dropdown-menu{
