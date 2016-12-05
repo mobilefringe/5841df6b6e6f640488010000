@@ -345,9 +345,11 @@ legend{
 }
 
 .bottom_nav{
+    padding: 0px;
+    padding-top: 15px;
 	border: none; 
 	background-color: #f6f6f6;    
-    padding:0px;
+    
 }
 
 .bottom_nav .container-fluid{
