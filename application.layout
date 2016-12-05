@@ -383,7 +383,7 @@
 		</div>          
 	</div>
 </div>    
-    <hr>
+    <hr class="trim_screen">
     </header>
     <section id="content">
         {{yield}}
