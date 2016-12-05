@@ -395,8 +395,8 @@
                     <p id="home_hours_container">
                         <script id="home_hours_template" type="x-tmpl-mustache/text">
                             Today open until {%raw%}{{close_time}}{%endraw%}
-                            <span class="hour_title">{{}}</span>
-                            <span class="hour_info">{{}}</span>
+                            <span class="hour_title">{{weekday}}</span>
+                            <span class="hour_info">{{h}}</span>
                         </script>
                     </p>
                     <p>
