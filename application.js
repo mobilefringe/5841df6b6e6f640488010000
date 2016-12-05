@@ -1,6 +1,6 @@
-function init() {
-    renderHomeHours();
-}
+// function init() {
+//     renderHomeHours();
+// }
 
 function renderBanner(home_banner_template, home_banner, banners){
     var item_list = [];
