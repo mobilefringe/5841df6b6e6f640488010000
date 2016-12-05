@@ -134,182 +134,182 @@
                         <div class ="row">
                             <div class="trim_screen">
                                 <div class="select_parent pull-right">
-                <label for="brand_select" style="display:none">select brand</label>
-                    <select id="brand_select">
-                        <option value="">Stores</option>
-                        
-                        <option value="aberdeen-a-w">A & W</option>
-                        
-                        <option value="aberdeen-aberdeen-lottery-ticket-centre">Aberdeen Lottery Ticket Centre</option>
-                        
-                        <option value="aberdeen-aberdeen-mall-marketplace-cart">Aberdeen Mall Marketplace Cart</option>
-                        
-                        <option value="aberdeen-aberdeen-x-ray-clinic">Aberdeen Ultrasound and X-Ray</option>
-                        
-                        <option value="aberdeen-administration">Administration</option>
-                        
-                        <option value="aberdeen-aldo-shoes--2">Aldo </option>
-                        
-                        <option value="aberdeen-ann-louise-jewellers">Ann-Louise Jewellers</option>
-                        
-                        <option value="aberdeen-aberdeen-mall-kamloops-arctic-skin">Arctic Skin</option>
-                        
-                        <option value="aberdeen-ardene">Ardene</option>
-                        
-                        <option value="aberdeen-bath-body-works">Bath & Body Works</option>
-                        
-                        <option value="aberdeen-bell-world">Bell World</option>
-                        
-                        <option value="aberdeen-below-the-belt">Below the Belt</option>
-                        
-                        <option value="aberdeen-bentley">Bentley</option>
-                        
-                        <option value="aberdeen-future-shop">Best Buy</option>
-                        
-                        <option value="aberdeen-best-buy-mobile">Best Buy Mobile</option>
-                        
-                        <option value="aberdeen-blenz-coffee">Blenz Coffee</option>
-                        
-                        <option value="aberdeen-bluenotes">Bluenotes</option>
-                        
-                        <option value="aberdeen-boathouse">Boathouse</option>
-                        
-                        <option value="aberdeen-booster-juice">Booster Juice</option>
-                        
-                        <option value="aberdeen-bootlegger">Bootlegger</option>
-                        
-                        <option value="aberdeen-boutique-of-leathers">Boutique of Leathers</option>
-                        
-                        <option value="aberdeen-aberdeen-mall-kamloops-calendar-club">Calendar Club</option>
-                        
-                        <option value="aberdeen-carlton-cards">Carlton Cards</option>
-                        
-                        <option value="aberdeen-chatters">Chatters</option>
-                        
-                        <option value="aberdeen-cineplex-odeon">Cineplex Odeon</option>
-                        
-                        <option value="aberdeen-claire-s-boutique">Claire's </option>
-                        
-                        <option value="aberdeen-cleo">Cleo</option>
-                        
-                        <option value="aberdeen-coles-books">Coles Books</option>
-                        
-                        <option value="aberdeen-culture-craze">Culture Craze</option>
-                        
-                        <option value="aberdeen-david-s-tea">DAVIDs TEA</option>
-                        
-                        <option value="aberdeen-dolson-s-source-for-sports">Dolson's Source for Sports</option>
-                        
-                        <option value="aberdeen-eclipse">Eclipse</option>
-                        
-                        <option value="aberdeen-foot-locker">Foot Locker</option>
-                        
-                        <option value="aberdeen-gap-factory-store">GAP Factory Store</option>
-                        
-                        <option value="aberdeen-garage">Garage</option>
-                        
-                        <option value="aberdeen-gnc">GNC</option>
-                        
-                        <option value="aberdeen-hoja-mongolian-grill-express">Hoja Mongolian Grill Express</option>
-                        
-                        <option value="aberdeen-house-of-knives">House of Knives</option>
-                        
-                        <option value="aberdeen-the-bay">Hudson's Bay</option>
-                        
-                        <option value="aberdeen-aberdeen-mall-kamloops-inka-s-world">Inka's World</option>
-                        
-                        <option value="aberdeen-aberdeen-mall-kamloops-iq-massager">IQ Massager</option>
-                        
-                        <option value="aberdeen-jersey-city">Jersey City</option>
-                        
-                        <option value="aberdeen-kamloops-cell-repair">Kamloops Cell Repair</option>
-                        
-                        <option value="aberdeen-koodo">Koodo</option>
-                        
-                        <option value="aberdeen-la-senza">La Senza</option>
-                        
-                        <option value="aberdeen-la-vie-en-rose-aqua">La Vie en Rose/Aqua</option>
-                        
-                        <option value="aberdeen-lazy-one">Lazy One</option>
-                        
-                        <option value="aberdeen-le-chateau">Le Chateau</option>
-                        
-                        <option value="aberdeen-canadian-lensmakers">Lensmakers</option>
-                        
-                        <option value="aberdeen-mappins">Mappins</option>
-                        
-                        <option value="aberdeen-metalsmiths">Metalsmiths</option>
-                        
-                        <option value="aberdeen-michael-hill">Michael Hill</option>
-                        
-                        <option value="aberdeen-mobile-snap">Mobile Snap</option>
-                        
-                        <option value="aberdeen-new-york-fries">New York Fries</option>
-                        
-                        <option value="aberdeen-northern-reflections">Northern Reflections</option>
-                        
-                        <option value="aberdeen-opa-of-greece">OPA!</option>
-                        
-                        <option value="aberdeen-orange-julius">Orange Julius</option>
-                        
-                        <option value="aberdeen-payless-shoesource">Payless ShoeSource</option>
-                        
-                        <option value="aberdeen-peoples-jewellers">Peoples Jewellers</option>
-                        
-                        <option value="aberdeen-purdys-chocolatier">Purdy's Chocolates</option>
-                        
-                        <option value="aberdeen-quilts-etc">QE Home l Quilts Etc</option>
-                        
-                        <option value="aberdeen-ricki-s">Ricki's</option>
-                        
-                        <option value="aberdeen-rogers-wireless">Rogers Wireless</option>
-                        
-                        <option value="aberdeen-royal-lepage-realty">Royal LePage Realty</option>
-                        
-                        <option value="aberdeen-sears-canada">Sears </option>
-                        
-                        <option value="aberdeen-security">Security</option>
-                        
-                        <option value="aberdeen-showcase">Showcase</option>
-                        
-                        <option value="aberdeen-sizzling-wok">Sizzling Wok</option>
-                        
-                        <option value="aberdeen-soft-moc">Soft Moc</option>
-                        
-                        <option value="aberdeen-sport-chek-atmosphere">Sport Chek/Atmosphere</option>
-                        
-                        <option value="aberdeen-stitches">Stitches</option>
-                        
-                        <option value="aberdeen-subway">Subway</option>
-                        
-                        <option value="aberdeen-tan-jay-alia">Tan Jay N Alia</option>
-                        
-                        <option value="aberdeen-telus-mobility">Telus Mobility</option>
-                        
-                        <option value="aberdeen-the-body-shop">The Body Shop</option>
-                        
-                        <option value="aberdeen-the-children-s-place">The Children's Place</option>
-                        
-                        <option value="aberdeen-the-source">The Source</option>
-                        
-                        <option value="aberdeen-things-engraved">Things Engraved</option>
-                        
-                        <option value="aberdeen-think-kitchen">Think Kitchen</option>
-                        
-                        <option value="aberdeen-tip-top-tailors">Tip Top Tailors</option>
-                        
-                        <option value="aberdeen-trends-art-and-frame">Trends Art and Frame</option>
-                        
-                        <option value="aberdeen-virgin-mobile">Virgin Mobile</option>
-                        
-                        <option value="aberdeen-west-49">West 49</option>
-                        
-                        <option value="aberdeen-wirelesswave">WIRELESSWAVE</option>
-                        
-                        <option value="aberdeen-zumiez">Zumiez </option>
-                        
-                    </select>
-                </div>  
+                                    <label for="brand_select" style="display:none">select brand</label>
+                                        <select id="brand_select">
+                                            <option value="">Stores</option>
+                                            
+                                            <option value="aberdeen-a-w">A & W</option>
+                                            
+                                            <option value="aberdeen-aberdeen-lottery-ticket-centre">Aberdeen Lottery Ticket Centre</option>
+                                            
+                                            <option value="aberdeen-aberdeen-mall-marketplace-cart">Aberdeen Mall Marketplace Cart</option>
+                                            
+                                            <option value="aberdeen-aberdeen-x-ray-clinic">Aberdeen Ultrasound and X-Ray</option>
+                                            
+                                            <option value="aberdeen-administration">Administration</option>
+                                            
+                                            <option value="aberdeen-aldo-shoes--2">Aldo </option>
+                                            
+                                            <option value="aberdeen-ann-louise-jewellers">Ann-Louise Jewellers</option>
+                                            
+                                            <option value="aberdeen-aberdeen-mall-kamloops-arctic-skin">Arctic Skin</option>
+                                            
+                                            <option value="aberdeen-ardene">Ardene</option>
+                                            
+                                            <option value="aberdeen-bath-body-works">Bath & Body Works</option>
+                                            
+                                            <option value="aberdeen-bell-world">Bell World</option>
+                                            
+                                            <option value="aberdeen-below-the-belt">Below the Belt</option>
+                                            
+                                            <option value="aberdeen-bentley">Bentley</option>
+                                            
+                                            <option value="aberdeen-future-shop">Best Buy</option>
+                                            
+                                            <option value="aberdeen-best-buy-mobile">Best Buy Mobile</option>
+                                            
+                                            <option value="aberdeen-blenz-coffee">Blenz Coffee</option>
+                                            
+                                            <option value="aberdeen-bluenotes">Bluenotes</option>
+                                            
+                                            <option value="aberdeen-boathouse">Boathouse</option>
+                                            
+                                            <option value="aberdeen-booster-juice">Booster Juice</option>
+                                            
+                                            <option value="aberdeen-bootlegger">Bootlegger</option>
+                                            
+                                            <option value="aberdeen-boutique-of-leathers">Boutique of Leathers</option>
+                                            
+                                            <option value="aberdeen-aberdeen-mall-kamloops-calendar-club">Calendar Club</option>
+                                            
+                                            <option value="aberdeen-carlton-cards">Carlton Cards</option>
+                                            
+                                            <option value="aberdeen-chatters">Chatters</option>
+                                            
+                                            <option value="aberdeen-cineplex-odeon">Cineplex Odeon</option>
+                                            
+                                            <option value="aberdeen-claire-s-boutique">Claire's </option>
+                                            
+                                            <option value="aberdeen-cleo">Cleo</option>
+                                            
+                                            <option value="aberdeen-coles-books">Coles Books</option>
+                                            
+                                            <option value="aberdeen-culture-craze">Culture Craze</option>
+                                            
+                                            <option value="aberdeen-david-s-tea">DAVIDs TEA</option>
+                                            
+                                            <option value="aberdeen-dolson-s-source-for-sports">Dolson's Source for Sports</option>
+                                            
+                                            <option value="aberdeen-eclipse">Eclipse</option>
+                                            
+                                            <option value="aberdeen-foot-locker">Foot Locker</option>
+                                            
+                                            <option value="aberdeen-gap-factory-store">GAP Factory Store</option>
+                                            
+                                            <option value="aberdeen-garage">Garage</option>
+                                            
+                                            <option value="aberdeen-gnc">GNC</option>
+                                            
+                                            <option value="aberdeen-hoja-mongolian-grill-express">Hoja Mongolian Grill Express</option>
+                                            
+                                            <option value="aberdeen-house-of-knives">House of Knives</option>
+                                            
+                                            <option value="aberdeen-the-bay">Hudson's Bay</option>
+                                            
+                                            <option value="aberdeen-aberdeen-mall-kamloops-inka-s-world">Inka's World</option>
+                                            
+                                            <option value="aberdeen-aberdeen-mall-kamloops-iq-massager">IQ Massager</option>
+                                            
+                                            <option value="aberdeen-jersey-city">Jersey City</option>
+                                            
+                                            <option value="aberdeen-kamloops-cell-repair">Kamloops Cell Repair</option>
+                                            
+                                            <option value="aberdeen-koodo">Koodo</option>
+                                            
+                                            <option value="aberdeen-la-senza">La Senza</option>
+                                            
+                                            <option value="aberdeen-la-vie-en-rose-aqua">La Vie en Rose/Aqua</option>
+                                            
+                                            <option value="aberdeen-lazy-one">Lazy One</option>
+                                            
+                                            <option value="aberdeen-le-chateau">Le Chateau</option>
+                                            
+                                            <option value="aberdeen-canadian-lensmakers">Lensmakers</option>
+                                            
+                                            <option value="aberdeen-mappins">Mappins</option>
+                                            
+                                            <option value="aberdeen-metalsmiths">Metalsmiths</option>
+                                            
+                                            <option value="aberdeen-michael-hill">Michael Hill</option>
+                                            
+                                            <option value="aberdeen-mobile-snap">Mobile Snap</option>
+                                            
+                                            <option value="aberdeen-new-york-fries">New York Fries</option>
+                                            
+                                            <option value="aberdeen-northern-reflections">Northern Reflections</option>
+                                            
+                                            <option value="aberdeen-opa-of-greece">OPA!</option>
+                                            
+                                            <option value="aberdeen-orange-julius">Orange Julius</option>
+                                            
+                                            <option value="aberdeen-payless-shoesource">Payless ShoeSource</option>
+                                            
+                                            <option value="aberdeen-peoples-jewellers">Peoples Jewellers</option>
+                                            
+                                            <option value="aberdeen-purdys-chocolatier">Purdy's Chocolates</option>
+                                            
+                                            <option value="aberdeen-quilts-etc">QE Home l Quilts Etc</option>
+                                            
+                                            <option value="aberdeen-ricki-s">Ricki's</option>
+                                            
+                                            <option value="aberdeen-rogers-wireless">Rogers Wireless</option>
+                                            
+                                            <option value="aberdeen-royal-lepage-realty">Royal LePage Realty</option>
+                                            
+                                            <option value="aberdeen-sears-canada">Sears </option>
+                                            
+                                            <option value="aberdeen-security">Security</option>
+                                            
+                                            <option value="aberdeen-showcase">Showcase</option>
+                                            
+                                            <option value="aberdeen-sizzling-wok">Sizzling Wok</option>
+                                            
+                                            <option value="aberdeen-soft-moc">Soft Moc</option>
+                                            
+                                            <option value="aberdeen-sport-chek-atmosphere">Sport Chek/Atmosphere</option>
+                                            
+                                            <option value="aberdeen-stitches">Stitches</option>
+                                            
+                                            <option value="aberdeen-subway">Subway</option>
+                                            
+                                            <option value="aberdeen-tan-jay-alia">Tan Jay N Alia</option>
+                                            
+                                            <option value="aberdeen-telus-mobility">Telus Mobility</option>
+                                            
+                                            <option value="aberdeen-the-body-shop">The Body Shop</option>
+                                            
+                                            <option value="aberdeen-the-children-s-place">The Children's Place</option>
+                                            
+                                            <option value="aberdeen-the-source">The Source</option>
+                                            
+                                            <option value="aberdeen-things-engraved">Things Engraved</option>
+                                            
+                                            <option value="aberdeen-think-kitchen">Think Kitchen</option>
+                                            
+                                            <option value="aberdeen-tip-top-tailors">Tip Top Tailors</option>
+                                            
+                                            <option value="aberdeen-trends-art-and-frame">Trends Art and Frame</option>
+                                            
+                                            <option value="aberdeen-virgin-mobile">Virgin Mobile</option>
+                                            
+                                            <option value="aberdeen-west-49">West 49</option>
+                                            
+                                            <option value="aberdeen-wirelesswave">WIRELESSWAVE</option>
+                                            
+                                            <option value="aberdeen-zumiez">Zumiez </option>
+                                            
+                                        </select>
+                                    </div>  
                             </div>
                         </div>
                     </div>
@@ -497,7 +497,7 @@
         	</div>
         </div>
         <div class="footer trim_screen">
-            <div class="social_links_mobile visible-phone">
+            <div class="social_links_mobile visible-xs-inline-block">
                 <a href="//instagram.com/AberdeenMall#" target="_blank">
                     <img ALT="social_link" src="//aberdeenmall.ca/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
                 </a>
