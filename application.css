@@ -1281,6 +1281,11 @@ td.stores_pin{
     font-size:1.6em;
 }
 
+.page_body ul {
+    margin: 0 0 10px 25px;
+    padding: 0;
+}
+
 /********* simply-scroll-list *********/
 .simply-scroll{
     height:auto;
