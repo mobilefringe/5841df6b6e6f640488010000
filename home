@@ -31,7 +31,7 @@
             renderBanner('#home_banner_template','#home_banner', banners);
             
             var feature_items = getFeatureList();
-            var item = feature_items.slice(0,1);
+            var item = feature_items.slice(1,2);
             renderFeatureItems('#home_feature','#home_feature_template', item);
             
             // var stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
