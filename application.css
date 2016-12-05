@@ -416,9 +416,11 @@ legend{
     width: auto;
     margin-right: 0;
     float: none;
-    color: #64676c;
+    
 }
-
+.bottom_nav .nav_site_map .nav_sitemap_item a {
+    color: #64676c;   
+}
 .bottom_nav .nav_site_map span{
     padding:5px 0px;
 }
