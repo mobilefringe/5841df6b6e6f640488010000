@@ -3,6 +3,7 @@
 </center>
 <script>
     $(document).ready(function(e){
+        renderHomeHours();
         // function renderAll(){
         //     var banners = getBanners();
         //     renderBanner('#home_banner_template','#home_banner', banners);
@@ -25,7 +26,6 @@
         //         animation: "slide",
         //     });
         // }
-        renderHomeHours();
         loadMallData(renderAll); 
     })
 </script>
