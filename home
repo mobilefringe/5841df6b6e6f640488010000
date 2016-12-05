@@ -3,7 +3,7 @@
 </center>
 <script>
     $(document).ready(function(e){
-        renderHomeHours();
+        init();
         // function renderAll(){
         //     var banners = getBanners();
         //     renderBanner('#home_banner_template','#home_banner', banners);
