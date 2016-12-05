@@ -178,7 +178,8 @@ h1 {
     font-family:futura_condensed;
 }
 h1.page_title{
-    padding:40px 0 0;
+    padding: 40px 0 0;
+    font-weight: bold;
 }
 
 h2 {
