@@ -392,9 +392,12 @@
                 <div>
                     <label for="hours_today" class="feature_label">HOURS TODAY</label>
                     <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                    <p id="hours_today">       
-                        <span class="hour_title"> Monday</span>
-                        <span class="hour_info">9:30am -  9:00pm</span>
+                    <p id="home_hours_container">
+                        <script id="home_hours_template" type="x-tmpl-mustache/text">
+                            Today open until {%raw%}{{close_time}}{%endraw%}
+                            <span class="hour_title">{{}}</span>
+                            <span class="hour_info">{{}}</span>
+                        </script>
                     </p>
                     <p>
                         <span class="hour_title">Call</span>
