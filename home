@@ -1,12 +1,22 @@
-<center>
-    Blank Website
-</center>
+<div class="flexslider trim_screen">
+    <ul class="slides" id="home_banner">            
+        <script id="home_banner_template" type="x-tmpl-mustache/text">
+            <li>
+                <a class="banner_image_li" href="{{url}}" >
+                    <img src="{{image_url}}" alt="Banner Image"/>
+                </a>
+            </li>
+        </script>                
+    </ul>        
+</div>
+
+
 <script>
     $(document).ready(function(e){
         init();
         function renderAll(){
-            // var banners = getBanners();
-            // renderBanner('#home_banner_template','#home_banner', banners);
+            var banners = getBanners();
+            renderBanner('#home_banner_template','#home_banner', banners);
             var feature_items = getFeatureList();
             console.log(feature_items);
             renderFeatureItems('#feature_item','##feature_item_template', feature_items);
