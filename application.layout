@@ -413,10 +413,12 @@
             
             <div class="right_feature_box">
                 <span class="feature_label"></span>   
-                <div class="feature_box">
-                    <a href="http://www.aberdeenmall.ca/pages/aberdeen-gift-cards">
-                        <img ALT="feature_image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/141/original/ABM2546_Santas_Little_Helper_Web.jpg?1478537805" />
-                    </a>
+                <div class="feature_box" id="feature_item">
+                    <script id="feature_item_template" type="x-tmpl-mustache/text">
+                        <a href="http://www.aberdeenmall.ca/pages/aberdeen-gift-cards">
+                            <img ALT="feature_image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/141/original/ABM2546_Santas_Little_Helper_Web.jpg?1478537805" />
+                        </a>
+                    </script>
                 </div>
             </div>                
         </div> <!-- End of pull right div -->
