@@ -398,12 +398,14 @@ legend{
     line-height: 20px;
     color: #555555;
     border-radius: 3px;
-   
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     vertical-align: middle;
 }
 
+.newsletter_box .btn {
+    
+}
 #success_subscribe{
     display: none;
 }
