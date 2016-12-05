@@ -383,8 +383,8 @@
 		</div>          
     </header>
     
-    <div class="container-fluid">
-         <div class="container_body trim_screen">
+    <div class="container-fluid trim_screen">
+         <div class="container_body">
             {{yield}}
         </div>
         <div class="right_box">
