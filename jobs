@@ -39,7 +39,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var jobs = getJobsList().sortBy(function(o){ return o.name});
+            var jobs = getJobsList().sortBy(function(o){ return o.store_name});
             console.log(jobs);
             var published_jobs = [];
             $.each(jobs, function(key, val){
