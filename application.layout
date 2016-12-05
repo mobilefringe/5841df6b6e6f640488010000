@@ -383,9 +383,9 @@
 		</div>          
     </header>
     
-    <section id="content">
+    <div class="container-fluid trim_screen">
         {{yield}}
-    </section>
+    </div>
     <div class="right_box">
         <div class="hour_box">  
             <div>
