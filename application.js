@@ -197,12 +197,6 @@ function renderJobDetails(container, template, collection){
             var store_details = getStoreDetailsByID(val.jobable_id);
             val.store_detail_btn = store_details.slug;
             val.store_name = store_details.name;
-            if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
-                // val.image_url = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
-            }
-            else{
-                val.image_url = store_details.store_front_url_abs;
-            }
         }
         else{
             val.store_name = "Aberdeen Mall Kamloops";
