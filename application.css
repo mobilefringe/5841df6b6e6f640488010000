@@ -620,6 +620,7 @@ ul.store_tabs li.active a:hover
   height:52px;
   font-size:14pt;
   padding: 0 0 0 20px;
+  border: none;
 }
 
 a.btn-nav {
