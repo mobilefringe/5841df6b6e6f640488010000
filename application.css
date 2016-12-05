@@ -481,6 +481,10 @@ legend{
 .fb-like-box{
     border: 1px solid #315C99;
 }
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
 
 .property_manager_logo{
     text-align:right;
