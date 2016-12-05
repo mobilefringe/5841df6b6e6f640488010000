@@ -31,9 +31,9 @@
             // var promotions = all_promotions.slice(0,2);
             // renderPromotions("#latest_promos","#latest_promos_template", promotions);
 
-            // $('.flexslider').flexslider({
-            //     animation: "slide",
-            // });
+            $('.flexslider').flexslider({
+                animation: "slide",
+            });
         }
         loadMallData(renderAll);
     })
