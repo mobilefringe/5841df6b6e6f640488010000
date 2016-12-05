@@ -1284,6 +1284,14 @@ td.stores_pin{
 .page_body ul {
     margin: 0 0 10px 25px;
     padding: 0;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.page_body ul li {
+    font-size: 11pt;
+    font-weight: normal;
 }
 
 /********* simply-scroll-list *********/
