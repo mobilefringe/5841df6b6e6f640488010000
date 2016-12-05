@@ -471,7 +471,6 @@
                             </div>
                             <div class="col-md-6">
                                 <div id="nav_site_map_link_id">
-                
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">ABOUT US</span>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
@@ -494,12 +493,12 @@
                                         <a class="site_map_submenu" href='/pages/aberdeen-faq' target='_self'>FAQ</a>
                                     </div>
                                 </div>   
-                                <div class="social_links">
+                            </div>
+                            <div class="social_links">
                                     <a href="http://instagram.com/AberdeenMall#" target="_blank">
                                         <img ALT="social_link" src="//www.mallmaverick.com/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
                                     </a>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
