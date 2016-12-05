@@ -316,7 +316,7 @@
                 </div>
             </div>
         </div>
-        <div class="row-fluid">
+        <div class="hidden-xs row-fluid">
 	  	    <div class="trim_screen nav_container" id="site_nav">              
                 <a id="centre_logo" href="/">
                     <img ALT="centre_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108" style="max-width:95%" />
