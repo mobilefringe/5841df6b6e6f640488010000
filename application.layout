@@ -432,65 +432,79 @@
                     </div>
                 </div>
                 
-        		<div class="nav_site_map hidden-phone">
-                    <label for="nav_site_map_link_id" >NAVIGATION</label>
-                    
-                    <div id="nav_site_map_link_id" class="nav_site_map_link">
-                        <div class="nav_sitemap_item">
-                            <span class="site_map_title">STORES</span>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/stores' target='_self'>Store Directory</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/mapv2' target='_self'>Shopping Map</a>
+        		<div class="col-md-4">        
+                    <div class="nav_site_map hidden-xs">
+                        <label for="nav_site_map_link_id" >NAVIGATION</label>
+                
+                        <div class="row-fluid">
+                            <div class="col-md-6">
+                        
+                                <div id="nav_site_map_link_id" class="nav_site_map_link">
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">STORES</span>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/stores' target='_self'>Store Directory</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/mapv2' target='_self'>Shopping Map</a>
+                                    </div>
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">
+                                            <a href="/promotions">PROMOTIONS</a>  
+                                        </span>                                 
+                                    </div>
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">
+                                            <a href="/events">EVENTS</a>                                
+                                        </span>
+                                    </div>
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">
+                                            <a href="/pages/aberdeen-guest-services">GUEST SERVICES</a>                                
+                                        </span>
+                                    </div>
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">
+                                            <a href="/jobs">CAREERS</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="nav_site_map_link_id" class="nav_site_map_link">
+                
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">ABOUT US</span>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-leasing' target='_self'>Leasing</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-accessibility' target='_self'>Accessibility</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-sponsorships-donations' target='_self'>Sponsorships & Donations</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-community-bookings' target='_self'>Community Bookings</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-marketing-advertising' target='_self'>Marketing & Advertising</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-security' target='_self'>Security</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-contact-us' target='_self'>Contact Us</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-faq' target='_self'>FAQ</a>
+                                    </div>
+                                </div>   
+                                <div class="social_links">
+                                    <a href="http://instagram.com/AberdeenMall#" target="_blank">
+                                        <img ALT="social_link" src="//www.mallmaverick.com/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="nav_sitemap_item">
-                            <span class="site_map_title">
-                                <a href="/promotions">PROMOTIONS</a>  
-        					</span>									
-                        </div>
-                        <div class="nav_sitemap_item">
-                            <span class="site_map_title">
-                                <a href="/events">EVENTS</a>                                
-        					</span>
-                        </div>
-                        <div class="nav_sitemap_item">
-                            <span class="site_map_title">
-                                <a href="/pages/aberdeen-guest-services">GUEST SERVICES</a>                                
-        					</span>
-                        </div>
-                        <div class="nav_sitemap_item">
-                            <span class="site_map_title">
-                                <a href="/jobs">CAREERS</a>
-        					</span>
-                        </div>
-                        <div class="nav_sitemap_item">
-                            <span class="site_map_title">ABOUT US</span>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/pages/aberdeen-leasing' target='_self'>Leasing</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/pages/aberdeen-accessibility' target='_self'>Accessibility</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/pages/aberdeen-sponsorships-donations' target='_self'>Sponsorships & Donations</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/pages/aberdeen-community-bookings' target='_self'>Community Bookings</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/pages/aberdeen-marketing-advertising' target='_self'>Marketing & Advertising</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/pages/aberdeen-security' target='_self'>Security</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/pages/aberdeen-contact-us' target='_self'>Contact Us</a>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-    						<a class="site_map_submenu" href='/pages/aberdeen-faq' target='_self'>FAQ</a>
-                        </div>
-                    </div>   
-                    <div class="social_links">
-                        <a href="http://instagram.com/AberdeenMall#" target="_blank">
-                            <img ALT="social_link" src="//www.mallmaverick.com/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
-                        </a>
                     </div>
-        		</div>
+                </div>
+        		
+        		
                 <div style="clear:both;">&nbsp;</div>
         	</div>
         </div>
