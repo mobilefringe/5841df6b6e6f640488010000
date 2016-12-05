@@ -396,7 +396,7 @@
                             <img id="facebook_image_id" ALT="facebook_image" src="//aberdeenmall.ca/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />
                             FACEBOOK
                         </label>
-                        <div class="fb-like-box fb_iframe_widget" data-href="//www.facebook.com/aberdeenmall" data-width="270" data-height="70" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+                        <div class="fb-like-box" data-href="//www.facebook.com/aberdeenmall" data-width="270" data-height="70" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
                     </div>
                     <div class="newsletter_box">
                         <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
