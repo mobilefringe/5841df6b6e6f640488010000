@@ -1294,6 +1294,10 @@ td.stores_pin{
     font-weight: normal;
 }
 
+.page_body a {
+    color: inherit;
+    text-decoration: none;
+}
 /********* simply-scroll-list *********/
 .simply-scroll{
     height:auto;
