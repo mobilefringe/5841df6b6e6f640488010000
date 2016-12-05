@@ -385,36 +385,37 @@
     
     <div class="container-fluid trim_screen">
         {{yield}}
+        <div class="right_box">
+            <div class="hour_box">  
+                <div>
+                    <label for="hours_today" class="feature_label">HOURS TODAY</label>
+                    <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                    <p id="hours_today">       
+                        <span class="hour_title"> Monday</span>
+                        <span class="hour_info">9:30am -  9:00pm</span>
+                    </p>
+                    <p>
+                        <span class="hour_title">Call</span>
+                        <span class="hour_info hidden-phone">(250) 374.3400</span>
+                        <span class="hour_info visible-phone">
+                            <a href="tel:(250) 374.3400">(250) 374.3400</a>    
+                        </span>
+                    </p>
+                    <a href="/hours" class="check_hours">Check Holiday Hours</a>
+                </div>
+            </div> <!-- END of hour_box -->
+            
+            <div class="right_feature_box">
+                <span class="feature_label"></span>   
+                <div class="feature_box">
+                    <a href="http://www.aberdeenmall.ca/pages/aberdeen-gift-cards">
+                        <img ALT="feature_image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/141/original/ABM2546_Santas_Little_Helper_Web.jpg?1478537805" />
+                    </a>
+                </div>
+            </div>                
+        </div> <!-- End of pull right div -->
     </div>
-    <div class="right_box">
-        <div class="hour_box">  
-            <div>
-                <label for="hours_today" class="feature_label">HOURS TODAY</label>
-                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                <p id="hours_today">       
-                    <span class="hour_title"> Monday</span>
-                    <span class="hour_info">9:30am -  9:00pm</span>
-                </p>
-                <p>
-                    <span class="hour_title">Call</span>
-                    <span class="hour_info hidden-phone">(250) 374.3400</span>
-                    <span class="hour_info visible-phone">
-                        <a href="tel:(250) 374.3400">(250) 374.3400</a>    
-                    </span>
-                </p>
-                <a href="/hours" class="check_hours">Check Holiday Hours</a>
-            </div>
-        </div> <!-- END of hour_box -->
-        
-        <div class="right_feature_box">
-            <span class="feature_label"></span>   
-            <div class="feature_box">
-                <a href="http://www.aberdeenmall.ca/pages/aberdeen-gift-cards">
-                    <img ALT="feature_image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/141/original/ABM2546_Santas_Little_Helper_Web.jpg?1478537805" />
-                </a>
-            </div>
-        </div>                
-    </div> <!-- End of pull right div -->
+    
 
     
     <footer>
