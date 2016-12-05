@@ -15,7 +15,7 @@
                     </div>
                     <div id="collapse{{id}}" class="accordion-body collapse">
                         <div class="accordion-inner">                        
-                            <h2>{{end_date}}</h2>
+                            <h2>Closing Date: {{end_date}}</h2>
                             <p>&nbsp;</p>
                             <p>{{{rich_description}}}</p>
                             {{#contact_name}}
