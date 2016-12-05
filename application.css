@@ -3,7 +3,7 @@
 }
 
 .brand_nav{
-      position: relative;
+    position: relative;
     background-color: #3D441E;
 }
 
@@ -230,7 +230,7 @@ p{
 .brand_nav{
     height: 36px;
     width: 100%;
-    background-color: black;
+    // background-color: black;
     position: absolute;
     top:0px;    
     z-index:100;
