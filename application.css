@@ -1312,7 +1312,9 @@ td.stores_pin{
 .hour_table .hour_row .hour_time{
     font-family: futura_medium_light;
 }
-
+.hour_date {
+    text-transform: uppercase;
+}
 .social_links{
     clear: both;
 }
