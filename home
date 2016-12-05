@@ -8,7 +8,8 @@
             // var banners = getBanners();
             // renderBanner('#home_banner_template','#home_banner', banners);
             var feature_items = getFeatureList();
-            renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
+            console.log(feature_items);
+            renderFeatureItems('#feature_item','##feature_item_template', feature_items);
             
             // var stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
             // var new_stores = stores.reverse().slice(0, 3);
