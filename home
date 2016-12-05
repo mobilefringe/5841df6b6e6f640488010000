@@ -13,7 +13,7 @@
 
 <script>
     $(document).ready(function(e){
-        
+        init(e);
         function renderAll(){
             var banners = getBanners();
             renderBanner('#home_banner_template','#home_banner', banners);
@@ -38,7 +38,5 @@
             // });
         }
         loadMallData(renderAll);
-        renderHomeHours();
-        renderFeatureItems();
     })
 </script>
