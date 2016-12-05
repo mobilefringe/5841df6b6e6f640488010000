@@ -383,8 +383,10 @@
 		</div>          
     </header>
     
-    <div class="container-fluid">
-        {{yield}}
+    <div class="container-fluid trim_screen">
+         <div class="container_body">
+            {{yield}}
+        </div>
         <div class="right_box">
             <div class="hour_box">  
                 <div>
