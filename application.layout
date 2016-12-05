@@ -419,7 +419,7 @@
                         <a href="{{url}}">
                             <img alt="feature_image" src="{{image_url}}" />
                         </a>
-                        
+                        {%endraw%}
                     </script>
                 </div>
             </div>                
