@@ -394,9 +394,10 @@
                     <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                     <p id="home_hours_container">
                         <script id="home_hours_template" type="x-tmpl-mustache/text">
-                            Today open until {%raw%}{{close_time}}{%endraw%}
+                            {%raw%}
                             <span class="hour_title">{{weekday}}</span>
                             <span class="hour_info">{{h}}</span>
+                            {%endraw%}
                         </script>
                     </p>
                     <p>
