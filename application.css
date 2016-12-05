@@ -396,6 +396,12 @@ legend{
     line-height: 20px;
     color: #555555;
     border-radius: 3px;
+    width: 206px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 0;
+    vertical-align: middle;
 }
 
 #success_subscribe{
