@@ -13,7 +13,7 @@
 
 <script>
     $(document).ready(function(e){
-        renderHomeHours();
+        
         function renderAll(){
             var banners = getBanners();
             renderBanner('#home_banner_template','#home_banner', banners);
@@ -37,6 +37,7 @@
             //     animation: "slide",
             // });
         }
-        loadMallData(renderAll); 
+        loadMallData(renderAll);
+        renderHomeHours();
     })
 </script>
