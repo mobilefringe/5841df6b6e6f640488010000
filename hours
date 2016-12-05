@@ -19,7 +19,7 @@
         <script id="holiday_hours_template" type="x-tmpl-mustache/text">
             <div class="hour_row">    
                 <span class="hour_time pull-right">{{h}}</span>
-                <span class="hour_date"><span class="lowercase">{{holiday_name}}</span>, {{formatted_date}}</span>  
+                <span class="hour_date">{{holiday_name}}, <span class="lowercase">{{formatted_date}}</span></span>  
             </div>
         </script>
     </div>
