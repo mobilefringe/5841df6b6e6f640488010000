@@ -398,8 +398,8 @@
                     </p>
                     <p>
                         <span class="hour_title">Call</span>
-                        <span class="hour_info hidden-phone">(250) 374.3400</span>
-                        <span class="hour_info visible-xs">
+                        <span class="hour_info hidden-xs">(250) 374.3400</span>
+                        <span class="hour_info visible-xs-inline-block">
                             <a href="tel:(250) 374.3400">(250) 374.3400</a>    
                         </span>
                     </p>
