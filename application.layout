@@ -309,7 +309,7 @@
                                             <option value="aberdeen-zumiez">Zumiez </option>
                                             
                                         </select>
-                                    </div>  
+                                </div>  
                             </div>
                         </div>
                     </div>
@@ -381,10 +381,8 @@
                 <hr>
 		   	</div>                 
 		</div>          
-	</div>
-</div>    
-    
     </header>
+    
     <section id="content">
         {{yield}}
     </section>
