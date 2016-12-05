@@ -2,8 +2,9 @@ function init() {
     renderHomeHours();
     
     var feature_items = getFeatureList();
+    var item = feature_items.slice(0,1);
     console.log(feature_items);
-    renderFeatureItems('#feature_item','#feature_item_template', feature_items);
+    renderFeatureItems('#feature_item','#feature_item_template', item);
 }
 
 function renderBanner(home_banner_template, home_banner, banners){
