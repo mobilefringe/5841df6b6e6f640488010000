@@ -424,6 +424,17 @@
                 </div>
             </div>                
         </div> <!-- End of pull right div -->
+        <div class="row-fluid">
+            <div id="home_feature">
+                <script id="home_feature_template" type="x-tmpl-mustache/text">
+                    <div class="col-md-6">
+                        <a href="{{url}}">
+                            <img alt="" src="{{image_url}}">
+                        </a> 
+                    </div>    
+                </script>   
+            </div>
+        </div>
         <div class="line_break">&nbsp;</div>
     </div>
     
