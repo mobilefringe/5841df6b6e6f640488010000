@@ -21,13 +21,12 @@
                             {{#contact_name}}
                             <p><strong>"ContactName":</strong> {{contact_name}}</p>
                             {{/contact_name}}
-                            
-                            {% endif %}
-                            {% if job.contact_phone != "" %}
+                            {{#contact_phone}}
                             <p><strong>{{ "ContactPhone" | t }}:</strong> {{job.contact_phone}}</p>
-                            {% endif %}
-                            {% if job.contact_email != "" %}
-                            <p><strong>{{ "ContactEmail" | t }}:</strong> <a href="mailto:{{job.contact_email}}">{{job.contact_email}}</a></p>
+                            {{/contact_phone}}
+                            {{#contact_email}}
+                            <p><strong>ContactEmail:</strong> <a href="mailto:{{contact_email}}">{{contact_email}}</a></p>
+                            {{/contact_email}}
 
                         </div>
                     </div>
