@@ -131,7 +131,7 @@
                 <!--Top Nav Dynamic-->
                 <div class="top_nav hidden-xs custom_dropdown full_header">
                     <div class="brand_nav">
-                        <div class ="row">
+                        <div class ="row-fluid">
                             <div class="trim_screen">
                                 <div class="select_parent pull-right">
                                     <label for="brand_select" style="display:none">select brand</label>
