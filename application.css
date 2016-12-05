@@ -139,13 +139,13 @@ p{
     appearance: none;
     line-height:1em;
     background-color: #e0e0e0;
-    background: url(/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat 82% 50% #ddd;
+    background: url(//www.mallmaverick.com/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat 82% 50% #ddd;
     background-size:14px 10px;
 }
 
 .brand_nav .select_locale_parent select{
    width: 150px;
-   background: url(/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat 80px 50% #ddd;
+   background: url(//www.mallmaverick.com/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat 80px 50% #ddd;
    background-size:14px 10px;
 }
 
