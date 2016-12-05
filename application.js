@@ -2,8 +2,11 @@ function init() {
     renderHomeHours();
     
     var feature_items = getFeatureList();
-    var item = feature_items.slice(0,1);
-    renderFeatureItems('#feature_item','#feature_item_template', item);
+    var one_item = feature_items.slice(0,1);
+    renderFeatureItems('#feature_item','#feature_item_template', one_item);
+    
+    var two_items = feature_items.slice(1,3);
+    renderFeatureItems('#home_feature','#home_feature_template', two_items);
 }
 
 function renderBanner(home_banner_template, home_banner, banners){
