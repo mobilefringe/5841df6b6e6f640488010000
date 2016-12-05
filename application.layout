@@ -64,7 +64,7 @@
         <!--Header -->
         <div class="header">
             <!-- iphone header -->
-            <div class="visible-xs-12 mobile_header top_nav row-fluid" >                
+            <div class="visible-xs-inline-block mobile_header top_nav row-fluid" >                
                 <div class="background_bar"></div>
                     <button type="button" data-toggle="dropdown" class="pull-right">
                         <i class="fa fa-align-justify fa-lg"></i>
