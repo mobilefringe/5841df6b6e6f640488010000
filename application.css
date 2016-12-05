@@ -43,9 +43,7 @@
     color:#3D441E;    
 }
 
-#site_nav li button:focus{
-    background-color: #e5f5fd;
-}
+
 
 #site_nav ul li ul li a:hover
 {
@@ -439,6 +437,7 @@ legend{
 
 #site_nav li button:focus{
     // border: solid 1px gray; 
+    // background-color: #e5f5fd;
 }
 
 #site_nav ul.dropdown-menu{
