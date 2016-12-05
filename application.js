@@ -39,10 +39,10 @@ function renderBanner(home_banner_template, home_banner, banners){
     $(home_banner).html(item_rendered.join(''));
 }
 
-function renderFeatureItems(latest_fashion, latest_fashion_template, feature_items){
+function renderFeatureItems(feature_item, feature_item_template, feature_items){
     var item_list = [];
     var item_rendered = [];
-    var template_html = $(latest_fashion_template).html();
+    var template_html = $(feature_item_template).html();
     Mustache.parse(template_html); 
     $.each(feature_items, function(key, val) {
         // if (val.description.length  >= 100) {
@@ -55,7 +55,7 @@ function renderFeatureItems(latest_fashion, latest_fashion_template, feature_ite
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
     });
-    $(latest_fashion).html(item_rendered.join(''));
+    $(feature_item).html(item_rendered.join(''));
 }
 
 function renderHours(container, template, collection, type){
