@@ -1,6 +1,10 @@
-// function init() {
-//     renderHomeHours();
-// }
+function init() {
+    renderHomeHours();
+    
+    var feature_items = getFeatureList();
+    console.log(feature_items);
+    renderFeatureItems('#feature_item','#feature_item_template', feature_items);
+}
 
 function renderBanner(home_banner_template, home_banner, banners){
     var item_list = [];
@@ -41,9 +45,9 @@ function renderFeatureItems(latest_fashion, latest_fashion_template, feature_ite
     var template_html = $(latest_fashion_template).html();
     Mustache.parse(template_html); 
     $.each(feature_items, function(key, val) {
-        if (val.description.length  >= 100) {
-            val.description = val.description.substring(0,99) + "...";
-        }
+        // if (val.description.length  >= 100) {
+        //     val.description = val.description.substring(0,99) + "...";
+        // }
         if(val.url == "" || val.url === null){
            val.css = "style=cursor:default;";
            val.noLink = "return false";
