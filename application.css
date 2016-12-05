@@ -1,4 +1,6 @@
-
+.row {
+    width: 100%;
+}
 /********* 20 vic popups ***********/
 .mfp-content{
     width: 550px !important;
