@@ -1,0 +1,28 @@
+<style>
+    #error_msg {
+        text-align: center;
+    }
+</style>
+<div class="page_body">
+    <h1 class="page_title" id="page_title">Leasing</h1>
+    <hr>
+    <div id="page_body"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var pages_json = "//www.aberdeenmall.ca/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#page_title').html(data.title);
+                $('#page_body').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#error_msg").fadeIn("fast");
+                }
+            }); 
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
