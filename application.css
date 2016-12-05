@@ -395,27 +395,27 @@ legend{
     // width: 30%;
 }
 
-.bottom_nav .nav_site_map .nav_site_map_link{
-    overflow: auto\9;
-    column-count: 2;
-    text-align: justify;
-    -moz-column-count: 2;
-    -moz-column-gap: 1.5em;
-    -moz-column-rule: none;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 1.5em;
-    -webkit-column-rule: none;
-    padding-bottom: 15px;
-}
+// .bottom_nav .nav_site_map .nav_site_map_link{
+//     overflow: auto\9;
+//     column-count: 2;
+//     text-align: justify;
+//     -moz-column-count: 2;
+//     -moz-column-gap: 1.5em;
+//     -moz-column-rule: none;
+//     -webkit-column-count: 2;
+//     -webkit-column-gap: 1.5em;
+//     -webkit-column-rule: none;
+//     padding-bottom: 15px;
+// }
 
 .nav_site_map_link{
     height: 210px;
 }
 
-.bottom_nav .nav_site_map .nav_site_map_link .nav_sitemap_item{
-        width: auto;
-        margin-right: 0;
-        float:none;
+.bottom_nav .nav_site_map .nav_sitemap_item {
+    width: auto;
+    margin-right: 0;
+    float: none;
 }
 
 .bottom_nav .nav_site_map span{
