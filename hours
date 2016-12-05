@@ -15,11 +15,13 @@
     <h1 class="page_title">Holiday Hours</h1>
     <hr>
         
-    <div class="hour_table">
-        <div class="hour_row">    
-            <span class="hour_time pull-right">10:00am -  5:00pm</span>
-            <span class="hour_date">FAMILY DAY, Feb 08</span>  
-        </div>
+    <div class="hour_table" id="holiday_hours_container">
+        <script id="holiday_hours_template" type="x-tmpl-mustache/text">
+            <div class="hour_row">    
+                <span class="hour_time pull-right">{{h}}</span>
+                <span class="hour_date">{{holiday_name}}, {{formatted_date}}</span>  
+            </div>
+        </script>
     </div>
 </div>
 
