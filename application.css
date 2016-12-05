@@ -392,7 +392,7 @@ legend{
     float:left;
     width: 20%\9;    
     font-size:.9em;    
-    width: 30%;
+    // width: 30%;
 }
 
 .bottom_nav .nav_site_map .nav_site_map_link{
