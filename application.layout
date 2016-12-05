@@ -395,7 +395,7 @@
                     <p id="home_hours_container">
                         <script id="home_hours_template" type="x-tmpl-mustache/text">
                             {%raw%}
-                            <span class="hour_title">{{weekday}}</span>
+                            <span class="hour_title">{{day}}</span>
                             <span class="hour_info">{{h}}</span>
                             {%endraw%}
                         </script>
