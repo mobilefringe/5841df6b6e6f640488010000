@@ -39,5 +39,6 @@
         }
         loadMallData(renderAll);
         renderHomeHours();
+        renderFeatureItems();
     })
 </script>
