@@ -1035,6 +1035,10 @@ a.btn-prime {
     height: 448px;
 }
 
+.flex-control-nav.flex-control-paging {
+    display: none;
+}
+
 .flex-direction-nav a{
     background: url(/system/site_images/photos/000/000/098/original/bg_direction_nav.png?1365699774) no-repeat scroll 0 0 transparent
 }
