@@ -1316,7 +1316,7 @@ td.stores_pin{
     text-transform: uppercase;
 }
 .lowercase {
-    text-transform: inherit;
+    text-transform: initial;
 }
 .social_links{
     clear: both;
