@@ -131,10 +131,9 @@
                 <!--Top Nav Dynamic-->
                 <div class="top_nav hidden-xs custom_dropdown full_header">
                     <div class="brand_nav">
-                        <div class="trim_screen">
-                
-                
-                <div class="select_parent pull-right">
+                        <div class ="row">
+                            <div class="trim_screen">
+                                <div class="select_parent pull-right">
                 <label for="brand_select" style="display:none">select brand</label>
                     <select id="brand_select">
                         <option value="">Stores</option>
@@ -310,7 +309,11 @@
                         <option value="aberdeen-zumiez">Zumiez </option>
                         
                     </select>
-                </div>                 
+                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 	  	<div class="trim_screen nav_container">              
