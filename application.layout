@@ -439,7 +439,7 @@
                         <div class="row-fluid">
                             <div class="col-md-6">
                         
-                                <div id="nav_site_map_link_id" class="nav_site_map_link">
+                                <div id="nav_site_map_link_id">
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">STORES</span>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
@@ -470,7 +470,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div id="nav_site_map_link_id" class="nav_site_map_link">
+                                <div id="nav_site_map_link_id">
                 
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">ABOUT US</span>
