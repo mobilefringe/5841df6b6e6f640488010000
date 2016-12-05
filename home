@@ -16,6 +16,7 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
+            console.log(banners);
             renderBanner('#home_banner_template','#home_banner', banners);
             
             // var stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
