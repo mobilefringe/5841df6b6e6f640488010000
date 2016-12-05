@@ -1,0 +1,113 @@
+<div>
+    <h1 class="page_title">Careers</h1>
+    <hr>
+    
+    <!--<div class="accordion" id="accordion2">-->
+    <!--{% for job in property_jobs %}-->
+    <!--    <div class="accordion-group">-->
+    <!--        <div class="accordion-heading">            -->
+    <!--            <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{job.id}}" href="#collapse{{job.id}}">-->
+    <!--                <img ALT="arrow_down" class="pull-right" src="/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994" />-->
+    <!--                <h2 class="job_title">                        -->
+    <!--                    {% if site.secondary_locale != "" %}-->
+    <!--                        {% if site.secondary_locale == locale_session %}-->
+    <!--                            {{job.jobable.name | upcase}} - {{job.name_2}}-->
+    <!--                        {% else %}-->
+    <!--                            {{job.jobable.name | upcase}} - {{job.name}}-->
+    <!--                        {% endif %}-->
+    <!--                    {% else %}-->
+    <!--                        {{job.jobable.name | upcase}} - {{job.name}}-->
+    <!--                    {% endif %}      -->
+    <!--                </h2>-->
+    <!--                <h2 class="job_close_date">-->
+    <!--                    {% if site.id ==  28 %}-->
+    <!--                        {% if job.job_type == "Full Time" %}-->
+    <!--                            {{ "FullTime" | t | upcase }}-->
+    <!--                        {% elsif job.job_type == "Part Time" %}-->
+    <!--                            {{ "PartTime" | t  | upcase }}-->
+    <!--                        {% elsif job.job_type == "Part Time/Full Time" %}-->
+    <!--                            {{ "PartFull" | t  | upcase }}-->
+    <!--                        {% elsif job.job_type == "Seasonal" %}-->
+    <!--                            {{ "Seasonal" | t  | upcase }}-->
+    <!--                        {% endif %}-->
+    <!--                    {% else%}-->
+    <!--                        {% assign month = job.end_date | date: "%m"  %}-->
+    <!--                        {% if locale_session == "fr" %}-->
+    <!--                            {{ "ClosingDate" | t }}: {{ job.end_date | date: "%d" }} {{ month | get_month_short_translate | capitalize }}-->
+    <!--                        {% else %}-->
+    <!--                            {{ "ClosingDate" | t }}: {{ job.end_date | get_date | upcase }}-->
+    <!--                        {% endif %}-->
+    <!--                    {% endif %}-->
+    <!--                </h2>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div id="collapse{{job.id}}" class="accordion-body collapse">-->
+    <!--            <div class="accordion-inner">                        -->
+    <!--                <h2>-->
+    <!--                    {% if site.id ==  28 %}                         -->
+    <!--                        {{ "ClosingDate" | t }}: {{ job.end_date | get_date | upcase }}-->
+    <!--                    {% else%}-->
+    <!--                        {% if job.job_type == "Full Time" %}-->
+    <!--                            {{ "FullTime" | t | upcase }}-->
+    <!--                        {% elsif job.job_type == "Part Time" %}-->
+    <!--                            {{ "PartTime" | t  | upcase }}-->
+    <!--                        {% elsif job.job_type == "Part Time/Full Time" %}-->
+    <!--                            {{ "PartFull" | t  | upcase }}-->
+    <!--                        {% elsif job.job_type == "Seasonal" %}-->
+    <!--                            {{ "Seasonal" | t  | upcase }}-->
+    <!--                        {% endif %}-->
+    <!--                    {% endif %}-->
+    <!--                </h2>-->
+                    
+    <!--                {% if site.secondary_locale != "" %}-->
+    <!--                    {% if site.secondary_locale == locale_session %}-->
+    <!--                        {{ job.description_2}}-->
+    <!--                    {% else %}-->
+    <!--                        {{ job.description}}-->
+    <!--                    {% endif %}-->
+    <!--                {% else %}-->
+    <!--                    {{ job.description}}-->
+    <!--                {% endif %}  -->
+                    
+    <!--                {% if job.contact_name != "" %}-->
+    <!--                <p><strong>{{ "ContactName" | t }}:</strong> {{job.contact_name}}</p>-->
+    <!--                {% endif %}-->
+    <!--                {% if job.contact_phone != "" %}-->
+    <!--                <p><strong>{{ "ContactPhone" | t }}:</strong> {{job.contact_phone}}</p>-->
+    <!--                {% endif %}-->
+    <!--                {% if job.contact_email != "" %}-->
+    <!--                <p><strong>{{ "ContactEmail" | t }}:</strong> <a href="mailto:{{job.contact_email}}">{{job.contact_email}}</a></p>-->
+    <!--                {% endif %}-->
+                    
+    <!--                {% if can_edit == "true" %}-->
+    <!--                <a href="/jobs/{{job.id}}" class="btn btn-danger" data-confirm="Are you sure you want to delete this job?" data-method="delete" rel="nofollow">Delete Job</a>-->
+    <!--                <a href="/jobs/{{job.id}}/edit" class="btn btn-primary">Edit Job</a>                -->
+    <!--                {% endif %}-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div> -->
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var jobs = getJobsList().sortBy(function(o){ return o.name});
+            console.log(jobs);
+            var published_jobs = [];
+            $.each(jobs, function(key, val){
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    published_jobs.push(val);
+                } 
+            });
+            if(published_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', published_jobs);
+            }
+            else{
+                $('#no_jobs').show()
+            }
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
