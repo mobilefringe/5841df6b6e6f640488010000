@@ -416,7 +416,7 @@
                 <div class="feature_box" id="feature_item">
                     <script id="feature_item_template" type="x-tmpl-mustache/text">
                         <a href="{{url}}">
-                            <img ALT="feature_image" src="{{image_url}}" />
+                            <img alt="feature_image" src="{{image_url}}" />
                         </a>
                     </script>
                 </div>
