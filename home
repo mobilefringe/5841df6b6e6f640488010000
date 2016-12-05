@@ -13,7 +13,7 @@
 
 <script>
     $(document).ready(function(e){
-        init();
+        renderHomeHours();
         function renderAll(){
             var banners = getBanners();
             renderBanner('#home_banner_template','#home_banner', banners);
