@@ -22,7 +22,7 @@
                             <p><strong>"ContactName":</strong> {{contact_name}}</p>
                             {{/contact_name}}
                             {{#contact_phone}}
-                            <p><strong>{{ "ContactPhone" | t }}:</strong> {{job.contact_phone}}</p>
+                            <p><strong>{{ContactPhone:</strong> {{contact_phone}}</p>
                             {{/contact_phone}}
                             {{#contact_email}}
                             <p><strong>ContactEmail:</strong> <a href="mailto:{{contact_email}}">{{contact_email}}</a></p>
