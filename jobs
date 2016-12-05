@@ -27,7 +27,6 @@
                             {{#contact_email}}
                             <p><strong>Contact Email:</strong> <a href="mailto:{{contact_email}}">{{contact_email}}</a></p>
                             {{/contact_email}}
-
                         </div>
                     </div>
                 </div> 
