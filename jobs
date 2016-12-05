@@ -9,7 +9,7 @@
                     <div class="accordion-heading">            
                         <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
                             <img ALT="arrow_down" class="pull-right" src="//mallmaverick.com/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994" />
-                            <h2 class="job_title">{{name}}</h2>
+                            <h2 class="job_title">{{store_name}} - {{name}}</h2>
                             <h2 class="job_close_date">{{job_type}}</h2>
                         </div>
                     </div>
