@@ -359,9 +359,10 @@ legend{
 }
 
 .trim_screen{
+    margin: 0 auto;
+    padding: 0 10px;
     position: relative;
     max-width: 1005px;
-    padding:0 10px;
 }
 
 .container_body{
