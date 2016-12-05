@@ -389,38 +389,36 @@
     
     <footer>
         <div class="bottom_nav trim_screen">
-        	<div class="container-fluid trim_screen">
+        	<div class="trim_screen">
                 <div class="col-md-4">
-                    <div class="social_box ">  
-                        <div class="hidden-phone special_box">
-                            <label for="facebook_image_id">                     
-                                <img id="facebook_image_id" ALT="facebook_image" src="//aberdeenmall.ca/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />
-                                FACEBOOK
-                            </label>
-                            <div class="fb-like-box" data-href="//www.facebook.com/aberdeenmall" data-width="270" data-height="70" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
-                        </div>
-                        <div class="newsletter_box">
-                            <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
-                                <label for="newsletter_box_id">
-                                    <img id="newsletter_box_id" ALT="newsletter_box" src="//www.mallmaverick.com/system/site_images/photos/000/000/867/original/icon_subscription.png?1382641709"/>
-                                    SUBSCRIBE AND GET UPDATES
-                                </label>                
-                                <span>
-                                    Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!
-                                </span>
-                                <label for="fieldEmail" style="display:none"> subscribe email </label>
-                                <input id="fieldEmail" name=cm-ykoui-ykoui type="email" required placeholder="Your Email" />  
-                                <span>
-                                    <label style="display:none" for="agree_terms">Subscribe</label>
-                                    <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Aberdeen Mall
-                                    
-                                </span>
-                                <br/>                      
-                                <button class="btn"/>Subscribe</button>                      
-                                <br/>
-                                <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
-                            </form>
-                        </div>
+                    <div class="hidden-xs special_box">
+                        <label for="facebook_image_id">                     
+                            <img id="facebook_image_id" ALT="facebook_image" src="//aberdeenmall.ca/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />
+                            FACEBOOK
+                        </label>
+                        <div class="fb-like-box" data-href="//www.facebook.com/aberdeenmall" data-width="270" data-height="70" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+                    </div>
+                    <div class="newsletter_box">
+                        <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
+                            <label for="newsletter_box_id">
+                                <img id="newsletter_box_id" ALT="newsletter_box" src="//www.mallmaverick.com/system/site_images/photos/000/000/867/original/icon_subscription.png?1382641709"/>
+                                SUBSCRIBE AND GET UPDATES
+                            </label>                
+                            <span>
+                                Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!
+                            </span>
+                            <label for="fieldEmail" style="display:none"> subscribe email </label>
+                            <input id="fieldEmail" name=cm-ykoui-ykoui type="email" required placeholder="Your Email" />  
+                            <span>
+                                <label style="display:none" for="agree_terms">Subscribe</label>
+                                <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Aberdeen Mall
+                                
+                            </span>
+                            <br/>                      
+                            <button class="btn"/>Subscribe</button>                      
+                            <br/>
+                            <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
+                        </form>
                     </div>
                 </div>
                 
