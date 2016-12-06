@@ -646,6 +646,10 @@ legend{
     border-bottom: none;
     margin: 0px;
 }
+.nav-tabs > li {
+    width: 120px;
+    text-align: center;
+}
 
 ul.store_tabs{
     position: absolute;
@@ -654,7 +658,7 @@ ul.store_tabs{
 }
 
 ul.store_tabs li{
-    margin:0px;
+    margin: 0px;
 }
 
 ul.store_tabs li .arrow-down{
