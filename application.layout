@@ -435,9 +435,11 @@
                 <script id="home_feature_template" type="x-tmpl-mustache/text">
                     {%raw%}
                     <div class="col-md-6">
-                        <a href="{{url}}">
-                            <img alt="" src="{{image_url}}">
-                        </a> 
+                        <div class="img_container">
+                            <a href="{{url}}">
+                                <img alt="" src="{{image_url}}">
+                            </a>
+                        </div>
                     </div> 
                     {%endraw%}
                 </script>   
