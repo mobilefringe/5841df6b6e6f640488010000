@@ -1,0 +1,79 @@
+<div class="promo_page">
+    <div>
+        <h1 class="page_title">MALL PROMOTIONS</h1>
+        <hr>
+        <div class="store_promo" id="mall_promo_container">
+            <script id="mall_promo_template" type="x-tmpl-mustache/text">
+                <div id="{{id}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-content'>
+                    	<img alt="promo_image" src="{{event_image_url_abs}}"/>            	
+                	</div>
+                </div>
+                <a data-toggle="lightbox" href="#img{{slug}}">
+                    <img alt="promo_image" src="{{event_image_url_abs}}"/>            	
+                </a>
+                <div class="promo_info">
+                    <a href="/events/{{slug}}"><h2>{{name}}</h2></a>
+                    <span class="promo_date">{{dates}}</span>
+                    <div><p>{{{rich_description}}}</p></div>
+                </div>
+            </script>
+        </div>
+        <div class="line_break">&nbsp;</div>
+        <h1 class="page_title">STORE PROMOTIONS</h1>
+        <hr>
+        <div class="store_promo" id="events_container">
+            <script id="events_template" type="x-tmpl-mustache/text">
+                <div id="{{id}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-content'>
+                    	<img alt="promo_image" src="{{event_image_url_abs}}"/>            	
+                	</div>
+                </div>
+                <a data-toggle="lightbox" href="#img{{slug}}">
+                    <img alt="promo_image" src="{{event_image_url_abs}}"/>            	
+                </a>
+                <div class="promo_info">
+                    <a href="/events/{{slug}}"><h2>{{name}}</h2></a>
+                    <span class="promo_date">{{dates}}</span>
+                    <div><p>{{{rich_description}}}</p></div>
+                </div>
+            </script>
+        </div>
+        <div class="line_break">&nbsp;</div>
+        <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
+            console.log(promotions);
+            var mall_published_promos = [];
+            var store_published_promos = [];
+            $.each(promotions, function(key, val){
+                if(val.jobable_type == "Property"){
+                    today = moment();
+                    webDate = moment(val.show_on_web_date)
+                    if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                        mall_published_promos.push(val);
+                    }
+                } else {
+                    today = moment();
+                    webDate = moment(val.show_on_web_date)
+                    if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                        store_published_promos.push(val);
+                    }     
+                } 
+            });
+            if(mall_published_promos.length > 0 || store_published_promos.length > 0 ){
+                renderPromotions("#mall_promo_container","#mall_promo_template", mall_published_promos);
+                renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
+            }
+            else{
+                $('#no_promos').show()
+            }
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
