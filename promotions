@@ -37,11 +37,11 @@
                             	<img alt="promo_image" src="{{promo_image_url_abs}}"/>            	
                         	</div>
                         </div>
-                    </div>
-                    <div class"col-md-9">
-                        <a data-toggle="lightbox" href="#img{{slug}}">
+                         <a data-toggle="lightbox" href="#img{{slug}}">
                             <img alt="promo_image" src="{{promo_image_url_abs}}"/>            	
                         </a>
+                    </div>
+                    <div class"col-md-9">
                         <div class="promo_info">
                             <a href="/events/{{slug}}"><h2>{{name}}</h2></a>
                             <span class="promo_date">{{dates}}</span>
