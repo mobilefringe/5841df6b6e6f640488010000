@@ -22,8 +22,8 @@
         <div class="line_break">&nbsp;</div>
         <h1 class="page_title">STORE PROMOTIONS</h1>
         <hr>
-        <div class="store_promo" id="events_container">
-            <script id="events_template" type="x-tmpl-mustache/text">
+        <div class="store_promo" id="store_promo_container">
+            <script id="store_promo_template" type="x-tmpl-mustache/text">
                 <div id="{{id}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                     <div class='lightbox-content'>
                     	<img alt="promo_image" src="{{event_image_url_abs}}"/>            	
