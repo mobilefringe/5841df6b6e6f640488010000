@@ -1,4 +1,4 @@
-<div>
+
     <h1 class="page_title">Careers</h1>
     <hr>
     
@@ -70,7 +70,7 @@
     <div class="col-md-12">
         <h3 id="no_jobs" class="hidden_now">There are currently no jobs available, please check back again later.</h3>
     </div>
-</div>
+
 <script>
     $(document).ready(function(e){
         init(e);
