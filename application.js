@@ -232,7 +232,7 @@ function renderEvents(container, template, collection){
         }
         else {
             val.store_name = "Aberdeen Mall Kamloops";
-            val.event_image_url = event_image_url_abs;
+            val.event_image_url = val.event_image_url_abs;
         }
         if(val.event_image_url.indexOf('missing.png') < 0){
             val.event_image_url = val.logo;
