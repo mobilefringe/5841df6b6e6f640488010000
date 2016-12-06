@@ -59,7 +59,7 @@
                             <p><strong>Contact Email:</strong> <a href="mailto:{{contact_email}}">{{contact_email}}</a></p>
                             {{/contact_email}}
                             {{#store_slug}}
-                            <p><strong><a href="{{store_slug}}">View Store: {{store_name}}</a></strong><p>
+                            <strong><a href="{{store_slug}}">View Store: {{store_name}}</a></strong>
                             {{/store_slug}}
                         </div>
                     </div>
