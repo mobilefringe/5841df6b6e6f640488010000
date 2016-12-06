@@ -391,7 +391,7 @@
     
             <div class="col-md-3">
                 <div class="hour_box">  
-                    <div>
+                    <!--<div>-->
                         <label for="hours_today" class="feature_label">HOURS TODAY</label>
                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                         <p id="home_hours_container">
@@ -410,7 +410,7 @@
                             </span>
                         </p>
                         <a href="/hours" class="check_hours">Check Holiday Hours</a>
-                    </div>
+                    <!--</div>-->
                 </div> 
                 <div class="right_feature_box">
                     <span class="feature_label"></span>   
