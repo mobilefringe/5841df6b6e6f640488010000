@@ -183,8 +183,12 @@ h1.page_title{
 }
 
 h2 {
-    color:black;
-    font-family:futura_condensed;
+    margin: 0;
+    padding: 0;
+    font-size: 18pt;
+    color: #000;
+    font-family: futura_condensed;
+    line-height: 25px;
 }
 
 h3 {
@@ -1223,8 +1227,10 @@ hr{
     margin-right:1%;
 }
 
-.store_promo h2{
+.store_promo h2 {
+    margin: 0;
     padding-bottom: 5px;
+    font-size: 18pt;
     font-weight: lighter;
 }
 
