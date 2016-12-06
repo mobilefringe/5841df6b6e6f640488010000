@@ -775,7 +775,7 @@ a.btn-prime {
   font-family: inherit;
   
     margin: 2px;
-    min-width: 22px;
+    // min-width: 22px;
     border-radius: 4px;
     height: 36px;
     border: none;
