@@ -1232,7 +1232,9 @@ hr{
     font-size: 18pt;
     font-weight: lighter;
 }
-
+.store_promo p {
+    margin: 0;
+}
 .promo_date{
     color: #ff0000;
     font-family:futura_condensed;
