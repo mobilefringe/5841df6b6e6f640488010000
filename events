@@ -23,34 +23,34 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        // function renderAll(){
-        //     var jobs = getJobsList().sortBy(function(o){ return o.store_name});
-        //     console.log(jobs);
-        //     var mall_published_jobs = [];
-        //     var store_published_jobs = [];
-        //     $.each(jobs, function(key, val){
-        //         if(val.jobable_type == "Property"){
-        //             today = moment();
-        //             webDate = moment(val.show_on_web_date)
-        //             if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
-        //                 mall_published_jobs.push(val);
-        //             }
-        //         } else {
-        //             today = moment();
-        //             webDate = moment(val.show_on_web_date)
-        //             if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
-        //                 store_published_jobs.push(val);
-        //             }     
-        //         }
-        //     });
-        //     if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
-        //         renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
-        //         renderJobs('#store_jobs_container', '#store_jobs_template', store_published_jobs);
-        //     }
-        //     else {
-        //         $('#no_jobs').show()
-        //     }
-        // }
-        // loadMallDataCached(renderAll); 
+        function renderAll(){
+            // var jobs = getJobsList().sortBy(function(o){ return o.store_name});
+            // console.log(jobs);
+            // var mall_published_jobs = [];
+            // var store_published_jobs = [];
+            // $.each(jobs, function(key, val){
+            //     if(val.jobable_type == "Property"){
+            //         today = moment();
+            //         webDate = moment(val.show_on_web_date)
+            //         if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+            //             mall_published_jobs.push(val);
+            //         }
+            //     } else {
+            //         today = moment();
+            //         webDate = moment(val.show_on_web_date)
+            //         if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+            //             store_published_jobs.push(val);
+            //         }     
+            //     }
+            // });
+            // if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
+            //     renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
+            //     renderJobs('#store_jobs_container', '#store_jobs_template', store_published_jobs);
+            // }
+            // else {
+            //     $('#no_jobs').show()
+            // }
+        }
+        loadMallDataCached(renderAll); 
     })
 </script>
