@@ -1,20 +1,22 @@
 <div class="main_content trim_screen">
     <h1 class="page_title">Mall Events</h1>
     <hr>
-    <div class="store_promo">
-        <div id="{{}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-            <div class='lightbox-content'>
-            	<img alt="promo_image" src="{{}}"/>            	
-        	</div>
-        </div>
-        <a data-toggle="lightbox" href="#img{{}}">
-            <img alt="promo_image" src="{{}}"/>            	
-        </a>
-        <div class="promo_info">
-            <a href="{{}}"><h2>{{}}</h2></a>
-            <span class="promo_date">{{}}</span>
-            <div><p>{{{rich_description}}}.</p></div>
-        </div>
+    <div class="store_promo" id="events_container">
+        <script id="events_template" type="x-tmpl-mustache/text">
+            <div id="{{}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                <div class='lightbox-content'>
+                	<img alt="promo_image" src="{{}}"/>            	
+            	</div>
+            </div>
+            <a data-toggle="lightbox" href="#img{{}}">
+                <img alt="promo_image" src="{{}}"/>            	
+            </a>
+            <div class="promo_info">
+                <a href="{{}}"><h2>{{}}</h2></a>
+                <span class="promo_date">{{}}</span>
+                <div><p>{{{rich_description}}}.</p></div>
+            </div>
+        </script>
     </div>
     <div class="col-md-12">
         <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
