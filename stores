@@ -54,7 +54,7 @@
                             <div class="stores_row store_row_name">
                                 <a href="/stores/{{slug}}">{{name}}</a>
                             </div>
-                            <div class="pull-right stores_row">
+                            <div class="pull-right stores_row stores_row_phone">
                                 <span style="{{promotion_exist}}">
                                     <img alt="" src="//www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332"/>
                                 </span>
