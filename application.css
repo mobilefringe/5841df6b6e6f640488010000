@@ -599,7 +599,7 @@ legend{
 
 
 .stores_row{
-    display: inline-block;
+    display: inline;
 	border-bottom-color: white; 
 	border-top-color: white; 
 	background-color: white;
@@ -611,8 +611,9 @@ legend{
     cursor: pointer;    
 }
 
-.store_row_name{
-   color:gray;   
+.store_row_name {
+    display: inline;
+    color:gray;   
 }
 
 .store_row_name a{
