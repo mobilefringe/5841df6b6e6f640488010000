@@ -1639,8 +1639,8 @@ td.stores_pin{
         width: 49%;
         margin: 0px 0 10px 0;
         position: absolute;
-        top: 0px;
-        right:0px;
+        top: 0;
+        right: 10px;
     }
     .hour_box p{
         font-size: 1.4em;
