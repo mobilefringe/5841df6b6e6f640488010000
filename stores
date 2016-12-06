@@ -76,16 +76,28 @@
         }
         loadMallDataCached(renderAll); 
         
-        $(".switch_store button").click(function(){
-            $("#category").hide();
-            $("#list").show();    
-            location.hash = "#" + $(this).text();
+        $(".store_tab").hide();
+        
+        $(".category_tab a").click(function(){
+            $(".category_tab").hide();
+            $(".store_tab").show();
         })
         
-        $(".switch_category button").click(function(){            
-            $("#list").hide();            
-            $("#category").show();
-            location.hash = "#" + $(this).attr("name");
+        $(".store_tab a").click(function(){
+            $(".store_tab").hide();
+            $(".category_tab").show();            
         })
+        
+        // $(".switch_store button").click(function(){
+        //     $("#category").hide();
+        //     $("#list").show();    
+        //     location.hash = "#" + $(this).text();
+        // })
+        
+        // $(".switch_category button").click(function(){            
+        //     $("#list").hide();            
+        //     $("#category").show();
+        //     location.hash = "#" + $(this).attr("name");
+        // })
     })
 </script>
