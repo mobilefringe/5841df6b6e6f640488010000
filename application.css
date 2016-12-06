@@ -857,6 +857,9 @@ a.btn-prime {
     color: #000;
 }
 
+.accordion-heading h2 .job_close_date {
+    text-transform: uppercase;
+}
 .accordion-heading font{
     line-height:1.25em;
     text-align:right;
