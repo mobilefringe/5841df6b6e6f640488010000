@@ -891,9 +891,11 @@ a.btn-prime {
 .accordion-inner ul {
     margin: 0 0 10px 25px;
     padding: 0;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 18px;
+}
+.accordion-inner ul li {
+    // font-size: 13px;
+    // font-weight: normal;
+    // line-height: 18px;
 }
 .thumbnail{
     border-radius:0px;
