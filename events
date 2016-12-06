@@ -12,9 +12,9 @@
                 <img alt="promo_image" src="{{}}"/>            	
             </a>
             <div class="promo_info">
-                <a href="{{}}"><h2>{{}}</h2></a>
-                <span class="promo_date">{{}}</span>
-                <div><p>{{{rich_description}}}.</p></div>
+                <a href="{{slug}}"><h2>{{name}}</h2></a>
+                <span class="promo_date">{{dates}}</span>
+                <div><p>{{{rich_description}}}</p></div>
             </div>
         </script>
     </div>
