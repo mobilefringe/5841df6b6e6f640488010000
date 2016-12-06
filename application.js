@@ -316,7 +316,7 @@ function renderPromotions(container, template, collection){
         }
         else{
             val.store_name = "Aberdeen Mall Kamloops";
-            val.image_url = "";
+            // val.image_url = "";
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
