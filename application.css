@@ -848,9 +848,11 @@ a.btn-prime {
     float:right;
 }
 
-.accordion-group{
-	background-color:white;
-	border: solid 1px black;        
+.accordion-group { 
+    margin-bottom: 20px;
+    padding-top: 2px;
+	background-color: #fff;
+	border: solid 1px #000;        
 	box-shadow: none;
     border-radius: 0;
 }
