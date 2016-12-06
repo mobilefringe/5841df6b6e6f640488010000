@@ -25,25 +25,25 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        function renderAll(){
-            var events = getEventsList().sortBy(function(o){ return o.start_date });
-            console.log(events);
-            var prop = getPropertyDetails();
-            var published_events = [];
-            $.each(events, function(key, val){
-                today = moment();
-                webDate = moment(val.show_on_web_date)
-                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
-                    published_events.push(val);
-                } 
-            });
-            if(published_events.length > 0){
-                renderEvents("#events_container","#events_template", published_events);
-            }
-            else{
-                $('#no_events').show()
-            }
-        }
+        // function renderAll(){
+        //     var events = getEventsList().sortBy(function(o){ return o.start_date });
+        //     console.log(events);
+        //     var prop = getPropertyDetails();
+        //     var published_events = [];
+        //     $.each(events, function(key, val){
+        //         today = moment();
+        //         webDate = moment(val.show_on_web_date)
+        //         if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+        //             published_events.push(val);
+        //         } 
+        //     });
+        //     if(published_events.length > 0){
+        //         renderEvents("#events_container","#events_template", published_events);
+        //     }
+        //     else{
+        //         $('#no_events').show()
+        //     }
+        // }
         loadMallDataCached(renderAll); 
     })
 </script>
