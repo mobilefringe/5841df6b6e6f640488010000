@@ -549,6 +549,7 @@ legend{
     margin-left: -15px;
     margin-right: -15px;
 }
+
 .banner{
 	background-color:white;
     position:relative;
@@ -1226,9 +1227,7 @@ hr{
     color: #4c4c4c;    
 }
 
-.store_promo{
-    margin-top: 15px;
-    margin-left: -15px;
+.store_promo {
     margin-right: -15px;
 }
 
