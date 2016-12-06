@@ -3,8 +3,8 @@
     <hr>
     
     <div class="accordion" id="accordion2">
-        <div id="jobs_container">
-            <script id="jobs_template" type="x-tmpl-mustache/text">
+        <div id="mall_jobs_container">
+            <script id="mall_jobs_template" type="x-tmpl-mustache/text">
                 <div class="accordion-group">
                     <div class="accordion-heading">            
                         <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
@@ -32,6 +32,41 @@
                 </div> 
         </script>
     </div>
+    
+    <div class="accordion" id="accordion2">
+        <div id="store_jobs_container">
+            <script id="store_jobs_template" type="x-tmpl-mustache/text">
+                <div class="accordion-group">
+                    <div class="accordion-heading">            
+                        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
+                            <img ALT="arrow_down" class="pull-right" src="//mallmaverick.com/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994" />
+                            <h2 class="job_title">{{store_name}} - {{name}}</h2>
+                            <h2 class="job_close_date">{{job_type}}</h2>
+                        </div>
+                    </div>
+                    <div id="collapse{{id}}" class="accordion-body collapse">
+                        <div class="accordion-inner">                        
+                            <h2>Closing Date: {{end_date}}</h2>
+                            <p>&nbsp;</p>
+                            <p>{{{rich_description}}}</p>
+                            {{#contact_name}}
+                            <p><strong>Contact Name:</strong> {{contact_name}}</p>
+                            {{/contact_name}}
+                            {{#contact_phone}}
+                            <p><strong>{{Contact Phone:</strong> {{contact_phone}}</p>
+                            {{/contact_phone}}
+                            {{#contact_email}}
+                            <p><strong>Contact Email:</strong> <a href="mailto:{{contact_email}}">{{contact_email}}</a></p>
+                            {{/contact_email}}
+                        </div>
+                    </div>
+                </div> 
+        </script>
+    </div>
+    
+    <div class="col-md-12">
+        <h3 id="no_jobs" class="hidden_now">There are currently no jobs available, please check back again later.</h3>
+    </div>
 </div>
 <script>
     $(document).ready(function(e){
@@ -48,7 +83,8 @@
                 } 
             });
             if(published_jobs.length > 0){
-                renderJobs('#jobs_container', '#jobs_template', published_jobs);
+                renderMallJobs('#mall_jobs_container', '#mall_jobs_template', published_jobs);
+                renderJobs('#store_jobs_container', '#store_jobs_template', published_jobs);
             }
             else{
                 $('#no_jobs').show()
