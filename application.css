@@ -611,11 +611,6 @@ legend{
     cursor: pointer;    
 }
 
-.store_row .store_phone a {
-    color: inherit;
-    text-decoration: none;
-}
-
 .store_row_name {
     display: inline;
     color:gray;   
@@ -649,6 +644,9 @@ legend{
     width: auto;
 }
 
+.stores_row_phone a {
+    color: gray;
+}
 .nav-tabs {
     border-bottom: none;
     margin: 0px;
