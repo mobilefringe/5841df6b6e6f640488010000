@@ -19,9 +19,7 @@
             </div>
         </script>
     </div>
-    <div class="col-md-12">
-        <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
-    </div>
+    <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
 </div>
 <scipt src="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></scipt>
 <script>
