@@ -759,7 +759,7 @@ a.btn-prime {
     margin-bottom: 3px;
 }
 
-.alphabet_bg .btn-secondary{
+.alphabet_bg .btn-secondary {
     padding: 0 5.75px;
 }
 
@@ -769,10 +769,20 @@ a.btn-prime {
 }
 
 .btn-secondary {
-  background-color: white;
-  background-image:url(PRIMARY_NAV_IMAGE);
-  color:black;
-  font-family:inherit;
+  background-color: #fff;
+  background-image:url("//www.mallmaverick.com/primary_nav_images/original/missing.png");
+  color: #000;
+  font-family: inherit;
+  
+    margin: 2px;
+    min-width: 22px;
+    border-radius: 4px;
+    height: 36px;
+    border: none;
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    font-size: 14pt;
+    font-weight: bold;
 }
 
 .btn-social {
