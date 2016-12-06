@@ -599,6 +599,7 @@ legend{
 
 
 .stores_row{
+    display: inline-block;
 	border-bottom-color: white; 
 	border-top-color: white; 
 	background-color: white;
@@ -1661,7 +1662,7 @@ td.stores_pin{
         padding-top: 5px;
     }
     
-    .stores_row{
+    .stores_row {
         width: auto;
     }
 }
