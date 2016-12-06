@@ -429,8 +429,8 @@
     </div>
     
     <div class="line_break">&nbsp;</div>
-    <div class="row">
-        <div class="trim_screen">
+    <div class="trim_screen">
+        <div class="row">
             <div id="home_feature">
                 <script id="home_feature_template" type="x-tmpl-mustache/text">
                     {%raw%}
