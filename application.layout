@@ -386,7 +386,7 @@
     <div class="trim_screen">
         <div class="row-fluid">
             <div class="col-md-9">
-                {{yield}}
+                
             </div>
     
             <div class="col-md-3">
