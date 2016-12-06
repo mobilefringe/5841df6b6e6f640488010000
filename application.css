@@ -1606,6 +1606,10 @@ td.stores_pin{
     .trim_screen {
         padding: 0 10px;
     }
+    
+    .img_container {
+        margin-bottom: 10px;
+    }
     .container_body{
         min-height: 100%;
     }
