@@ -651,6 +651,18 @@ legend{
     text-align: center;
 }
 
+.nav-tabs>li>a {
+    margin: 0px;
+    color: #FFF;
+    font-size: 14pt;
+    background-color: #282828;
+    border-style: none;
+    border: none;
+    background-image: url(//www.mallmaverick.com/assets/top_nav_background.png);
+    background-size: 100% 55px;
+    background-repeat: repeat-x;
+}
+
 ul.store_tabs{
     position: absolute;
     right: 0px;  
