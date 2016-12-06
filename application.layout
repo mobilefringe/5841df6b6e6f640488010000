@@ -384,7 +384,7 @@
     </header>
     
     <div class="trim_screen">
-        <div class="row-fluid">
+        <div class=" main_content row-fluid">
             <div class="col-md-9">
                 {{yield}}
             </div>
