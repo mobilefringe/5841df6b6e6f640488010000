@@ -18,7 +18,7 @@
                     <span class="promo_date">{{dates}}</span>
                     <div><p>{{{rich_description}}}</p></div>
                 </div>
-            <div>
+            </div>
         </script>    
     </div>
     <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
