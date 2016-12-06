@@ -846,6 +846,7 @@ a.btn-prime {
 .accordion-group h2{
     margin: 0;
     line-height:.6em;
+    font-family: futura_condensed;
     font-size: 18pt;
     font-weight:lighter;
     // color:#f57b2b;
@@ -859,7 +860,6 @@ a.btn-prime {
 
 .accordion-heading h2.job_close_date {
     color: #ff0000;
-    font-family: futura_condensed;
     text-transform: uppercase;
 }
 
