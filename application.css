@@ -850,7 +850,7 @@ a.btn-prime {
     font-family: futura_condensed;
     font-size: 18pt;
     font-weight:lighter;
-    // color:#f57b2b;
+    color:#f57b2b;
 }
 
 .accordion-heading h2.job_title {
@@ -888,6 +888,13 @@ a.btn-prime {
     border: 0px;
 }
 
+.accordion-inner ul {
+    margin: 0 0 10px 25px;
+    padding: 0;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+}
 .thumbnail{
     border-radius:0px;
     border:none;
