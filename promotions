@@ -43,7 +43,7 @@
                     </div>
                     <div class="col-md-9">
                         <div class="promo_info">
-                            <a href="/events/{{slug}}"><h2>{{name}}</h2></a>
+                            <a href="/promotions/{{slug}}"><h2>{{name}}</h2></a>
                             <span class="promo_date">{{dates}}</span>
                             <div><p>{{{rich_description}}}</p></div>
                         </div>
