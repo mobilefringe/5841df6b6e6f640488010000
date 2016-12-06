@@ -1277,6 +1277,11 @@ hr{
     // width:72%;
 }
 
+.promo_info a {
+    color: inherit;
+    text-decoration: none;   
+}
+
 /************** map *************/
 .demo1{
     box-shadow:none;
