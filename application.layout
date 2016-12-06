@@ -383,48 +383,48 @@
 		</div>          
     </header>
     
-    <div class="container-fluid trim_screen">
-         <div class="container_body">
-            {{yield}}
-        </div>
-        <div class="right_box">
-            <div class="hour_box">  
-                <div>
-                    <label for="hours_today" class="feature_label">HOURS TODAY</label>
-                    <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                    <p id="home_hours_container">
-                        <script id="home_hours_template" type="x-tmpl-mustache/text">
-                            {%raw%}
-                            <span class="hour_title">{{weekday}}</span>
-                            <span class="hour_info">{{h}}</span>
-                            {%endraw%}
-                        </script>
-                    </p>
-                    <p>
-                        <span class="hour_title">Call</span>
-                        <span class="hour_info hidden-xs">(250) 374.3400</span>
-                        <span class="hour_info visible-xs-inline-block">
-                            <a href="tel:(250) 374.3400">(250) 374.3400</a>    
-                        </span>
-                    </p>
-                    <a href="/hours" class="check_hours">Check Holiday Hours</a>
-                </div>
+    <!--<div class="container-fluid trim_screen">-->
+    <!--     <div class="container_body">-->
+    <!--        {{yield}}-->
+    <!--    </div>-->
+    <!--    <div class="right_box">-->
+    <!--        <div class="hour_box">  -->
+    <!--            <div>-->
+    <!--                <label for="hours_today" class="feature_label">HOURS TODAY</label>-->
+    <!--                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+    <!--                <p id="home_hours_container">-->
+    <!--                    <script id="home_hours_template" type="x-tmpl-mustache/text">-->
+    <!--                        {%raw%}-->
+    <!--                        <span class="hour_title">{{weekday}}</span>-->
+    <!--                        <span class="hour_info">{{h}}</span>-->
+    <!--                        {%endraw%}-->
+    <!--                    </script>-->
+    <!--                </p>-->
+    <!--                <p>-->
+    <!--                    <span class="hour_title">Call</span>-->
+    <!--                    <span class="hour_info hidden-xs">(250) 374.3400</span>-->
+    <!--                    <span class="hour_info visible-xs-inline-block">-->
+    <!--                        <a href="tel:(250) 374.3400">(250) 374.3400</a>    -->
+    <!--                    </span>-->
+    <!--                </p>-->
+    <!--                <a href="/hours" class="check_hours">Check Holiday Hours</a>-->
+    <!--            </div>-->
             </div> <!-- END of hour_box -->
             
-            <div class="right_feature_box">
-                <span class="feature_label"></span>   
-                <div class="feature_box" id="feature_item">
-                    <script id="feature_item_template" type="x-tmpl-mustache/text">
-                        {%raw%}
-                        <a href="{{url}}">
-                            <img alt="feature_image" src="{{image_url}}" />
-                        </a>
-                        {%endraw%}
-                    </script>
-                </div>
-            </div>                
-        </div>
-    </div>
+    <!--        <div class="right_feature_box">-->
+    <!--            <span class="feature_label"></span>   -->
+    <!--            <div class="feature_box" id="feature_item">-->
+    <!--                <script id="feature_item_template" type="x-tmpl-mustache/text">-->
+    <!--                    {%raw%}-->
+    <!--                    <a href="{{url}}">-->
+    <!--                        <img alt="feature_image" src="{{image_url}}" />-->
+    <!--                    </a>-->
+    <!--                    {%endraw%}-->
+    <!--                </script>-->
+    <!--            </div>-->
+    <!--        </div>                -->
+    <!--    </div>-->
+    <!--</div>-->
     
     <div class="line_break">&nbsp;</div>
     <div class="row">
