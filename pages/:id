@@ -7,6 +7,7 @@
     <h1 class="page_title" id="page_title">Leasing</h1>
     <hr>
     <div id="page_body"></div>
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
