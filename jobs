@@ -91,7 +91,7 @@
                     }     
                 }
             });
-            if(mall_published_jobs.length > 1 || store_published_jobs.length > 0 ){
+            if(mall_published_jobs.length > 5 || store_published_jobs.length > 0 ){
                 renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
                 renderJobs('#store_jobs_container', '#store_jobs_template', store_published_jobs);
             }
