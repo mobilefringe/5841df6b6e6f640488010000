@@ -84,7 +84,7 @@
             });
             if(published_jobs.length > 0){
                 renderMallJobs('#mall_jobs_container', '#mall_jobs_template', published_jobs);
-                renderJobs('#store_jobs_container', '#store_jobs_template', published_jobs);
+                // renderJobs('#store_jobs_container', '#store_jobs_template', published_jobs);
             }
             else{
                 $('#no_jobs').show()
