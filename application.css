@@ -1618,6 +1618,7 @@ td.stores_pin{
     }
     .hour_box{
         margin-left: 2%;
+        margin-bottom: 0;
         width: 45%;
         height: 173px;
     }
@@ -1636,6 +1637,7 @@ td.stores_pin{
     
     
     .right_feature_box{
+        margin: 0;
         width: 45%;
         // margin: 0px 0 10px 0;
         position: absolute;
