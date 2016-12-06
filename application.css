@@ -967,7 +967,10 @@ a.btn-prime {
     width:92%;
 }
 
-.right_feature_box .feature_label, .hour_box .feature_label{
+.hour_box .feature_label {
+    top: -15px;
+}
+.right_feature_box .feature_label {
     top:0;
 }
 
