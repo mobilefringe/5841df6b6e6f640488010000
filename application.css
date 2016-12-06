@@ -1235,6 +1235,11 @@ hr{
 .store_promo p {
     // margin: 0;
 }
+
+.promo_header {
+    display: inline-block;
+}
+
 .promo_date{
     color: #ff0000;
     font-family:futura_condensed;
