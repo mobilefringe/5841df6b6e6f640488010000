@@ -87,17 +87,5 @@
             $(".store_tab").hide();
             $(".category_tab").show();            
         })
-        
-        // $(".switch_store button").click(function(){
-        //     $("#category").hide();
-        //     $("#list").show();    
-        //     location.hash = "#" + $(this).text();
-        // })
-        
-        // $(".switch_category button").click(function(){            
-        //     $("#list").hide();            
-        //     $("#category").show();
-        //     location.hash = "#" + $(this).attr("name");
-        // })
     })
 </script>
