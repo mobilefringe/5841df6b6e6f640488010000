@@ -3,8 +3,8 @@
     <h1 class="page_title">Mall Events</h1>
     <hr>
     <div class="store_promo" id="events_container">
-        <div class="store_promo_container">
-            <script id="events_template" type="x-tmpl-mustache/text">
+        <script id="events_template" type="x-tmpl-mustache/text">
+            <div class="store_promo_container">
                 <div id="{{id}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                     <div class='lightbox-content'>
                     	<img alt="promo_image" src="{{event_image_url_abs}}"/>            	
@@ -18,8 +18,8 @@
                     <span class="promo_date">{{dates}}</span>
                     <div><p>{{{rich_description}}}</p></div>
                 </div>
-            </script>    
-        </div>
+            <div>
+        </script>    
     </div>
     <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
 </div>
