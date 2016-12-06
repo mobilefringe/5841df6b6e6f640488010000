@@ -845,8 +845,9 @@ a.btn-prime {
 
 .accordion-group h2{
     line-height:.6em;
+    font-size: 18pt;
     font-weight:lighter;
-    color:#f57b2b;
+    // color:#f57b2b;
 }
 
 .accordion-heading h2.job_title{
