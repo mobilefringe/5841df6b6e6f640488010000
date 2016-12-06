@@ -1233,7 +1233,7 @@ hr{
     font-weight: lighter;
 }
 .store_promo p {
-    margin: 0;
+    // margin: 0;
 }
 .promo_date{
     color: #ff0000;
