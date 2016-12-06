@@ -857,9 +857,13 @@ a.btn-prime {
     color: #000;
 }
 
-.accordion-heading h2 .job_close_date {
+.accordion-heading h2.job_close_date {
+    color: #ff0000;
+    font-family: futura_condensed;
+    font-size: 8pt;
     text-transform: uppercase;
 }
+
 .accordion-heading font{
     line-height:1.25em;
     text-align:right;
@@ -1199,11 +1203,7 @@ hr{
     font-size:18pt;
 }
 
-h2.job_close_date{
-    color: #ff0000;
-    font-family:futura_condensed;
-    font-size:18pt;
-}
+
 
 .promo_info{
     float:left;
