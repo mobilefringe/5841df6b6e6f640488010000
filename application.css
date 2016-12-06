@@ -642,6 +642,10 @@ legend{
     width: auto;
 }
 
+.nav-tabs {
+    border-bottom: none;
+    margin: 0px;
+}
 
 ul.store_tabs{
     position: absolute;
