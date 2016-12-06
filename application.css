@@ -898,13 +898,19 @@ a.btn-prime {
     font-weight: normal;
     line-height: 20px;
 }
+.accordion-inner a {
+    color: inherit;
+    text-decoration: none;    
+}
+
+.accordion-inner a:hover {
+    text-decoration: none;    
+}
 .thumbnail{
     border-radius:0px;
     border:none;
 	background-color: transparent;
 }
-
-
 
 .edit_btn{
     position: absolute;
