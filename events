@@ -13,7 +13,7 @@
                 <img alt="promo_image" src="{{event_image_url_abs}}"/>            	
             </a>
             <div class="promo_info">
-                <a href="{{slug}}"><h2>{{name}}</h2></a>
+                <a href="/events/{{slug}}"><h2>{{name}}</h2></a>
                 <span class="promo_date">{{dates}}</span>
                 <div><p>{{{rich_description}}}</p></div>
             </div>
