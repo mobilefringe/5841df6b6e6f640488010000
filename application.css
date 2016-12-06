@@ -681,8 +681,8 @@ ul.store_tabs li .arrow-down{
     border-top: 10px solid #fff;
     position: absolute;
     z-index:910;
-    right:5px;
-    top:10px
+    right: 10px;
+    top: 10px
 }
 
 ul.store_tabs li a, 
