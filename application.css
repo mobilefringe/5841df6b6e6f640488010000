@@ -826,9 +826,21 @@ a.btn-prime {
 }
 /********* dropdown menu end *********/
 
+.accordion {
+    margin-bottom: 20px;
+}
 
 .accordion-heading{
-    height:75px;
+    height: 75px;
+}
+
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 8px 15px;
+}
+
+.accordion-toggle {
+    cursor: pointer;
 }
 
 .accordion-group h2{
