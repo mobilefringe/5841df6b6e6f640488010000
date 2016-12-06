@@ -666,13 +666,11 @@ ul.store_tabs li .arrow-down{
     height: 0; 
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid white;
-    
+    border-top: 10px solid #fff;
     position: absolute;
     z-index:910;
     right:5px;
     top:10px
-    
 }
 
 ul.store_tabs li a, 
