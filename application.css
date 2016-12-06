@@ -1132,6 +1132,10 @@ a.btn-prime {
     float: right;
 }
 
+.feature_links {
+    margin-left: -15px;
+    margin-right: -15px;
+}
 
 @media (max-width: 800px) {
 }
