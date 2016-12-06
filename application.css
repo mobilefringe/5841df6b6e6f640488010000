@@ -857,7 +857,7 @@ a.btn-prime {
     color: #000;
 }
 
-.accordion-heading h2.job_title.store_name {
+.accordion-heading h2.job_title .store_name {
     text-transform: uppercase;
 }
 
