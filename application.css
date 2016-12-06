@@ -1622,12 +1622,15 @@ td.stores_pin{
         width: 45%;
         height: 173px;
     }
+    .hour_box .feature_label {
+        top: 0;
+    }
     .hour_box div{
         padding-top: 25px;
     }
     .hour_box p{
         font-size:1.5em;
-        margin:7px 0px 0px;
+        // margin:7px 0px 0px;
     }
     
     .feature_label{
