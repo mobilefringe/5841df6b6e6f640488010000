@@ -1246,7 +1246,10 @@ hr{
     font-size:18pt;
 }
 
-
+.promo_back {
+    float: right;
+    margin-top: 57px;
+}
 
 .promo_info{
     float:left;
