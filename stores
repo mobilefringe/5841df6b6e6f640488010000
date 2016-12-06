@@ -44,6 +44,29 @@
                     <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
                     <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
                 </div>
+                <div class="store_list" id="store_list_container">
+                    <script id="store_list_template" type="x-tmpl-mustache/text">
+                        <div class="store_list_content">
+                            <div class="stores_table_headers" style="{{show}}">
+                                <a id="{{initial}}">{{initial}}</a>
+                                <a href="#top" class="pull-right stores_gotop">
+                                    <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                </a>
+                            </div>
+                            <div class="store_row_name">
+                                <a href="/stores/{{slug}}">{{name}}</a>
+                                <div class="stores_row pull-right">
+                                    <span class="has_sale" style="{{promotion_exist}}">SALE</span>
+                                    <span class="has_new" style="{{new_store}}">New</span>
+                                    <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
+                                    <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                    </a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </script>
+                </div>
             </div>
             <div id="category" class="tab-pane">
                 <div class="alphabet_bg" id="categories_container">
@@ -51,10 +74,6 @@
                         <button class="btn-secondary" onClick="parent.location='#{{name}}'" name="{{name}}">{{name}}</button>
                         <span class="category_divider hidden-phone"> | </span>
                     </script>
-                
-                
-                    <!--<button class="btn-secondary" onClick="parent.location='#1352'">Accessories</button>-->
-                    <!--<span class="category_divider hidden-phone"> | </span>-->
                 </div>
             </div>
         </div>
