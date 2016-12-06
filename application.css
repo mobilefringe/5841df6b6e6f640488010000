@@ -863,6 +863,7 @@ a.btn-prime {
 }
 
 .accordion-heading h2.job_close_date {
+    padding-top: 0;
     color: #ff0000;
     text-transform: uppercase;
 }
