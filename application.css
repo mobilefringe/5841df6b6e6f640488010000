@@ -545,6 +545,10 @@ legend{
     text-align:right;
 }
 
+.main_content {
+    margin-left: -15px;
+    margin-right: -15px;
+}
 .banner{
 	background-color:white;
     position:relative;
