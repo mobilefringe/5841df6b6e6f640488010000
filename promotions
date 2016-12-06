@@ -52,7 +52,7 @@
             var mall_published_promos = [];
             var store_published_promos = [];
             $.each(promotions, function(key, val){
-                if(val.jobable_type == "Property"){
+                if(val.promotionable_type == "Property"){
                     today = moment();
                     webDate = moment(val.show_on_web_date)
                     if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
