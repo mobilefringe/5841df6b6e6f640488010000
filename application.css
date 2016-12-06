@@ -1630,19 +1630,16 @@ td.stores_pin{
     }
     .hour_box p{
         font-size:1.5em;
-        // margin:7px 0px 0px;
     }
     
     .feature_label{
         font-size:1.2em;
         padding-top: 7px;
     }
-    
-    
+
     .right_feature_box{
         margin: 0;
         width: 45%;
-        // margin: 0px 0 10px 0;
         position: absolute;
         top: 0;
         right: 10px;
