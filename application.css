@@ -215,7 +215,7 @@ h7 {
 h8 {
 	color:#FFFFFF;
 }
- img {
+.img_container img {
      max-width: 100%;
  }
 .hidden_now {
