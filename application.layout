@@ -450,7 +450,7 @@
         <!--            </p>-->
         <!--            <a href="/hours" class="check_hours">Check Holiday Hours</a>-->
         <!--        </div>-->
-            </div> <!-- END of hour_box -->
+             <!-- END of hour_box 
             
         <!--    <div class="right_feature_box">-->
         <!--        <span class="feature_label"></span>   -->
