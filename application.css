@@ -598,7 +598,7 @@ legend{
 }
 
 
-.stores_row{
+.stores_row {
     display: inline;
 	border-bottom-color: white; 
 	border-top-color: white; 
@@ -609,6 +609,11 @@ legend{
     height: auto;
     line-height: 2em;
     cursor: pointer;    
+}
+
+.store_row .store_phone a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .store_row_name {
