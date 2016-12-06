@@ -1617,9 +1617,8 @@ td.stores_pin{
         width: 100%;
     }
     .hour_box{
-        width: 45%;
-        // margin-bottom:10px;
         margin-left: 2%;
+        width: 45%;
         height: 173px;
     }
     .hour_box div{
