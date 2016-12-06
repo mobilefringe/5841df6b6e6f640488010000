@@ -46,15 +46,15 @@
                 </div>
             </div>
             <div id="category" class="tab-pane">
-                <div class="alphabet_bg">
-                    <script id="category_template_phone" type="x-tmpl-mustache/text">
+                <div class="alphabet_bg" id="category_list_container">
+                    <script id="category_list_template" type="x-tmpl-mustache/text">
                         <button class="btn-secondary" onClick="parent.location='#{{name}}'" name="{{name}}">{{name}}</button>
                         <span class="category_divider hidden-phone"> | </span>
                     </script>
                 
                 
-                    <button class="btn-secondary" onClick="parent.location='#1352'">Accessories</button>
-                    <span class="category_divider hidden-phone"> | </span>
+                    <!--<button class="btn-secondary" onClick="parent.location='#1352'">Accessories</button>-->
+                    <!--<span class="category_divider hidden-phone"> | </span>-->
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
             renderStoreListCatetories('#category_list_container','#category_list_template', categories, stores);
-            renderGeneral('#category_container_phone', '#category_template_phone', categories, stores);
+            renderGeneral('#category_list_container', '#category_list_template', categories, stores);
         }
         loadMallDataCached(renderAll); 
         
