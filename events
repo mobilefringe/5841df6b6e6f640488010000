@@ -5,11 +5,11 @@
         <script id="events_template" type="x-tmpl-mustache/text">
             <div id="{{}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                 <div class='lightbox-content'>
-                	<img alt="promo_image" src="{{}}"/>            	
+                	<img alt="promo_image" src="{{event_image_url_abs}}"/>            	
             	</div>
             </div>
             <a data-toggle="lightbox" href="#img{{}}">
-                <img alt="promo_image" src="{{}}"/>            	
+                <img alt="promo_image" src="{{event_image_url_abs}}"/>            	
             </a>
             <div class="promo_info">
                 <a href="{{slug}}"><h2>{{name}}</h2></a>
