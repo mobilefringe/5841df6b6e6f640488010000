@@ -37,7 +37,7 @@
                     published_events.push(val);
                 } 
             });
-            if(published_events.length > 10){
+            if(published_events.length > 0){
                 renderEvents("#events_container","#events_template", published_events);
             }
             else{
