@@ -1268,6 +1268,10 @@ hr{
     margin-top: 57px;
 }
 
+.promo_back a {
+    color: inherit;
+    text-decoration: none;
+}
 .promo_info{
     // float:left;
     // width:72%;
