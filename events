@@ -1,0 +1,22 @@
+<div class="promo_page">
+    <div>
+        <h1 class="page_title">Mall Events</h1>
+        <hr>
+        <div class="store_promo">
+            <div id="imgaberdeen-santa-hours" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                <div class='lightbox-content'>
+                	<img ALT="promo_image" src="https://www.mallmaverick.com/system/events/event_images/000/007/231/original/ABM2545_Christmas_Web_Slide_Santa_Hours.jpg?1480360404"/>            	
+            	</div>
+            </div>
+            <a data-toggle="lightbox" href="#imgaberdeen-santa-hours">
+                <img ALT="promo_image" src="https://www.mallmaverick.com/system/events/event_images/000/007/231/original/ABM2545_Christmas_Web_Slide_Santa_Hours.jpg?1480360404"/>            	
+            </a>
+                
+            <div class="promo_info">
+                <a href="/events/aberdeen-santa-hours"><h2>Santa Hours</h2></a>
+                <span class="promo_date">Nov 28 - Dec 24</span>
+                <div><p>Santa has arrived at Aberdeen Mall.&nbsp; Click on the image for full Santa Hours.</p></div>
+            </div>
+        </div>
+    </div
+</div>
