@@ -646,6 +646,7 @@ legend{
 
 .stores_row_phone a {
     color: gray;
+    text-decoration: none;
 }
 .nav-tabs {
     border-bottom: none;
