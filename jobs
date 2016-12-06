@@ -72,7 +72,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var jobs = getJobsList().sortBy(function(o){ return o.end_date});
+            var jobs = getJobsList().sortBy(function(o){ return o.store_name});
             console.log(jobs);
             var mall_published_jobs = [];
             var store_published_jobs = [];
