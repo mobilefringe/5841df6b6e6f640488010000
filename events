@@ -3,21 +3,23 @@
     <h1 class="page_title">Mall Events</h1>
     <hr>
     <div class="store_promo" id="events_container">
-        <script id="events_template" type="x-tmpl-mustache/text">
-            <div id="{{id}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-                <div class='lightbox-content'>
-                	<img alt="promo_image" src="{{event_image_url_abs}}"/>            	
-            	</div>
-            </div>
-            <a data-toggle="lightbox" href="#img{{slug}}">
-                <img alt="promo_image" src="{{event_image_url_abs}}"/>            	
-            </a>
-            <div class="promo_info">
-                <a href="{{slug}}"><h2>{{name}}</h2></a>
-                <span class="promo_date">{{dates}}</span>
-                <div><p>{{{rich_description}}}</p></div>
-            </div>
-        </script>
+        <div class="store_promo_container">
+            <script id="events_template" type="x-tmpl-mustache/text">
+                <div id="{{id}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-content'>
+                    	<img alt="promo_image" src="{{event_image_url_abs}}"/>            	
+                	</div>
+                </div>
+                <a data-toggle="lightbox" href="#img{{slug}}">
+                    <img alt="promo_image" src="{{event_image_url_abs}}"/>            	
+                </a>
+                <div class="promo_info">
+                    <a href="{{slug}}"><h2>{{name}}</h2></a>
+                    <span class="promo_date">{{dates}}</span>
+                    <div><p>{{{rich_description}}}</p></div>
+                </div>
+            </script>    
+        </div>
     </div>
     <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
 </div>
