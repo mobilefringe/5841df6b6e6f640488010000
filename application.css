@@ -852,10 +852,13 @@ a.btn-prime {
     // color:#f57b2b;
 }
 
-.accordion-heading h2.job_title{
-
+.accordion-heading h2.job_title {
     padding: 10px 0 15px 0;
     color: #000;
+}
+
+.accordion-heading h2.store_name {
+    text-transform: uppercase;
 }
 
 .accordion-heading h2.job_close_date {
