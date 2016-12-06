@@ -231,7 +231,7 @@ function renderEvents(container, template, collection){
             val.event_image_url = store_details.store_front_url_abs;
         }
         else {
-            val.store_name = "Upper Canada Mall";
+            val.store_name = "Aberdeen Mall Kamloops";
             val.event_image_url = val.event_image_url_abs;
         }
         if(val.event_image_url.indexOf('missing.png') < 0){
@@ -242,7 +242,7 @@ function renderEvents(container, template, collection){
                 val.logo = val.image_url;
             }
             else{
-                // val.logo = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
+                val.logo = "";
             }
         }
         var show_date = moment(val.show_on_web_date);
