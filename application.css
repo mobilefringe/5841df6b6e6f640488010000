@@ -881,6 +881,11 @@ a.btn-prime {
     border-radius: 0;
 }
 
+.accordion-inner {
+    padding: 9px 15px;
+    border: 0px;
+}
+
 .thumbnail{
     border-radius:0px;
     border:none;
