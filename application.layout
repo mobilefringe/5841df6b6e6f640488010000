@@ -450,7 +450,7 @@
 
     <footer>
         <div class="bottom_nav trim_screen">
-        	<div class="trim_screen">
+        	<div class="row-fluid">
                 <div class="col-md-4">
                     <div class="hidden-xs special_box">
                         <label for="facebook_image_id">                     
