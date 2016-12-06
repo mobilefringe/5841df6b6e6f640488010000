@@ -1088,10 +1088,10 @@ a.btn-prime {
     box-shadow: none;
 }
 
-.flexslider .slides img{
+.flexslider .slides img { 
     width: auto;
     max-width: 100%;
-    height: 448px;
+    height: 455px;
 }
 
 .flex-control-nav.flex-control-paging {
