@@ -90,11 +90,6 @@
                         store_published_jobs.push(val);
                     }     
                 }
-                // today = moment();
-                // webDate = moment(val.show_on_web_date)
-                // if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
-                //     published_jobs.push(val);
-                // } 
             });
             if(mall_published_jobs.length > 0 && store_published_jobs.length > 0 ){
                 renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
