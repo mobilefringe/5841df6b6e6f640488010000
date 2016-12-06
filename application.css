@@ -850,8 +850,9 @@ a.btn-prime {
 }
 
 .accordion-heading h2.job_title{
-    padding-top:10px;
-    color:black;
+    margin: 0;
+    padding-top: 10px;
+    color: #000;
 }
 
 .accordion-heading font{
