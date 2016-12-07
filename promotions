@@ -1,6 +1,6 @@
 <div class="promo_page">
     <div>
-        <h1 class="page_title">MALL PROMOTIONS</h1>
+        <h1 class="page_title">Mall Promotions</h1>
         <hr>
         <div id="mall_promo_container">
             <script id="mall_promo_template" type="x-tmpl-mustache/text">
@@ -26,7 +26,7 @@
             </script>
         </div>
         <div class="line_break">&nbsp;</div>
-        <h1 class="page_title">STORE PROMOTIONS</h1>
+        <h1 class="page_title">Store Promotions</h1>
         <hr>
         <div id="store_promo_container"> 
             <script id="store_promo_template" type="x-tmpl-mustache/text">
