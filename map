@@ -43,7 +43,7 @@
         			zoom_OUT_TO_FIT: "NO",
         			container: 'zoom_container'
         		});
-        	show_png_pin(".select_store", "#png_map");
+        	show_png_pin(".mapper", "#map_image");
         }
         loadMallDataCached(renderAll); 
     })
