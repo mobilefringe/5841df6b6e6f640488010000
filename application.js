@@ -543,3 +543,38 @@ function renderStoreListCatetories(container, template, category_list,stores){
     });
     $(container).html(item_rendered.join(''));
 }
+
+function show_png_pin(trigger, map){
+    $(trigger).bind("change", function(e) {
+        e.preventDefault()
+        
+        var selectedOption = $("select.select_store").val().split(",");
+        var selectedOptionName = $(".select_store option:selected").text();
+        
+        var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
+        // coords = $(selectedOption).attr('data-value').split(",");
+        var zoomData = $(map).smoothZoom('getZoomData');
+        x_coord = parseInt(selectedOption[0]) + 5;
+        y_coord = parseInt(selectedOption[1]);
+    
+        $(map).smoothZoom('removeLandmark')
+        if (isMobile) {
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
+        } else {
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:150});
+        }
+        
+        $(map).smoothZoom('addLandmark', 
+			[
+			'<div class="item mark" data-show-at-zoom="0" data-position="' + x_coord + ',' + y_coord + '">\
+				<div>\
+					<div class="text">\
+					<strong>'+ selectedOptionName + '</strong>\
+				</div>\
+				<img src="//codecloud.cdn.speedyrails.net/sites/54cfab316e6f6433ad020000/530d3a9b7bc13ce4a511089c23463f99/10dundas_pin.png" width="40px" height="59px" alt="marker" />\
+				</div>\
+			</div>'
+			]
+		);
+    });
+}
