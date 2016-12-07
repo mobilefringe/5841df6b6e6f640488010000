@@ -3,7 +3,7 @@
 	<select class="mapper" id="store_select_container">
 		
 	    <script id="store_select_template" type="x-tmpl-mustache/text">
-	        <option disabled selected style="{{show}}">Select a Store</option>
+	        <option selected>Select a Store</option>
             <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>
         </script>
 	</select>
