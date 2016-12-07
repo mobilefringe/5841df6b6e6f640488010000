@@ -48,7 +48,7 @@
                     <script id="store_list_template" type="x-tmpl-mustache/text">
                         <div class="store_list_content">
                             <div class="stores_table_headers" style="{{show}}">
-                                <a id="{{initial}}">{{initial}}</a>
+                                <a id="{{initial}}"></a>{{initial}}
                                 <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
                             </div>
                             <div class="stores_row store_row_name">
