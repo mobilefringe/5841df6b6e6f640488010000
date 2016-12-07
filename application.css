@@ -1579,6 +1579,9 @@ td.stores_pin{
         margin-bottom: 10px;
     }
     
+    .bottom_nav {
+        padding-top: 20px;
+    }
     .bottom_nav .nav_site_map{
         width: 100%;
     }
