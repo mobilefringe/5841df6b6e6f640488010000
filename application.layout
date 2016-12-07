@@ -137,7 +137,7 @@
                                     <label for="brand_select" style="display:none">select brand</label>
                                     <select id="brand_select">
                                         <script id="brand_select_template" type="x-tmpl-mustache/text">
-                                            <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>
+                                            <option value="{{slug}}" data-value="{{name}}">{{name}}</option>
                                         </script>
                                     </select>
                                 </div>  
