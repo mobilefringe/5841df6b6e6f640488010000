@@ -1,8 +1,13 @@
 function init() {
     var header_stores = getStoresList();
-    console.log(header_stores)
     renderStoreList('#brand_select','#brand_select_template', header_stores, "stores");
     $("#brand_select").prepend("<option disabled selected>Stores</option>");
+    
+    document.getElementById("brand_select").onchange = function() {
+        if (this.selectedIndex!==0) {
+            window.location.href = this.value;
+        }        
+    }
             
     renderHomeHours();
     
