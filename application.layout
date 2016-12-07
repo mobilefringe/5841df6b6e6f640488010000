@@ -451,7 +451,7 @@
     <footer>
         <div class="bottom_nav trim_screen">
         	<div class="row-fluid">
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-4">
                     <div class="hidden-xs special_box">
                         <label for="facebook_image_id">                     
                             <img id="facebook_image_id" ALT="facebook_image" src="//aberdeenmall.ca/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />
@@ -483,7 +483,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-4">
                     <div class="hidden-xs special_box">
                         <label for="twitter_id">               
                             <img id="twitter_id" ALT="twitter" src="//aberdeenmall.ca/system/site_images/photos/000/000/768/original/twitter.png?1381248723" />
@@ -493,12 +493,12 @@
                     </div>
                 </div>
                 
-        		<div class="col-md-4">        
+        		<div class="col-sm-12 col-md-4">        
                     <div class="nav_site_map hidden-xs">
                         <label for="nav_site_map_link_id" >NAVIGATION</label>
                 
                         <div class="row-fluid">
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                         
                                 <div id="nav_site_map_link_id">
                                     <div class="nav_sitemap_item">
@@ -530,7 +530,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div id="nav_site_map_link_id">
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">ABOUT US</span>
