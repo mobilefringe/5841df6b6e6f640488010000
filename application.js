@@ -544,3 +544,37 @@ function renderStoreListCatetories(container, template, category_list,stores){
     $(container).html(item_rendered.join(''));
 }
 
+function show_png_pin(trigger, map){
+    $(trigger).bind("change", function(e) {
+        e.preventDefault()
+        
+        var selectedOption = $("select.mapper").val().split(",");
+        var selectedOptionName = $(".mapper option:selected").text();
+        
+        var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
+        // coords = $(selectedOption).attr('data-value').split(",");
+        var zoomData = $(map).smoothZoom('getZoomData');
+        x_coord = parseInt(selectedOption[0]) + 20;
+        y_coord = parseInt(selectedOption[1]);
+    
+        $(map).smoothZoom('removeLandmark')
+        if (isMobile) {
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
+        } else {
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:150});
+        }
+        
+        $(map).smoothZoom('addLandmark', 
+			[
+			'<div class="item mark" data-show-at-zoom="0" data-position="' + x_coord + ',' + y_coord + '">\
+				<div>\
+					<div class="text">\
+					<strong>'+ selectedOptionName + '</strong>\
+				</div>\
+				<img src="//www.aberdeenmall.ca/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
+				</div>\
+			</div>'
+			]
+		);
+    });
+}
