@@ -24,7 +24,7 @@
         function renderAll(){
             var stores = getStoresList();
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
-            $( ".mapper" ).append( "<option selected>Select a Store</option>" );
+            $( ".mapper" ).prepend( "<option disabled selected>Select a Store</option>" );
 
             
             $("#map_image").attr("src", getPNGMapURL())
