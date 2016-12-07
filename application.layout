@@ -77,7 +77,7 @@
                             <a href='/stores'>Store Directory</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/mapv2'>Shopping Map</a>
+                            <a href='/map'>Shopping Map</a>
                         </li>
                         <li class="mobile_menu_header" >
                             <a href='/promotions' >PROMOTIONS</a>
@@ -162,7 +162,7 @@
                                 <a class="nav_a" href='/stores' target='_self'><span>Store Directory</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/mapv2' target='_self'><span>Shopping Map</span></a>                                
+                                <a class="nav_a" href='/map' target='_self'><span>Shopping Map</span></a>                                
                             </li>
                         </ul>
                     </li>               
@@ -339,7 +339,7 @@
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                         <a class="site_map_submenu" href='/stores' target='_self'>Store Directory</a>
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/mapv2' target='_self'>Shopping Map</a>
+                                        <a class="site_map_submenu" href='/map' target='_self'>Shopping Map</a>
                                     </div>
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">
