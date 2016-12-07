@@ -70,7 +70,7 @@
         					<div class="text">\
         					<strong>'+ selectedOptionName + '</strong>\
         				</div>\
-        				<img src="//codecloud.cdn.speedyrails.net/sites/54cfab316e6f6433ad020000/530d3a9b7bc13ce4a511089c23463f99/10dundas_pin.png" width="40px" height="59px" alt="marker" />\
+        				<img src="//www.aberdeenmall.ca/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
         				</div>\
         			</div>'
         			]
