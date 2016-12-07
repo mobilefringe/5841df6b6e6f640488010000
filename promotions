@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/css/1478472594000/lightbox.min.css"
 <div class="promo_page">
     <div>
         <h1 class="page_title">Mall Promotions</h1>
@@ -53,6 +54,7 @@
         <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
     </div>
 </div>
+<scipt src="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></scipt>
 <script>
     $(document).ready(function(e){
         init(e);
