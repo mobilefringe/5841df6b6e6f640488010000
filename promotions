@@ -6,9 +6,9 @@
             <script id="mall_promo_template" type="x-tmpl-mustache/text">
                 <div class="row-fluid store_promo">
                     <div class="col-md-3">
-                        <a  href="{{event_image_url_abs}}" data-lightbox="{{name}}">
+                        <a  href="{{promo_image_url_abs}}" data-lightbox="{{name}}">
                             <img src="{{promo_image_url_abs}}">
-                        </a>
+                        </a> 
                     
                     
                         
