@@ -1,4 +1,8 @@
 function init() {
+    var stores = getStoresList();
+    renderStoreList('#brand_select','#brand_select_template', stores, "stores");
+    $("#brand_select").prepend("<option disabled selected>Stores</option>");
+            
     renderHomeHours();
     
     var feature_items = getFeatureList();
