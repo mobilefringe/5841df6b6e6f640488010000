@@ -16,8 +16,23 @@ function init() {
     renderFeatureItems('#feature_item','#feature_item_template', one_item);
     var two_items = feature_items.slice(1,3);
     renderFeatureItems('#home_feature','#home_feature_template', two_items);
+    
+    var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+          }
+        _fbq.push(['addPixelId', '548352815262916']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
 }
 
+      
 function renderGeneral(container, template, collection){
     var item_list = [];
     var item_rendered = [];
