@@ -1674,6 +1674,9 @@ td.stores_pin{
         padding: 5px;
     }
     
+    .store_row_name a {
+        font-size: smaller;
+    }
     .accordion-heading h2.job_title, 
     .accordion-heading h2.job_close_date{
         font-size: 1em;
