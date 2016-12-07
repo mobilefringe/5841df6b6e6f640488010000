@@ -27,7 +27,6 @@ function init() {
             _fbq.loaded = true;
           }
         _fbq.push(['addPixelId', '548352815262916']);
-    })();
     window._fbq = window._fbq || [];
     window._fbq.push(['track', 'PixelInitialized', {}]);
 }
