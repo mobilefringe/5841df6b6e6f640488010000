@@ -137,7 +137,9 @@
                                     <label for="brand_select" style="display:none">select brand</label>
                                     <select id="brand_select">
                                         <script id="brand_select_template" type="x-tmpl-mustache/text">
-                                            <option value="{{slug}}" data-value="{{name}}">{{name}}</option>
+                                            {%raw%}
+                                            <option value="/stores/{{slug}}" data-value="{{name}}">{{name}}</option>
+                                            {%endraw%}
                                         </script>
                                     </select>
                                 </div>  
