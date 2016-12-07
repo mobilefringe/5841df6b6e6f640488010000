@@ -79,9 +79,7 @@
                         <div class="store_list_content {{block}}">
                             <div class="stores_table_headers bold" style="{{show}}">
                                 <a id="{{header}}"></a>{{header}}
-                                <a href="#top" class="pull-right stores_gotop">
-                                    <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
-                                </a>
+                                <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
                             </div>
                             <div class="stores_row store_row_name">
                                 <a href="/stores/{{slug}}">{{name}}</a>
