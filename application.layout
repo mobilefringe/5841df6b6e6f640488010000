@@ -60,6 +60,14 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <header>
         <!--Header -->
         <div class="header">
@@ -290,7 +298,7 @@
                             <img id="facebook_image_id" ALT="facebook_image" src="//aberdeenmall.ca/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />
                             FACEBOOK
                         </label>
-                        <div class="fb-like-box" data-href="//www.facebook.com/aberdeenmall" data-width="270" data-height="70" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+                        <div class="fb-page" data-href="https://www.facebook.com/aberdeenmall/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/aberdeenmall/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aberdeenmall/">Aberdeen Mall</a></blockquote></div>
                     </div>
                     <div class="newsletter_box">
                         <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
