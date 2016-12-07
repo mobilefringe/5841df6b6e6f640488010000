@@ -1530,7 +1530,7 @@ td.stores_pin{
 }
 
 @media (max-width: 979px) {
-    trim_screen {
+    .trim_screen {
         padding: 0 10px;
     }
     .header{
