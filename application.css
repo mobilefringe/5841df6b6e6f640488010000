@@ -1608,7 +1608,7 @@ td.stores_pin{
 
 @media (max-width: 767px) {
     .trim_screen {
-        padding: 0 10px;
+        padding: 0 15px;
     }
     
     .img_container {
