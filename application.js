@@ -3,11 +3,11 @@ function init() {
     renderStoreList('#brand_select','#brand_select_template', header_stores, "stores");
     $("#brand_select").prepend("<option disabled selected>Stores</option>");
     
-    document.getElementById("brand_select").onchange = function() {
-        if (this.selectedIndex!==0) {
-            window.location.href = this.value;
-        }        
-    }
+    $("#brand_select").on('change', function() {            
+        if ($(this).val() != ""){
+            window.location.href = "/stores/"+$(this).val();    
+        }
+    });        
             
     renderHomeHours();
     
