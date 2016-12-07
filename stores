@@ -74,6 +74,30 @@
                         <span class="category_divider hidden-phone"> | </span>
                     </script>
                 </div>
+                <div class="store_list" id="category_list_container">
+                    <script id="category_list_template" type="x-tmpl-mustache/text">
+                        <div class="store_list_content {{block}}">
+                            <div class="stores_table_headers bold" style="{{show}}">
+                                <a id="{{header}}">{{header}}</a>
+                                <a href="#top" class="pull-right stores_gotop">
+                                    <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                </a>
+                            </div>
+                            <div class="stores_row store_row_name">
+                                <a href="/stores/{{slug}}">{{name}}</a>
+                            </div>
+                            <div class="pull-right stores_row stores_row_phone">
+                                <span style="{{promotion_exist}}">
+                                    <img alt="" src="//www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332"/>
+                                </span>
+                                <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
+                                <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                    <img ALT="store.phone" src="//www.mallmaverick.com/system/site_images/photos/000/000/834/original/icon_call_stores.png?1381872730" />
+                                </a></span>
+                            </div>
+                        </div>
+                    </script>
+                </div>
             </div>
         </div>
     </div>
