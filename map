@@ -27,7 +27,6 @@
         		    width: 840,
                     height: 500,
         		    initial_ZOOM: 0,
-        		    initial_POSITION: "0 0",
         			zoom_MIN: 0,
         			zoom_MAX: 300,
         			responsive: true,
