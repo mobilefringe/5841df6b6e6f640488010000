@@ -1,0 +1,50 @@
+<div class="trim_screen">
+	<h1>Centre Map</h1>
+	<select class="mapper" id="store_select_container">
+		<option disabled selected>Select a Store</option>
+		    <script id="store_select_template" type="x-tmpl-mustache/text">
+                <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>
+            </script>
+		
+		
+			<!--<option value="store_5554"  id="store_5554" data-name="A &amp; W" data-coords="304, 800" >-->
+			<!--	A &amp; W-->
+			<!--</option>	-->
+	</select>
+	<div id="parent_div">
+		<div id="zoom_container_directory"  >
+			<img alt="Aberdeen_directory_map_for_web" id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/029/original/Aberdeen_Directory_Map_for_Web.jpg?1458229826" />
+			<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>
+		</div>
+	</div>
+</div>
+<script src="//kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var stores = getStoresList();
+            renderStoreList('#store_select_container','#store_select_template', stores, "stores");
+            
+            $("#map_image").attr("src", getPNGMapURL())
+        		$('#map_image').smoothZoom({
+        		    width: 840,
+                    height: 500,
+        		    initial_ZOOM: 0,
+        			zoom_MIN: 0,
+        			zoom_MAX: 300,
+        			responsive: true,
+        		    responsive_maintain_ratio: true,
+        			zoom_BUTTONS_SHOW : 'YES',
+        			pan_BUTTONS_SHOW : 'NO',
+        			pan_LIMIT_BOUNDARY : 'NO',
+        			button_SIZE: 34,
+        			button_ALIGN: "top right",
+        			zoom_OUT_TO_FIT: "NO",
+        			container: 'zoom_container'
+        		});
+        	show_png_pin(".select_store", "#png_map");
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
