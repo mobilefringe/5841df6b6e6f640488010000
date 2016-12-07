@@ -1803,6 +1803,9 @@ td.stores_pin{
     color: #ededed;
 }
 
+.stores_table_headers a {
+    text-decoration: none;
+}
 .stores_table_headers .pull-right .arrow-up{
     border-bottom-color: #ededed;
 }
