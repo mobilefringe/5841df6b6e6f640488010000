@@ -579,10 +579,11 @@ legend{
 	color:white;
 }
 
-.stores_table_headers .pull-right{
-    font-weight:100;
+.stores_table_headers .pull-right {
+    padding-top: 3px;
+    padding-right: 10px;
+    font-weight: 100;
     font-size:.7em;
-    padding-right:10px;
     color: gray;
 }
 
