@@ -1531,7 +1531,7 @@ td.stores_pin{
 
 @media (max-width: 979px) {
     .trim_screen {
-        padding: 0 10px;
+        padding: 0 20px;
     }
     .header{
         height: 80px;
@@ -1608,7 +1608,7 @@ td.stores_pin{
 
 @media (max-width: 767px) {
     .trim_screen {
-        padding: 0 20px;
+        padding: 0 10px;
     }
     
     .img_container {
