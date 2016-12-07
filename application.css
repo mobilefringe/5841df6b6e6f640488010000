@@ -1558,15 +1558,19 @@ td.stores_pin{
     }
     
     .hour_box{
-        width: 100%;        
-        margin-bottom:10px;
+        width: 65%;
+        height: 227px;
     }
     .hour_box p{
         font-size: 2.1em;
     }
     
-    .right_feature_box{
+    .right_feature_box {
         margin-top: 0px;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 30%;
     }
     
     .feature_boxes{
