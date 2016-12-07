@@ -12,7 +12,7 @@
 			<!--</option>	-->
 	</select>
 	<div id="parent_div">
-		<div id="zoom_container_directory"  >
+		<div id="zoom_container"  >
 			<img alt="Aberdeen_directory_map_for_web" id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/029/original/Aberdeen_Directory_Map_for_Web.jpg?1458229826" />
 			<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>
 		</div>
