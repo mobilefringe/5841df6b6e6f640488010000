@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/css/1478472594000/lightbox.min.css">
 <div class="promo_page trim_screen">
     <h1 class="page_title">Mall Events</h1>
     <hr>
@@ -6,14 +5,12 @@
         <script id="events_template" type="x-tmpl-mustache/text">
             <div class="row-fluid store_promo">
                 <div class="col-md-3">
-                    <div id="{{id}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-                        <div class='lightbox-content'>
-                        	<img alt="promo_image" src="{{event_image_url_abs}}"/>            	
-                    	</div>
-                    </div>
-                    <a data-toggle="lightbox" href="#img{{slug}}">
-                        <img alt="promo_image" src="{{event_image_url_abs}}"/>            	
+                
+                    <a  href="{{event_image_url_abs}}" data-lightbox="{{name}}">
+                        <img src="{{event_image_url_abs}}">
                     </a>
+                        
+
                 </div>
                 <div class="col-md-9">
                     <div class="promo_info">
