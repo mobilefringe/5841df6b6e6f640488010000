@@ -323,6 +323,17 @@
                             <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                         </form>
                     </div>
+                    <div class="social_links_mobile visible-xs-inline-block">
+                        <a href="" target="_blank">
+                            <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
+                        </a>
+                        <a href="" target="_blank">
+                             <i class="fa fa-twitter social_icon" aria-hidden="true"></i>    
+                        </a>
+                        <a href="//instagram.com/AberdeenMall#" target="_blank">
+                            <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
                 </div>
                 
                 <div class="col-sm-6 col-md-4">
@@ -412,11 +423,11 @@
         	</div>
         </div>
         <div class="footer trim_screen">
-            <div class="social_links_mobile visible-xs-inline-block">
-                <a href="//instagram.com/AberdeenMall#" target="_blank">
-                    <img ALT="social_link" src="//aberdeenmall.ca/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
-                </a>
-            </div>
+            <!--<div class="social_links_mobile visible-xs-inline-block">-->
+            <!--    <a href="//instagram.com/AberdeenMall#" target="_blank">-->
+            <!--        <img ALT="social_link" src="//aberdeenmall.ca/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />-->
+            <!--    </a>-->
+            <!--</div>-->
             <a href="//www.20vic.com/" target="_blank">
                 <img ALT="20vic_logo" class="pull-right" src="//aberdeenmall.ca/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465" />
             </a>
