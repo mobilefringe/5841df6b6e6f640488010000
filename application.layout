@@ -354,7 +354,7 @@
                             <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
                             INSTAGRAM
         		        </label>
-        		        <a href="http://instagram.com/AberdeenMall#" target="_blank"class="site_map_submenu">Follow Us On Instagram!</a>
+        		        <a href="http://instagram.com/AberdeenMall#" target="_blank"class="site_map_submenu"><p>Follow Us On Instagram!</p></a>
                     </div>
                     <div class="nav_site_map hidden-xs">
                         <label for="nav_site_map_link_id" >NAVIGATION</label>
