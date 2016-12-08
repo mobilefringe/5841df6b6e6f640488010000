@@ -323,7 +323,7 @@
                             <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                         </form>
                     </div>
-                    <div class="social_links_mobile visible-xs-inline-block">
+                    <div class="social_links_mobile visible-xs-block">
                         <a href="" target="_blank">
                             <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
                         </a>
