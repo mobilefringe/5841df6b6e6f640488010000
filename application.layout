@@ -329,7 +329,7 @@
                     <div class="hidden-xs special_box">
                         <label for="twitter_id">               
                             <!--<img id="twitter_id" ALT="twitter" src="//aberdeenmall.ca/system/site_images/photos/000/000/768/original/twitter.png?1381248723" />-->
-                            <div><i class="fa fa-twitter-square social_icon" aria-hidden="true"></i></div>
+                            <span><i class="fa fa-twitter-square social_icon" aria-hidden="true"></i></span>
                             TWITTER                
                         </label>
                        <a class="twitter-timeline" data-height="350" href="https://twitter.com/AberdeenMall">Tweets by AberdeenMall</a> 
