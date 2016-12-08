@@ -53,7 +53,7 @@
         <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
     </div>
 </div>
-<!--<scipt src="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></scipt>-->
+<scipt src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.js"></scipt>
 <script>
     $(document).ready(function(e){
         init(e);
