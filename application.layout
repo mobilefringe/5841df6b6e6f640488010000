@@ -401,7 +401,8 @@
                             </div>
                             <div class="social_links">
                                 <a href="http://instagram.com/AberdeenMall#" target="_blank">
-                                    <img ALT="social_link" src="//www.mallmaverick.com/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />
+                                    <!--<img ALT="social_link" src="//www.mallmaverick.com/system/social_links/icon_images/000/000/214/original/icon_instagram_(1).png?1382045094" />-->
+                                    <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
                                 </a>
                             </div>
                         </div>
