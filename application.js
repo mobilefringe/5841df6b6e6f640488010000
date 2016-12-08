@@ -578,7 +578,7 @@ function show_png_pin(trigger, map){
         var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
         // coords = $(selectedOption).attr('data-value').split(",");
         var zoomData = $(map).smoothZoom('getZoomData');
-        x_coord = parseInt(selectedOption[0]);
+        x_coord = parseInt(selectedOption[0]) + 5;
         y_coord = parseInt(selectedOption[1]);
     
         $(map).smoothZoom('removeLandmark')
