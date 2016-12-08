@@ -305,7 +305,7 @@
                         <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
                             <label for="newsletter_box_id">
                                 <!--<img id="newsletter_box_id" ALT="newsletter_box" src="//www.mallmaverick.com/system/site_images/photos/000/000/867/original/icon_subscription.png?1382641709"/>-->
-                                <span><i class="fa fa-envelope social_icon" aria-hidden="true"></i></span>
+                                <span class="social"><i class="fa fa-envelope social_icon" aria-hidden="true"></i></span>
                                 SUBSCRIBE AND GET UPDATES
                             </label>                
                             <span>
