@@ -4,12 +4,12 @@
     <div id="events_container">
         <script id="events_template" type="x-tmpl-mustache/text">
             <div class="row store_promo">
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <a  href="{{event_image_url_abs}}" data-lightbox="{{name}}">
                         <img src="{{event_image_url_abs}}">
                     </a>
                 </div>
-                <div class="col-md-9">
+                <div class="col-sm-9">
                     <div class="promo_info">
                         <a href="/events/{{slug}}"><h2>{{name}}</h2></a>
                         <span class="promo_date">{{dates}}</span>
