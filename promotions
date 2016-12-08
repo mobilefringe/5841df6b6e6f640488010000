@@ -26,7 +26,7 @@
         <hr>
         <div id="store_promo_container"> 
             <script id="store_promo_template" type="x-tmpl-mustache/text">
-                <div class="row-fluid store_promo">
+                <div class="row store_promo">
                     <div class="col-md-3">
                         <a  href="{{promo_image_url_abs}}" data-lightbox="{{name}}">
                             <img src="{{promo_image_url_abs}}">
