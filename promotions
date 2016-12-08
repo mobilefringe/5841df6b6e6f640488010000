@@ -52,7 +52,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date});
+            var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
             console.log(promotions);
             var mall_published_promos = [];
             var store_published_promos = [];
