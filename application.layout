@@ -351,12 +351,10 @@
         		<div class="col-sm-12 col-md-4">   
         		    <div class="social_links">
         		        <label for="nav_site_map_link_id" >
-        		            <a href="http://instagram.com/AberdeenMall#" target="_blank">
-                                <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
-                            </a>
+                            <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
                             INSTAGRAM
         		        </label>
-        		        <p class="site_map_submenu">Follow Us On Instagram!</p>
+        		        <a href="http://instagram.com/AberdeenMall#" target="_blank"class="site_map_submenu">Follow Us On Instagram!</a>
                     </div>
                     <div class="nav_site_map hidden-xs">
                         <label for="nav_site_map_link_id" >NAVIGATION</label>
