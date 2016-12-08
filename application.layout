@@ -346,7 +346,7 @@
                 </div>
                 
         		<div class="col-sm-12 col-md-4">   
-        		    <div class="social_links">
+        		    <div class="social_links hidden-xs">
         		        <label for="nav_site_map_link_id" >
                             <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
                             INSTAGRAM
