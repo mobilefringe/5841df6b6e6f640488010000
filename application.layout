@@ -296,7 +296,7 @@
                     <div class="hidden-xs special_box">
                         <label for="facebook_image_id">                     
                             <!--<img id="facebook_image_id" ALT="facebook_image" src="//aberdeenmall.ca/system/site_images/photos/000/000/767/original/facebook.png?1381248715" />-->
-                            <div><i class="fa fa-facebook" aria-hidden="true"></i></i></div>
+                            <span><i class="fa fa-facebook" aria-hidden="true"></i></i></span>
                             FACEBOOK
                         </label>
                         <div class="fb-page" data-href="https://www.facebook.com/aberdeenmall/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/aberdeenmall/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aberdeenmall/">Aberdeen Mall</a></blockquote></div>
