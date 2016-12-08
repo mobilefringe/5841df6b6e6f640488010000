@@ -5,12 +5,12 @@
         <div id="mall_promo_container">
             <script id="mall_promo_template" type="x-tmpl-mustache/text">
                 <div class="row store_promo">
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a  href="{{promo_image_url_abs}}" data-lightbox="{{name}}">
                             <img src="{{promo_image_url_abs}}">
                         </a> 
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-sm-9">
                         <div class="promo_info">
                             <a href="/promotions/{{slug}}"><h2>{{name}}</h2></a>
                             <span class="promo_date">{{dates}}</span>
@@ -27,12 +27,12 @@
         <div id="store_promo_container"> 
             <script id="store_promo_template" type="x-tmpl-mustache/text">
                 <div class="row store_promo">
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a  href="{{promo_image_url_abs}}" data-lightbox="{{name}}">
                             <img src="{{promo_image_url_abs}}">
                         </a>     
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-sm-9">
                         <div class="promo_info">
                             <a href="/promotions/{{slug}}"><h2>{{name}}</h2></a>
                             <span class="promo_date">{{dates}}</span>
