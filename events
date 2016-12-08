@@ -5,12 +5,9 @@
         <script id="events_template" type="x-tmpl-mustache/text">
             <div class="row-fluid store_promo">
                 <div class="col-md-3">
-                
                     <a  href="{{event_image_url_abs}}" data-lightbox="{{name}}">
                         <img src="{{event_image_url_abs}}">
                     </a>
-                        
-
                 </div>
                 <div class="col-md-9">
                     <div class="promo_info">
