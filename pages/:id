@@ -4,6 +4,8 @@
     }
 </style>
 <div class="page_body">
+    <h1 class="page_title" id="page_title"></h1>
+    <hr>
     <div id="contact_us">
         <iframe class="hidden-phone" width="750" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{google_map_url}}&amp;iwloc=A&amp;output=embed"></iframe>
         <br/>
@@ -12,8 +14,6 @@
         </a>
         <div sylte="clear:both;">&nbsp;</div>    
     </div>
-    <h1 class="page_title" id="page_title"></h1>
-    <hr>
     <div id="page_body"></div>
 </div>
 <script>
