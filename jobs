@@ -77,7 +77,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var all_jobs = getJobsList();
+            var jobs = getJobsList();
             // .sortBy(function(o){ return o.name});
             
             // var jobs = all_jobs.sort(function(a,b) {return (a.store_name > b.store_name) ? 1 : ((b.store_name > a.store_name) ? -1 : 0);} ); 
