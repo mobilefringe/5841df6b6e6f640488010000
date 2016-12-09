@@ -293,7 +293,7 @@
         <div class="bottom_nav trim_screen">
         	<div class="row-fluid">
                 <div class="col-sm-6 col-md-4">
-                    <div class="hidden-xs special_box">
+                    <div class="hidden-xs hidden-sm special_box">
                         <label for="facebook_image_id">                     
                             <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
                             FACEBOOK
@@ -335,7 +335,7 @@
                 </div>
                 
                 <div class="col-sm-6 col-md-4">
-                    <div class="hidden-xs special_box">
+                    <div class="hidden-xs hidden-sm special_box">
                         <label for="twitter_id">               
                             <i class="fa fa-twitter social_icon" aria-hidden="true"></i>
                             TWITTER                
@@ -346,7 +346,7 @@
                 </div>
                 
         		<div class="col-sm-12 col-md-4">   
-        		    <div class="social_links hidden-xs">
+        		    <div class="social_links hidden-xs hidden-sm">
         		        <label for="nav_site_map_link_id" >
                             <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
                             INSTAGRAM
