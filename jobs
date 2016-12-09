@@ -83,7 +83,7 @@
             sorted_jobs = _.sortBy(jobs, 'store_name');
             var mall_published_jobs = [];
             var store_published_jobs = [];
-            $.each(jobs, function(key, val){
+            $.each(sorted_jobs, function(key, val){
                 if(val.jobable_type == "Property"){
                     today = moment();
                     webDate = moment(val.show_on_web_date)
