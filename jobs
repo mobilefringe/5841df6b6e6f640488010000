@@ -97,8 +97,10 @@
                     }     
                 }
             });
+            store_published_jobs.sortBy(function(o){ return o.store_name});
+            
             if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
-                store_published_jobs.sortBy(function(o){ return o.store_name});
+                
                 renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
                 renderJobs('#store_jobs_container', '#store_jobs_template', store_published_jobs);
             }
