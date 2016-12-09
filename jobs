@@ -82,6 +82,7 @@
             console.log(jobs);
             sorted_jobs = jobs.sortBy('store_name');
             console.log(sorted_jobs);
+            
             var mall_published_jobs = [];
             var store_published_jobs = [];
             $.each(jobs, function(key, val){
