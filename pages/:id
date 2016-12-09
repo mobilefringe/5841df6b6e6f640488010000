@@ -6,7 +6,7 @@
 <div class="page_body">
     <h1 class="page_title" id="page_title"></h1>
     <hr>
-    <div id="contact_us">
+    <div id="contact_us" class="hidden_now">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1264.7478395545843!2d-120.37253834175873!3d50.65505669536426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537e2c7039089fa9%3A0x4dad29cf97faaa32!2sAberdeen+Mall!5e0!3m2!1sen!2sca!4v1481296891061" width="745" height="405" frameborder="0" style="border:0" allowfullscreen></iframe>
         <br/>
         <!--<a class="visible-phone" href="http://maps.google.ca?q={{site.property.name}}" target="_blank">-->
