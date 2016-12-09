@@ -322,7 +322,6 @@
                         </form>
                     </div>
                     <div class="social_links_mobile visible-xs-block">
-                        <p>Follow Us On Social Media</a></p>
                         <a href="" target="_blank">
                             <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
                         </a>
