@@ -23,6 +23,7 @@
         init(e);
         function renderAll(){
             var map_info = getPropertyDetails();
+            renderGeneral("#contact_us_container", "#contact_us_template", map_info);
             console.log(map_info);
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
@@ -32,7 +33,6 @@
                 $('#page_body').html(data.body);
                 if(slug === "aberdeen-contact-us") {
                     $("#contact_us_container").show();
-                    renderGeneral("#contact_us_container", "#contact_us_template", map_info);
                 }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
