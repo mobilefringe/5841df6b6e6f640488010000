@@ -97,6 +97,7 @@
                     }     
                 }
             });
+            var store_jobs = store_published_jobs.sort(function(a,b) {return (a.store_name > b.store_name) ? 1 : ((b.store_name > a.store_name) ? -1 : 0);} );
             // store_published_jobs.sortBy(function(o){ return o.end_date});
             
             if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
