@@ -31,8 +31,8 @@
                 $('#page_title').html(data.title);
                 $('#page_body').html(data.body);
                 if(slug === "aberdeen-contact-us") {
-                    renderGeneral("#contact_us_container", "#contact_us_template", map_info);
                     $("#contact_us_container").show();
+                    renderGeneral("#contact_us_container", "#contact_us_template", map_info);
                 }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
