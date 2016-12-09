@@ -344,7 +344,7 @@
                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
-                
+                <div class="mobile_line_break"></div>
         		<div class="col-sm-12 col-md-4">   
         		    <div class="social_links hidden-xs">
         		        <label for="nav_site_map_link_id" >
