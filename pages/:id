@@ -10,7 +10,7 @@
         <script id="contact_us_template" type="x-tmpl-mustache/text">
             
             <br/>
-            <a class="visible-xs-inline-block" href="http://maps.google.ca?q={{{Aberdeen Mall Kamloops}}}" target="_blank">
+            <a class="visible-xs-inline-block" href="//maps.google.ca?q={{Aberdeen Mall Kamloops}}" target="_blank">
                 <img src="http://maps.googleapis.com/maps/api/staticmap?center={{latitude}},{{longitude}}&amp;zoom=16&amp;size=600x500&amp;maptype=roadmap&amp;sensor=false&amp;markers=color:red%7Ccolor:red%7Clabel:%7C{{latitude}},{{longitude}}">    
             </a>
         </script>
