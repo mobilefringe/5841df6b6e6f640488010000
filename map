@@ -1,4 +1,4 @@
-<div class="trim_screen">
+<div>
 	<h1 class="page_title">Centre Map</h1>
 	<select class="mapper" id="store_select_container">
 	    <script id="store_select_template" type="x-tmpl-mustache/text">
