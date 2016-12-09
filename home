@@ -20,7 +20,7 @@
             renderBanner('#home_banner_template','#home_banner', banners);
 
             $('.flexslider').flexslider({
-                animation: "slide",
+                animation: "fade",
             });
         }
         loadMallData(renderAll);
