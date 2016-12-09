@@ -98,8 +98,6 @@
                         store_published_jobs.push(val);
                     }     
                 }
-                var store_jobs = store_published_jobs.sortBy(val.store_name);
-                console.log(store_jobs);
             });
             if(mall_published_jobs.length > 0 || store_jobs.length > 0 ){
                 renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
