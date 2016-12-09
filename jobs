@@ -80,7 +80,7 @@
             var jobs = getJobsList();
             // .sortBy(function(o){ return o.store_name});
             console.log(jobs);
-            sorted_jobs = _.sortBy(jobs, 'store_name');
+            sorted_jobs = jobs.sortBy('store_name');
             var mall_published_jobs = [];
             var store_published_jobs = [];
             $.each(sorted_jobs, function(key, val){
