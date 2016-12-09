@@ -19,22 +19,6 @@
             var banners = getBanners();
             console.log(banners);
             renderBanner('#home_banner_template','#home_banner', banners);
-            
-            // var feature_items = getFeatureList();
-            // var item = feature_items.slice(1,3);
-            // renderFeatureItems('#home_feature','#home_feature_template', item);
-            
-            // var stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
-            // var new_stores = stores.reverse().slice(0, 3);
-            // renderNewStores("#latest_stores", "#latest_stores_template", new_stores);
-            
-            // var all_events = getEventsList().sortBy(function(o){ return o.show_on_web_date });
-            // var event = all_events.reverse().slice(0,1);
-            // renderHomeEvents("#latest_events","#latest_events_template", event);
-            
-            // var all_promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});  
-            // var promotions = all_promotions.slice(0,2);
-            // renderPromotions("#latest_promos","#latest_promos_template", promotions);
 
             $('.flexslider').flexslider({
                 animation: "slide",
