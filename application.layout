@@ -230,7 +230,7 @@
                 {{yield}}
             </div>
     
-            <div class="pop">
+            <div class="mobile_container">
                 <div class="col-md-3">
                     <div class="hour_box">  
                         <div>
