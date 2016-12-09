@@ -79,9 +79,6 @@
         function renderAll(){
             var jobs = getJobsList();
             // .sortBy(function(o){ return o.name});
-            
-            // var jobs = all_jobs.sort(function(a,b) {return (a.store_name > b.store_name) ? 1 : ((b.store_name > a.store_name) ? -1 : 0);} ); 
-
             console.log(jobs);
             var mall_published_jobs = [];
             var store_published_jobs = [];
@@ -97,7 +94,6 @@
                     webDate = moment(val.show_on_web_date)
                     if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
                         store_published_jobs.push(val);
-                        console.log(store_published_jobs);
                     }     
                 }
             });
