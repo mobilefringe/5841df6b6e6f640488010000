@@ -103,7 +103,7 @@
                 renderJobs('#store_jobs_container', '#store_jobs_template', store_published_jobs);
             }
             else {
-                $('#no_jobs').show()
+                $('#no_jobs').show();
             }
         }
         loadMallDataCached(renderAll); 
