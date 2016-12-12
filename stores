@@ -103,12 +103,10 @@
 <div class="line_break">&nbsp;</div>
 <script>
     $(document).ready(function(e){
-        // init(e);
+        init(e);
         function renderAll (){
             var stores = getStoresList();
-            console.log(stores);
             var categories = getStoreCategories();
-            console.log(categories);
             
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
