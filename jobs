@@ -100,7 +100,7 @@
             });
             if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
                 renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
-                var sorted_jobs = store_published_jobs.sort(o.store_name);
+                var sorted_jobs = store_published_jobs.sort(store_name);
                 console.log(sorted_stores);
                 renderJobs('#store_jobs_container', '#store_jobs_template', store_published_jobs);
             }
