@@ -103,7 +103,7 @@
 <div class="line_break">&nbsp;</div>
 <script>
     $(document).ready(function(e){
-        init(e);
+        // init(e);
         function renderAll (){
             var stores = getStoresList();
             console.log(stores);
