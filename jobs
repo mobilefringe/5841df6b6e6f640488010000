@@ -80,7 +80,6 @@
             var jobs = getJobsList().sortBy(function(o){ return o.store_name});
             console.log(jobs);
 
-            
             var mall_published_jobs = [];
             var store_published_jobs = [];
             $.each(jobs, function(key, val){
@@ -95,7 +94,6 @@
                     webDate = moment(val.show_on_web_date)
                     if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
                         store_published_jobs.push(val);
-                        store_published_jobs.sortBy(function(o){ return o.store_name});
                     }     
                 }
             });
