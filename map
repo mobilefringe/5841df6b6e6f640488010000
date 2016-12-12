@@ -42,8 +42,6 @@
         		});
         	show_png_pin(".mapper", "#map_image");
         }
-        loadMallDataCached(renderAll); 
-        
-        
+        loadMallDataCached(renderAll);
     })
 </script>
