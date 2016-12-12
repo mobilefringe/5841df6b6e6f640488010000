@@ -211,13 +211,14 @@ function renderJobs(container, template, collection){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         val.end_date = end.format("MMM D");
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start.format("MMM D")
+            val.dates = start.format("MMM D");
         }
         else{
-            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
-        var rendered = Mustache.render(template_html,val).sortBy(function(o){ return o.store_name});
-        item_rendered.push(rendered);
+        var rendered = Mustache.render(template_html,val);
+        sort = rendered.sortBy(function(o){ return o.store_name});
+        item_rendered.push(sort);
     });
     $(container).html(item_rendered.join(''));
 }
