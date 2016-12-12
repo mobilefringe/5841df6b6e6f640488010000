@@ -91,10 +91,11 @@
                     }
                 } else {
                     today = moment();
-                    webDate = moment(val.show_on_web_date)
+                    webDate = moment(val.show_on_web_date);
                     if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
                         store_published_jobs.push(val);
-                    }     
+                    }
+                    val.store_name = getStoreDetailsByID(val.jobable_id).name;
                 }
             });
             if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
