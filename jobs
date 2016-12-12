@@ -95,7 +95,7 @@
                     webDate = moment(val.show_on_web_date)
                     if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
                         store_published_jobs.push(val);
-                        store_published_jobs.sortBy(function(o){ return val.name});
+                        store_published_jobs.sortBy(function(o){ returno.name});
                     }     
                 }
             });
