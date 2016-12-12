@@ -104,6 +104,7 @@
             else {
                 $('#no_jobs').show();
             }
+            store_published_jobs.sortBy(function(o){ return o.store_name});
         }
         loadMallDataCached(renderAll); 
     })
