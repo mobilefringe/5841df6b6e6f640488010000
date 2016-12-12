@@ -217,7 +217,7 @@ function renderJobs(container, template, collection){
             val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         var rendered = Mustache.render(template_html,val);
-        sort = rendered.sortBy(function(o){ return o.store_name});
+        sort = rendered.sortBy(o.store_name);
         item_rendered.push(sort);
     });
     $(container).html(item_rendered.join(''));
