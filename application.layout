@@ -357,8 +357,8 @@
                     </div>
                     <div class="nav_site_map hidden-xs">
                         <label for="nav_site_map_link_id" >NAVIGATION</label>
-                        <div>
-                            <!--<div class="col-sm-6">-->
+                        <div class="row-fluid">
+                            <div class="col-sm-6">
                                 <div id="nav_site_map_link_id">
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">STORES</span>
@@ -388,8 +388,8 @@
                                         </span>
                                     </div>
                                 </div>
-                            <!--</div>-->
-                            <!--<div class="col-sm-6">-->
+                            </div>
+                            <div class="col-sm-6">
                                 <div id="nav_site_map_link_id">
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">ABOUT US</span>
@@ -412,13 +412,8 @@
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                         <a class="site_map_submenu" href='/pages/aberdeen-faq' target='_self'>FAQ</a>
                                     </div>
-                                    <div class="nav_sitemap_item">
-                                        <span class="site_map_title">
-                                            <a href="/posts">BLOG</a>
-                                        </span>
-                                    </div>
                                 </div>   
-                            <!--</div>-->
+                            </div>
                         </div>
                     </div>
                 </div>
