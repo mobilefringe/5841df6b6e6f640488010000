@@ -1,7 +1,7 @@
 function init() {
     var header_stores = getStoresList();
     renderStoreList('#brand_select','#brand_select_template', header_stores, "stores");
-    $("#brand_select").prepend("<option disabled selected>Stores</option>");
+    $("#brand_select").prepend("<option selected>Stores</option>");
     
     $("#brand_select").on('change', function() {            
         if ($(this).val() != ""){
