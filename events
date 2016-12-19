@@ -1,6 +1,7 @@
 <div class="promo_page">
     <h1 class="page_title">Mall Events</h1>
     <hr>
+    <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
     <div id="events_container">
         <script id="events_template" type="x-tmpl-mustache/text">
             <div class="row store_promo">
@@ -19,9 +20,6 @@
             </div>
         </script>
         <div class="line_break">&nbsp;</div>
-    </div>
-    <div class="col-sm-12">
-        <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
     </div>
 </div>
 <scipt src="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></scipt>
