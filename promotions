@@ -72,7 +72,7 @@
                     }     
                 } 
             });
-            if(mall_published_promos.length > 20){
+            if(mall_published_promos.length > 0){
                 renderPromotions("#mall_promo_container","#mall_promo_template", mall_published_promos);
             }
             else{
