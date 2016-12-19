@@ -72,13 +72,13 @@
                     }     
                 } 
             });
-            if(mall_published_promos.length > 0){
+            if(mall_published_promos.length > 20){
                 renderPromotions("#mall_promo_container","#mall_promo_template", mall_published_promos);
             }
             else{
                 $("#mall_promos").show();
             }
-            if(store_published_promos.length > 0){
+            if(store_published_promos.length > 20){
                 renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
             }
             else{
