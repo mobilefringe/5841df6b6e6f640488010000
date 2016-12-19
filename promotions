@@ -78,7 +78,7 @@
             else{
                 $("#mall_promos").show();
             }
-            if(store_published_promos.length > 20){
+            if(store_published_promos.length > 0){
                 renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
             }
             else{
