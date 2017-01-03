@@ -71,7 +71,6 @@
 </div>
 <script>
     $(document).ready(function(){
-        
         function renderAll(){
             init();
             var jobs = getJobsList().sortBy(function(o){ return o.end_date}).reverse();
