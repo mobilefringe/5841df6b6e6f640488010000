@@ -100,11 +100,11 @@
         </div>
     </div>
 </div>
-<div class="line_break">&nbsp;</div>
+<div class="line_break"></div>
 <script>
-    $(document).ready(function(e){
-        // init(e);
+    $(document).ready(function(){
         function renderAll (){
+            init();
             var stores = getStoresList();
             var categories = getStoreCategories();
             
