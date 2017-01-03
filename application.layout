@@ -271,7 +271,7 @@
         </div>
     </div>
     
-    <div class="line_break">&nbsp;</div>
+    <div class="line_break"></div>
     <div class="row-fluid">
         <div class="trim_screen">
             <div class="feature_links" id="home_feature">
@@ -289,7 +289,7 @@
             </div>
         </div>
     </div>
-    <div class="line_break">&nbsp;</div>
+    <div class="line_break"></div>
 
     <footer>
         <div class="bottom_nav trim_screen">
@@ -417,7 +417,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="clear:both;">&nbsp;</div>
+                <div class="line_break"></div>
         	</div>
         </div>
         <div class="footer trim_screen">
