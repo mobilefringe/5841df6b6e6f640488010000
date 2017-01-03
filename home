@@ -14,7 +14,6 @@
 
 <script>
     $(document).ready(function(){
-        
         function renderAll(){
             init();
             var banners = getBanners();
