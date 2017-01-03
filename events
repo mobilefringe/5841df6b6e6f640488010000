@@ -19,10 +19,9 @@
                 </div>
             </div>
         </script>
-        <div class="line_break">&nbsp;</div>
+        <div class="line_break"></div>
     </div>
 </div>
-<scipt src="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></scipt>
 <script>
     $(document).ready(function(){
         function renderAll(){
