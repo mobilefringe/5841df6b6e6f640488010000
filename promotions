@@ -19,10 +19,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="line_break">&nbsp;</div>
+                <div class="line_break"></div>
             </script>
         </div>
-        <div class="line_break">&nbsp;</div>
+        <div class="line_break"></div>
         <h1 class="page_title">Store Promotions</h1>
         <hr>
         <h3 id="store_promo" class="hidden_now">There are currently no store promotions available, please check back again later.</h3>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="line_break">&nbsp;</div>
+                <div class="line_break"></div>
             </script>
         </div>
         <div class="line_break"></div>
@@ -51,9 +51,9 @@
 </div>
 
 <script>
-    $(document).ready(function(e){
-        // init(e);
+    $(document).ready(function(){
         function renderAll(){
+            init();
             var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
             var mall_published_promos = [];
             var store_published_promos = [];
