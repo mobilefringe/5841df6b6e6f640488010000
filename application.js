@@ -11,6 +11,9 @@ function init() {
             
     renderHomeHours();
     
+    var prop_details = getPropertyDetails();
+    renderPropertyDetails('#prop_phone_container', '#prop_phone_template', prop_details);
+    
     var feature_items = getFeatureList();
     var one_item = feature_items.slice(0,1);
     renderFeatureItems('#feature_item','#feature_item_template', one_item);
@@ -18,15 +21,15 @@ function init() {
     renderFeatureItems('#home_feature','#home_feature_template', two_items);
     
     var _fbq = window._fbq || (window._fbq = []);
-        if (!_fbq.loaded) {
-            var fbds = document.createElement('script');
-            fbds.async = true;
-            fbds.src = '//connect.facebook.net/en_US/fbds.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(fbds, s);
-            _fbq.loaded = true;
-          }
-        _fbq.push(['addPixelId', '548352815262916']);
+    if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+      }
+    _fbq.push(['addPixelId', '548352815262916']);
     window._fbq = window._fbq || [];
     window._fbq.push(['track', 'PixelInitialized', {}]);
 }
