@@ -13,16 +13,16 @@
 </div>
 
 <script>
-    $(document).ready(function(){
-        function renderAll(){
-            init();
-            var banners = getBanners();
-            renderBanner('#home_banner_template','#home_banner', banners);
+$(document).ready(function(){
+    function renderAll(){
+        init();
+        var banners = getBanners();
+        renderBanner('#home_banner_template','#home_banner', banners);
 
-            $('.flexslider').flexslider({
-                animation: "slide",
-            });
-        }
-        loadMallData(renderAll);
-    })
+        $('.flexslider').flexslider({
+            animation: "slide",
+        });
+    }
+    loadMallData(renderAll);
+})
 </script>
