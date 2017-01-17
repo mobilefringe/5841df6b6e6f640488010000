@@ -47,6 +47,18 @@ function renderGeneral(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
+function renderPropertyDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    
+    var repo_rendered = Mustache.render(template_html, collection);
+    item_rendered.push(repo_rendered);
+
+    $(container).html(item_rendered.join(''));
+}
+
 function renderBanner(home_banner_template, home_banner, banners){
     var item_list = [];
     var item_rendered = [];
