@@ -102,9 +102,9 @@
 </div>
 <div class="line_break"></div>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function(e){
+        init(e);
         function renderAll (){
-            init();
             var stores = getStoresList();
             var categories = getStoreCategories();
             
