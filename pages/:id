@@ -16,9 +16,8 @@
 <div class="mobile_line_break"></div>
 <script>
 $(document).ready(function(){
+    init(e);
     function renderAll(){
-        init();
-        
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         var pages_json = "//www.aberdeenmall.ca/pages/" + slug + ".json"
@@ -33,6 +32,10 @@ $(document).ready(function(){
                 $("#error_msg").fadeIn("fast");
             }
         }); 
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
     }
     loadMallDataCached(renderAll); 
 })
