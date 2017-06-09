@@ -23,9 +23,9 @@
     </div>
 </div>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function(e){
+        init(e);
         function renderAll(){
-            init();
             var events = getEventsList().sortBy(function(o){ return o.start_date });
             var prop = getPropertyDetails();
             var published_events = [];
@@ -42,6 +42,10 @@
             else{
                 $('#no_events').show()
             }
+            
+            setTimeout(function() {
+                show_content();
+            }, 500);
         }
         loadMallDataCached(renderAll); 
     })
