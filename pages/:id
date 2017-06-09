@@ -15,7 +15,7 @@
 </div>
 <div class="mobile_line_break"></div>
 <script>
-$(document).ready(function(){
+$(document).ready(function(e){
     init(e);
     function renderAll(){
         var pathArray = window.location.pathname.split( '/' );
