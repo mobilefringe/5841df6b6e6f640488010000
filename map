@@ -15,36 +15,36 @@
 <div class="mobile_line_break"></div>
 <script src="//kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
 <script>
-    $(document).ready(function(e){
-        init(e);
-        function renderAll(){
-            var stores = getStoresList();
-            renderStoreList('#store_select_container','#store_select_template', stores, "stores");
-            $(".mapper").prepend("<option selected>Select a Store</option>");
-            
-            $("#map_image").attr("src", getPNGMapURL())
-        		$('#map_image').smoothZoom({
-        		    width: 840,
-                    height: 500,
-        		    initial_ZOOM: 0,
-        			zoom_MIN: 0,
-        			zoom_MAX: 250,
-        			responsive: true,
-        		    responsive_maintain_ratio: true,
-        			zoom_BUTTONS_SHOW : 'YES',
-        			pan_BUTTONS_SHOW : 'NO',
-        			pan_LIMIT_BOUNDARY : 'NO',
-        			button_SIZE: 34,
-        			button_ALIGN: "top right",
-        			zoom_OUT_TO_FIT: "NO",
-        			container: 'zoom_container'
-        		});
-        	show_png_pin(".mapper", "#map_image");
-        	
-        	setTimeout(function() {
-                show_content();
-            }, 500);
-        }
-        loadMallDataCached(renderAll);
-    })
+$(document).ready(function(e){
+    init(e);
+    function renderAll(){
+        var stores = getStoresList();
+        renderStoreList('#store_select_container','#store_select_template', stores, "stores");
+        $(".mapper").prepend("<option selected>Select a Store</option>");
+        
+        $("#map_image").attr("src", getPNGMapURL())
+    		$('#map_image').smoothZoom({
+    		    width: 840,
+                height: 500,
+    		    initial_ZOOM: 0,
+    			zoom_MIN: 0,
+    			zoom_MAX: 250,
+    			responsive: true,
+    		    responsive_maintain_ratio: true,
+    			zoom_BUTTONS_SHOW : 'YES',
+    			pan_BUTTONS_SHOW : 'NO',
+    			pan_LIMIT_BOUNDARY : 'NO',
+    			button_SIZE: 34,
+    			button_ALIGN: "top right",
+    			zoom_OUT_TO_FIT: "NO",
+    			container: 'zoom_container'
+    		});
+    	show_png_pin(".mapper", "#map_image");
+    	
+    	setTimeout(function() {
+            show_content();
+        }, 500);
+    }
+    loadMallDataCached(renderAll);
+})
 </script>
