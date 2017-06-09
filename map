@@ -41,6 +41,10 @@
         			container: 'zoom_container'
         		});
         	show_png_pin(".mapper", "#map_image");
+        	
+        	setTimeout(function() {
+                show_content();
+            }, 500);
         }
         loadMallDataCached(renderAll);
     })
