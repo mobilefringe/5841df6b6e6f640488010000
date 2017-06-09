@@ -226,7 +226,7 @@
     </header>
     
     <div class="trim_screen">
-        <div class=" main_content row-fluid">
+        <div class=" main_content row-fluid yield">
             <div class="col-md-9">
                 {{yield}}
             </div>
