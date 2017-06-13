@@ -334,7 +334,7 @@ function renderPromotions(container, template, collection){
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
-            val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108";
+            val.promo_image_url_abs  = "//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg";
         }
         
         var show_date = moment(val.show_on_web_date);
