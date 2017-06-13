@@ -449,7 +449,7 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "//www.mallmaverick.com/photos/original/missing.png";
+            val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
