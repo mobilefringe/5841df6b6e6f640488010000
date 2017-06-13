@@ -131,7 +131,7 @@
         <div class="hidden-xs row-fluid">
 	  	    <div class="trim_screen nav_container" id="site_nav">              
                 <a id="centre_logo" href="/">
-                    <img ALT="centre_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108" style="max-width:95%" />
+                    <img ALT="centre_logo" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg" style="max-width:95%" />
                 </a>
                 <ul>                  
                     <li class="dropdown ">
