@@ -269,7 +269,7 @@
     <!-- BC FIRE BANNER -->
     <div class="trim_screen">
         <a href="" target="blank">
-            <img src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1499956420000/bc_fire_banner.jpg" alt=""/>
+            <img class="center-block" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1499956420000/bc_fire_banner.jpg" alt=""/>
         </a>
     </div>
 
