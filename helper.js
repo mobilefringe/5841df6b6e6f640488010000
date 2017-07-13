@@ -7,7 +7,7 @@ function init() {
         }
     });        
     
-    $("#track_link").onclick( function() {
+    $("#track_link").click( function() {
             trackOutboundLink('https://donate.redcross.ca/ea-action/action?ea.client.id=1951&ea.campaign.id=74010&_ga=2.186858216.1395117015.1499699609-1123211371.1499699609');
         })
         
