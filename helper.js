@@ -6,7 +6,7 @@ function init() {
             window.location.href = "/stores/"+$(this).val();    
         }
     });        
-    
+            
     var _fbq = window._fbq || (window._fbq = []);
     if (!_fbq.loaded) {
         var fbds = document.createElement('script');
