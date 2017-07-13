@@ -6,7 +6,11 @@ function init() {
             window.location.href = "/stores/"+$(this).val();    
         }
     });        
-            
+    
+    $("#track_link").onclick( function() {
+            trackOutboundLink('https://donate.redcross.ca/ea-action/action?ea.client.id=1951&ea.campaign.id=74010&_ga=2.186858216.1395117015.1499699609-1123211371.1499699609');
+        })
+        
     var _fbq = window._fbq || (window._fbq = []);
     if (!_fbq.loaded) {
         var fbds = document.createElement('script');
