@@ -109,7 +109,7 @@ $(document).ready(function(e){
         var categories = getStoreCategories();
         var category_list = [];
         $.each( categories, function( key, val ){
-            if (val.store_ids != null) {
+            if (val.store_ids != null){
                 category_list.push(val);
             } 
         });
