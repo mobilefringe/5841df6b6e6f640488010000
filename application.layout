@@ -37,11 +37,6 @@
             });
         }
     </script>
-    <script>
-        $("#track_link").click( function() {
-            trackOutboundLink('https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/');
-        });
-    </script>
     
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: //bootswatch.com/flatly/ -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
