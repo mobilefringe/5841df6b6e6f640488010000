@@ -418,7 +418,7 @@
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; 2017 Aberdeen Mall | <a href="/pages/aberdeen-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy; <span id="current_year" style="padding:0"></span> Aberdeen Mall | <a href="/pages/aberdeen-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
                 <!--<img ALT="20vic_logo" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/png/1497017015000/20vic_logo.png" />-->
