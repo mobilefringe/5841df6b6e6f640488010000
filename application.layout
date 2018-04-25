@@ -128,7 +128,7 @@
                     <div class ="row-fluid">
                         <div class="trim_screen">
                             <div class="select_parent pull-right">
-                                <label for="brand_select" style="display:none">select brand</label>
+                                <label for="brand_select" style="display:none">Select a Store</label>
                                 <select id="brand_select">
                                     <script id="brand_select_template" type="x-tmpl-mustache/text">
                                         {%raw%}
