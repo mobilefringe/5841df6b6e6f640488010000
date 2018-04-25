@@ -345,10 +345,8 @@
                                 <nav id="nav_site_map_link_id">
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">STORES</span>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/stores' target='_self'>Store Directory</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/map' target='_self'>Shopping Map</a>
+                                        <a class="site_map_submenu" href='/stores'>Store Directory</a>
+                                        <a class="site_map_submenu" href='/map'>Shopping Map</a>
                                     </div>
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">
