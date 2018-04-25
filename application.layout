@@ -379,24 +379,15 @@
                                 <div id="nav_site_map_link_id">
                                     <div class="nav_sitemap_item">
                                         <span class="site_map_title">ABOUT US</span>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-leasing' target='_self'>Leasing</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-accessibility' target='_self'>Accessibility</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-sponsorships-donations' target='_self'>Sponsorships & Donations</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-community-bookings' target='_self'>Community Bookings</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-marketing-advertising' target='_self'>Marketing & Advertising</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-security' target='_self'>Security</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-contact-us' target='_self'>Contact Us</a>
-                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/aberdeen-faq' target='_self'>FAQ</a>
+                                        <a class="site_map_submenu" href='/hours'>Shopping Hours</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-leasing'>Leasing</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-accessibility'>Accessibility</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-sponsorships-donations'>Sponsorships & Donations</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-community-bookings'>Community Bookings</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-marketing-advertising'>Marketing & Advertising</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-security'>Security</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-contact-us'>Contact Us</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-faq'>FAQ</a>
                                     </div>
                                 </div>   
                             </div>
