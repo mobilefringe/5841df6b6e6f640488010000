@@ -60,7 +60,7 @@
                                 </span>
                                 <span class="store_phone hidden-xs">{{phone}}</span>
                                 <span><a class="visible-xs-inline-block" style="{{phone_exist}}" href="tel:{{phone}}">
-                                    <img src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1497038601000/icon_call_stores.png" alt="Job Posting Available for {{name}}">
+                                    <img src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1497038601000/icon_call_stores.png" alt="Phone Number for {{name}}">
                                 </a></span>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                                 </span>
                                 <span class="store_phone hidden-xs">{{phone}}</span>
                                 <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
-                                    <img src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1497038601000/icon_call_stores.png" alt="Job Posting Available for {{name}}">
+                                    <img src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1497038601000/icon_call_stores.png" alt="Phone Number for {{name}}">
                                 </a></span>
                             </div>
                         </div>
