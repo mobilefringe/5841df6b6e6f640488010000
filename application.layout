@@ -344,7 +344,7 @@
         		        <p><a href="http://instagram.com/AberdeenMall#" target="_blank">Follow Us On Instagram!</a></p>
                     </div>
                     <div class="nav_site_map hidden-xs">
-                        <label for="nav_site_map_link_id" >NAVIGATION</label>
+                        <span for="nav_site_map_link_id" >NAVIGATION</span>
                         <div class="row-fluid">
                             <div class="col-sm-6">
                                 <nav id="nav_site_map_link_id">
