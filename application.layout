@@ -269,7 +269,7 @@
                     <div class="col-sm-6">
                         <div class="img_container">
                             <a href="{{url}}">
-                                <img alt="" src="{{image_url}}">
+                                <img alt="{{name}}" src="{{image_url}}">
                             </a>
                         </div>
                     </div> 
