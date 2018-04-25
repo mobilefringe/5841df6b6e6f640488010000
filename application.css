@@ -480,6 +480,7 @@ legend{
 }
 
 .newsletter_box span {
+    font-family: futura_medium;
     font-weight: lighter;
     padding: 5px 0px 10px;
     display: block;
