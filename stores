@@ -58,8 +58,8 @@
                                 <span style="{{promotion_exist}}">
                                     <img src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/png/1497038419000/btn_promo.png" alt="Promotion Available for {{name}}"/>
                                 </span>
-                                <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
-                                <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                <span class="store_phone hidden-xs">{{phone}}</span>
+                                <span><a class="visible-xs-inline-block" style="{{phone_exist}}" href="tel:{{phone}}">
                                     <img src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1497038601000/icon_call_stores.png" alt="Job Posting Available for {{name}}">
                                 </a></span>
                             </div>
@@ -88,7 +88,7 @@
                                 <span style="{{promotion_exist}}">
                                     <img src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/png/1497038419000/btn_promo.png" alt="Promotion Available for {{name}}"/>
                                 </span>
-                                <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
+                                <span class="store_phone hidden-xs">{{phone}}</span>
                                 <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
                                     <img src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1497038601000/icon_call_stores.png" alt="Job Posting Available for {{name}}">
                                 </a></span>
