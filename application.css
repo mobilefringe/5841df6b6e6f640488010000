@@ -480,13 +480,14 @@ legend{
 }
 
 .newsletter_box p {
-    font-family: futura_medium;
-    font-weight: lighter;
-    line-height: 18px;
+    margin: 0;
     padding: 5px 0px 10px;
     display: block;
-    color: gray;
+    font-family: futura_medium;
     font-size: 0.8em;
+    font-weight: lighter;
+    line-height: 18px;
+    color: gray;
 }
 
 .newsletter_box #fieldEmail {
