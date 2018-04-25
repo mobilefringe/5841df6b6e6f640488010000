@@ -308,14 +308,14 @@
                         </form>
                     </div>
                     <div class="social_links_mobile visible-xs-block">
-                        <a href="" target="_blank">
+                        <a href="https://www.facebook.com/aberdeenmall" target="_blank">
                             <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
                         </a>
-                        <a href="" target="_blank">
-                             <i class="fa fa-twitter social_icon" aria-hidden="true"></i>    
+                        <a href="https://twitter.com/AberdeenMall" target="_blank">
+                            <i class="fa fa-twitter social_icon" aria-hidden="true"></i>    
                         </a>
-                        <a href="//instagram.com/AberdeenMall#" target="_blank">
-                            <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
+                        <a href="https://instagram.com/AberdeenMall" target="_blank">
+                            <i class="fa fa-instagram social_icon" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
