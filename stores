@@ -56,11 +56,11 @@
                             </div>
                             <div class="pull-right stores_row stores_row_phone">
                                 <span style="{{promotion_exist}}">
-                                    <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/png/1497038419000/btn_promo.png"/>
+                                    <img src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/png/1497038419000/btn_promo.png" alt=""/>
                                 </span>
                                 <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
                                 <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
-                                    <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1497038601000/icon_call_stores.png">
+                                    <img src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1497038601000/icon_call_stores.png" alt="">
                                 </a></span>
                             </div>
                         </div>
