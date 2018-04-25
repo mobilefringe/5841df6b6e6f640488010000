@@ -27,6 +27,9 @@ $(document).ready(function(e){
             animation: "slide",
             pauseOnHover: true,
         });
+        
+        $(".flex-prev").html("<p style='display: none'>Previous Slide</p>");
+        $(".flex-next").html("<p style='display: none'>Next Slide</p>");
     }
     loadMallData(renderAll);
 })
