@@ -289,10 +289,10 @@
                     </div>
                     <div class="newsletter_box">
                         <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
-                            <label for="newsletter_box_id">
+                            <span for="newsletter_box_id">
                                 <i class="fa fa-envelope social_icon" aria-hidden="true"></i>
                                 SUBSCRIBE AND GET UPDATES
-                            </label>                
+                            </span>                
                             <p>
                                 Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!
                             </p>
