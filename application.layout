@@ -402,12 +402,12 @@
                 <img src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/png/1509381758000/CW Logos-_CW_Blackredlogo.png" alt="Cushman & Wakefueld Logo" style="width:140px;">
             </a>
              
-            <!--<form action="//aberdeen.us12.list-manage.com/subscribe/post-json?u=74012e50e53ebc5fb4534d4e7&amp;id=1819fc25ef&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">-->
-            <!--    <label for="mce-EMAIL" style="display: none">Enter Email Address</label>-->
-            <!--    <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />-->
-            <!--    <label for="" style="display: none"></label>-->
-            <!--    <input type="text" name="b_74012e50e53ebc5fb4534d4e7_1819fc25ef" tabindex="-1" value="">-->
-            <!--</form>-->
+            <form action="//aberdeen.us12.list-manage.com/subscribe/post-json?u=74012e50e53ebc5fb4534d4e7&amp;id=1819fc25ef&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
+                <label for="mce-EMAIL" style="display: none">Enter Email Address</label>
+                <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
+                <label for="b_74012e50e53ebc5fb4534d4e7_1819fc25ef" style="display: none"></label>
+                <input type="text" id="b_74012e50e53ebc5fb4534d4e7_1819fc25ef" name="b_74012e50e53ebc5fb4534d4e7_1819fc25ef" tabindex="-1" value="">
+            </form>
             <div id="fb-root"></div>
         </div>
     </footer>
