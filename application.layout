@@ -119,7 +119,7 @@
                     </li>
                 </ul>
                 <a id="mobile_logo" href="/">
-                    <img ALT="Aberdeen Mall Logo" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg" />
+                    <img alt="Aberdeen Mall Logo" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg" />
                 </a>
             </nav>
             <!-- iphone header END --> 
@@ -249,7 +249,7 @@
                             <script id="feature_item_template" type="x-tmpl-mustache/text">
                                 {%raw%}
                                 <a href="{{url}}">
-                                    <img alt="feature_image" src="{{image_url}}" />
+                                    <img alt="{{name}}" src="{{image_url}}" />
                                 </a>
                                 {%endraw%}
                             </script>
