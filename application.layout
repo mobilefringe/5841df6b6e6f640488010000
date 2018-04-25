@@ -60,6 +60,7 @@
             <nav class="visible-xs-block mobile_header top_nav row-fluid" >                
                 <div class="background_bar"></div>
                 <button type="button" data-toggle="dropdown" class="pull-right">
+                    <p style="display:none">Toggle Mobile Menu</p>
                     <i class="fa fa-align-justify fa-lg"></i>
                 </button>
                 <ul class="dropdown-menu bottom">                                
@@ -212,7 +213,6 @@
             <div class="col-md-9">
                 {{yield}}
             </div>
-    
             <div class="mobile_container">
                 <div class="col-md-3">
                     <div class="hour_box">  
