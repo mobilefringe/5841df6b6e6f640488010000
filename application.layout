@@ -117,7 +117,7 @@
                       <a href='/pages/aberdeen-faq'>FAQ</a>
                     </li>
                 </ul>
-                <a id="mobile_logo" href="/">
+                <a id="mobile_logo" href="/" aria-label="Mobile Menu Home Link">
                     <img alt="Aberdeen Mall Logo" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg" />
                 </a>
             </nav>
@@ -144,7 +144,7 @@
         </div>
         <div class="hidden-xs row-fluid">
 	  	    <nav class="trim_screen nav_container" id="site_nav">              
-                <a id="centre_logo" href="/">
+                <a id="centre_logo" href="/" aria-label="Desktop Menu Home Link">
                     <img alt="Aberdeen Mall Logo" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg" style="max-width:95%" />
                 </a>
                 <ul>                  
