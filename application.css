@@ -482,6 +482,7 @@ legend{
 .newsletter_box span {
     font-family: futura_medium;
     font-weight: lighter;
+    line-height: 18px;
     padding: 5px 0px 10px;
     display: block;
     color: gray;
