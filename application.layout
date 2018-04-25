@@ -220,7 +220,6 @@
                     <div class="hour_box">  
                         <div>
                             <label for="hours_today" class="feature_label">HOURS TODAY</label>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                             <p id="home_hours_container">
                                 <script id="home_hours_template" type="x-tmpl-mustache/text">
                                     {%raw%}
