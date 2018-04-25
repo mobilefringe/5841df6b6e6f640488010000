@@ -217,7 +217,7 @@
                 <div class="col-md-3">
                     <div class="hour_box">  
                         <div>
-                            <label for="hours_today" class="feature_label">HOURS TODAY</label>
+                            <span for="hours_today" class="feature_label">HOURS TODAY</span>
                             <p id="home_hours_container">
                                 <script id="home_hours_template" type="x-tmpl-mustache/text">
                                     {%raw%}
