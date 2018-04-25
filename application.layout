@@ -309,12 +309,15 @@
                     </div>
                     <div class="social_links_mobile visible-xs-block">
                         <a href="https://www.facebook.com/aberdeenmall" target="_blank">
+                            <p style="display:none">Facebook</p> 
                             <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
                         </a>
                         <a href="https://twitter.com/AberdeenMall" target="_blank">
+                            <p style="display:none">Twitter</p> 
                             <i class="fa fa-twitter social_icon" aria-hidden="true"></i>    
                         </a>
                         <a href="https://instagram.com/AberdeenMall" target="_blank">
+                            <p style="display:none">Instagram</p> 
                             <i class="fa fa-instagram social_icon" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -332,7 +335,7 @@
         		<div class="col-sm-12 col-md-4">   
         		<div class="mobile_line_break"></div>
         		    <div class="social_links hidden-xs">
-        		        <span for="nav_site_map_link_id" >
+        		        <span for="nav_site_map_link_id">
                             <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
                             INSTAGRAM
         		        </span>
