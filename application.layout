@@ -59,7 +59,7 @@
         <!--Header -->
         <div class="header">
             <!-- iphone header -->
-            <div class="visible-xs-block mobile_header top_nav row-fluid" >                
+            <nav class="visible-xs-block mobile_header top_nav row-fluid" >                
                 <div class="background_bar"></div>
                 <button type="button" data-toggle="dropdown" class="pull-right">
                     <i class="fa fa-align-justify fa-lg"></i>
@@ -121,7 +121,7 @@
                 <a id="mobile_logo" href="/">
                     <img ALT="Aberdeen Mall Logo" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg" />
                 </a>
-            </div>
+            </nav>
             <!-- iphone header END --> 
             <!--Top Nav Dynamic-->
             <div class="hidden-xs top_nav custom_dropdown full_header">
@@ -209,7 +209,6 @@
 		   	</nav>                 
 		</div>          
     </header>
-    
     <div class="trim_screen">
         <div class=" main_content row-fluid yield">
             <div class="col-md-9">
