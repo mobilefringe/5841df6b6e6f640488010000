@@ -487,7 +487,7 @@ legend{
     font-size: 0.8em;
     font-weight: lighter;
     line-height: 18px;
-    color: gray;
+    color: #545454;
 }
 
 .newsletter_box #fieldEmail {
