@@ -2153,6 +2153,7 @@ td.stores_pin{
 }
 
 .store_details h1 a {
+    color: inherit;
     text-decoration: none;
 }
 .store_details h1.store_page {
