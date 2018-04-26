@@ -1,0 +1,52 @@
+<div class="promo_page">
+    <h1 class="page_title">Mall Events</h1>
+    <hr>
+    <h2 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h2>
+    <div id="events_container">
+        <script id="events_template" type="x-tmpl-mustache/text">
+            <div class="row store_promo">
+                <div class="col-sm-3">
+                    <a  href="{{event_image_url_abs}}" data-lightbox="{{name}}">
+                        <img src="{{event_image_url_abs}}" alt="{{name}}">
+                    </a>
+                </div>
+                <div class="col-sm-9">
+                    <div class="promo_info">
+                        <a href="/events/{{slug}}"><h2>{{name}}</h2></a>
+                        <span class="promo_date">{{dates}}</span>
+                        <div><p>{{{rich_description}}}</p></div>
+                    </div>
+                </div>
+            </div>
+        </script>
+        <div class="line_break"></div>
+    </div>
+</div>
+<script>
+$(document).ready(function(e){
+    init(e);
+    function renderAll(){
+        var events = getEventsList().sortBy(function(o){ return o.start_date });
+        var prop = getPropertyDetails();
+        var published_events = [];
+        $.each(events, function(key, val){
+            today = moment();
+            webDate = moment(val.show_on_web_date)
+            if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                published_events.push(val);
+            } 
+        });
+        if(published_events.length > 0){
+            renderEvents("#events_container","#events_template", published_events);
+        }
+        else{
+            $('#no_events').show()
+        }
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
+    }
+    loadMallDataCached(renderAll); 
+})
+</script>
