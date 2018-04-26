@@ -1,0 +1,112 @@
+<div>
+    <h1 class="page_title">Careers</h1>
+    <hr>
+    <h2 id="no_jobs" class="hidden_now">There are currently no jobs available, please check back again later.</h2>
+    <div class="accordion" id="accordion2">
+        <div id="mall_jobs_container">
+            <script id="mall_jobs_template" type="x-tmpl-mustache/text">
+                <div class="accordion-group">
+                    <div class="accordion-heading">            
+                        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
+                            <img class="pull-right" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/png/1497038985000/arrow_down.png" alt="Toggle Job Posting" />
+                            <h2 class="job_title"><span class="store_name">{{store_name}}</span> - {{name}}</h2>
+                            <h2 class="job_close_date">{{job_type}}</h2>
+                        </div>
+                    </div>
+                    <div id="collapse{{id}}" class="accordion-body collapse">
+                        <div class="accordion-inner">     
+                            {{#end_date}}
+                            <h2>Closing Date: {{end_date}}</h2>
+                            {{/end_date}}
+                            <p>&nbsp;</p>
+                            <p>{{{rich_description}}}</p>
+                            {{#contact_name}}
+                            <p><strong>Contact Name:</strong> {{contact_name}}</p>
+                            {{/contact_name}}
+                            {{#contact_phone}}
+                            <p><strong>Contact Phone:</strong> {{contact_phone}}</p>
+                            {{/contact_phone}}
+                            {{#contact_email}}
+                            <p><strong>Contact Email:</strong> <a href="mailto:{{contact_email}}">{{contact_email}}</a></p>
+                            {{/contact_email}}
+                        </div>
+                    </div>
+                </div> 
+            </script>
+        </div>
+    </div>
+    
+    <div class="accordion" id="accordion2">
+        <div id="store_jobs_container">
+            <script id="store_jobs_template" type="x-tmpl-mustache/text">
+                <div class="accordion-group">
+                    <div class="accordion-heading">            
+                        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
+                            <img ALT="arrow_down" class="pull-right" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/png/1497038985000/arrow_down.png" />
+                            <h2 class="job_title"><span class="store_name">{{store_name}}</span> - {{name}}</h2>
+                            <h2 class="job_close_date">{{job_type}}</h2>
+                        </div>
+                    </div>
+                    <div id="collapse{{id}}" class="accordion-body collapse">
+                        <div class="accordion-inner">                        
+                            <h2>Closing Date: {{end_date}}</h2>
+                            <p>&nbsp;</p>
+                            <p>{{{rich_description}}}</p>
+                            {{#contact_name}}
+                            <p><strong>Contact Name:</strong> {{contact_name}}</p>
+                            {{/contact_name}}
+                            {{#contact_phone}}
+                            <p><strong>Contact Phone:</strong> {{contact_phone}}</p>
+                            {{/contact_phone}}
+                            {{#contact_email}}
+                            <p><strong>Contact Email:</strong> <a href="mailto:{{contact_email}}">{{contact_email}}</a></p>
+                            {{/contact_email}}
+                            {{#store_slug}}
+                            <strong><a href="/stores/{{store_slug}}">View Store: {{store_name}}</a></strong>
+                            {{/store_slug}}
+                        </div>
+                    </div>
+                </div> 
+            </script>
+        </div>
+    </div>
+</div>
+<script>
+$(document).ready(function(e){
+    init(e);
+    function renderAll(){
+        var jobs = getJobsList().sortBy(function(o){ return o.end_date}).reverse();
+        var mall_published_jobs = [];
+        var store_published_jobs = [];
+        $.each(jobs, function(key, val){
+            if(val.jobable_type == "Property"){
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    mall_published_jobs.push(val);
+                }
+            } else {
+                today = moment();
+                webDate = moment(val.show_on_web_date);
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    store_published_jobs.push(val);
+                }
+                val.store_name = getStoreDetailsByID(val.jobable_id).name;
+            }
+        });
+        if(mall_published_jobs.length > 0 || store_published_jobs.length > 0 ){
+            renderJobs('#mall_jobs_container', '#mall_jobs_template', mall_published_jobs);
+            var sorted_store_jobs = store_published_jobs.sortBy(function(o){ return o.store_name});
+            renderJobs('#store_jobs_container', '#store_jobs_template', sorted_store_jobs);
+        }
+        else {
+            $('#no_jobs').show();
+        }
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
+    }
+    loadMallDataCached(renderAll); 
+})
+</script>
