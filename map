@@ -7,7 +7,7 @@
         </script>
 	</select>
 	<div id="parent_div">
-		<div id="zoom_container"  >
+		<div id="zoom_container">
 			<img alt="Aberdeen Directory Map" id="map_image" src=""/>
 			<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>
 		</div>
