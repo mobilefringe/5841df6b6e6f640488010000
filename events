@@ -38,8 +38,7 @@ $(document).ready(function(e){
         });
         if(published_events.length > 0){
             renderEvents("#events_container","#events_template", published_events);
-        }
-        else{
+        } else {
             $('#no_events').show()
         }
         
