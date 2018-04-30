@@ -1,5 +1,4 @@
-<div id="top" style="display: none"></div>
-<div class="store_list">
+<div class="store_list" id="top">
     <h1 class="page_title">Store List</h1>
     <hr>
     <div class="tabbable">
