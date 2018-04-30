@@ -223,7 +223,10 @@ p {
     font-size: 14px;
     color: #555555;
 }
-
+.brand_nav select:focus {
+    outline: 7px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
 .brand_nav .select_locale_parent select{
    width: 150px;
    background: url(//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/png/1497038985000/arrow_down.png) no-repeat 80px 50% #ddd;
