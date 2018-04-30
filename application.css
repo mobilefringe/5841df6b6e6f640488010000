@@ -2147,6 +2147,10 @@ td.stores_pin{
 .btn-nav{
     color:  #3D441E; 
 }
+.btn-nav:focus {
+    outline: 7px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
 .store_details h1{
     padding-bottom: 15px;
     font-family:futura,futura_medium_light_ie;
