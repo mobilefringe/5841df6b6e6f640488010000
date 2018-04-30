@@ -1077,17 +1077,17 @@ a.btn-prime {
 
 .feature_label{
     margin:0px;
-    color: white;
+    color: #4d413e;
     padding:17px 4% 0;    
-    background-color:#4d413e;
-    height:20px;   
+    background-color: #4d413e;
+    height: 20px;   
     font-family: inherit;
-    font-size:2em;
-    font-size:1.3em\9;
-    position:absolute;    
-    left:0;
-    z-index:900;
-    width:92%;
+    font-size: 2em;
+    font-size: 1.3em\9;
+    position: absolute;    
+    left: 0;
+    z-index: 900;
+    width: 92%;
 }
 
 .hour_box .feature_label {
