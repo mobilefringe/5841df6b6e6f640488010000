@@ -1402,7 +1402,11 @@ hr{
     // float:left;
     // width:72%;
 }
-
+.promo_content {
+    img { 
+        max-width: 100%;
+    }
+}
 .promo_info a {
     color: inherit;
     text-decoration: none;   
