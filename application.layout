@@ -246,7 +246,7 @@
                             <script id="feature_item_template" type="x-tmpl-mustache/text">
                                 {%raw%}
                                 <a href="{{url}}">
-                                    <img alt="{{name}}" src="{{image_url}}" />
+                                    <img alt="{{name}}" src="{{image_url}}" alt="{{name}}" />
                                 </a>
                                 {%endraw%}
                             </script>
