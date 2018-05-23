@@ -302,7 +302,7 @@
                                 <label style="display:none" for="agree_terms">Subscribe</label>
                                 <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Aberdeen Mall
                             </p>
-                            <button class="btn"/>Subscribe</button>                      
+                            <button class="btn">Subscribe</button>                      
                             <br/>
                             <p id="success_subscribe">Thank you for subscribing to our newsletter.</p>
                         </form>
