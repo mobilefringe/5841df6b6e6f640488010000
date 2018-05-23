@@ -14,7 +14,7 @@
                     <div class="promo_info">
                         <a href="/events/{{slug}}"><h2>{{name}}</h2></a>
                         <span class="promo_date">{{dates}}</span>
-                        <div><p>{{{rich_description}}}</p></div>
+                        <div class="promo_content">{{{rich_description}}}</div>
                     </div>
                 </div>
             </div>
