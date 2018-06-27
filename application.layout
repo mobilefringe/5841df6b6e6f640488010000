@@ -314,7 +314,7 @@
                                 <input type="checkbox" class="info_check" id="agree_terms" required/> I agree to receive newsletters from Aberdeen Mall
                                 
                             </span>
-                            <button class="btn"/>Subscribe</button>                      
+                            <button class="btn">Subscribe</button>                      
                             <br/>
                             <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                         </form>
