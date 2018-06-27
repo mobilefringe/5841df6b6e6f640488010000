@@ -21,28 +21,28 @@ function init() {
     window._fbq.push(['track', 'PixelInitialized', {}]);
     
     //Campaign Monitor Sign Up
-    $('#subForm').submit(function (e) {
-        if ($("#agree_terms").prop("checked") != true){
-            alert("Please agree to the term and conditions.");
-            $("#agree_terms").focus();
-            return false;
-        }
-        e.preventDefault();
-        $.getJSON(
-            this.action + "?callback=?",
-            $(this).serialize(),
-            function (data) {
-                if (data.Status === 400) {
-                    alert("Please try again later.");
-                } else { // 200
-                    $('#subForm').trigger('reset');
-                    $("#success_subscribe").fadeIn();
+    // $('#subForm').submit(function (e) {
+    //     if ($("#agree_terms").prop("checked") != true){
+    //         alert("Please agree to the term and conditions.");
+    //         $("#agree_terms").focus();
+    //         return false;
+    //     }
+    //     e.preventDefault();
+    //     $.getJSON(
+    //         this.action + "?callback=?",
+    //         $(this).serialize(),
+    //         function (data) {
+    //             if (data.Status === 400) {
+    //                 alert("Please try again later.");
+    //             } else { // 200
+    //                 $('#subForm').trigger('reset');
+    //                 $("#success_subscribe").fadeIn();
                     
-                        submitToMailChimp();
+    //                     submitToMailChimp();
                     
-                }
-        });
-    });
+    //             }
+    //     });
+    // });
     
     //dynamically changing copyright year
     var current_year = moment().year();
