@@ -149,7 +149,7 @@
                 </a>
                 <ul>
                     <li class="dropdown">
-                        <button class="btn-nav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">STORES</button>
+                        <button class="btn-nav" data-toggle="dropdown">STORES</button>
                         <ul class="dropdown-menu">                            
                             <li>
                                 <a class="nav_a" href='/stores' target='_self'><span>Store Directory</span></a>                                
