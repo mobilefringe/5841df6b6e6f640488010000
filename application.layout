@@ -449,7 +449,7 @@
         var menuItems = document.querySelectorAll('li.dropdown');
         Array.prototype.forEach.call(menuItems, function(el, i){
         	el.querySelector('button').addEventListener("click",  function(event){
-        		if (this.parentNode.className == "dropdown") {
+        		if (this.parentNode.className == "dropdown ") {
         			this.parentNode.className = "dropdown open";
         			this.setAttribute('aria-expanded', "true");
         		} else {
