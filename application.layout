@@ -148,7 +148,7 @@
                     <img alt="Aberdeen Mall Logo" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1497383865000/aberdeen.jpg" style="max-width:95%" />
                 </a>
                 <ul>
-                    <li class="dropdown ">
+                    <li class="dropdown">
                         <button class="btn-nav" data-toggle="dropdown">STORES</button>
                         <ul class="dropdown-menu">                            
                             <li>
@@ -171,7 +171,7 @@
                     <li>                        
                         <button class="btn-nav" onclick="window.location.href='/jobs'">CAREERS</button>
                     </li>             
-                    <li class="dropdown ">
+                    <li class="dropdown">
                         <button class="btn-nav" data-toggle="dropdown">ABOUT US</button>                                                     
                         <ul class="dropdown-menu" style="right:0px; left:auto;">                            
                             <li>
@@ -449,11 +449,11 @@
         var menuItems = document.querySelectorAll('li.dropdown');
         Array.prototype.forEach.call(menuItems, function(el, i){
         	el.querySelector('button').addEventListener("click",  function(event){
-        		if (this.parentNode.className == "dropdown ") {
+        		if (this.parentNode.className == "dropdown") {
         			this.parentNode.className = "dropdown open";
         			this.setAttribute('aria-expanded', "true");
         		} else {
-        			this.parentNode.className = "dropdown ";
+        			this.parentNode.className = "dropdown";
         			this.setAttribute('aria-expanded', "false");
         		}
         		event.preventDefault();
