@@ -49,7 +49,9 @@ p {
     margin-bottom: 30px;
     max-width: 95%;
 }
-
+.margin_20 {
+    margin-bottom: 20px;
+}
 /* *** LOADER *** */
 .loader_backdrop{
     padding-top: 10%;
